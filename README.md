@@ -132,25 +132,7 @@ The diagram below summarizes the entire stack used in RASD:
 
 ![System Stack](stack.png)
 
-### **Hardware Layer**
-- **Livox Mid-70 LiDAR**  
-  High-density 3D point cloud for detecting speed bumps.
-- **Global Shutter Camera (ELP)**  
-  Handles pothole detection using YOLOv11.
-- **Jetson Orin Nano (8GB)**  
-  Runs all ROS2 nodes, ML inference, filtering, and fusion.
-- **GPS Module**  
-  Attaches metadata for municipality reports.
-- **WS2812 LED Strip + Arduino**  
-  Real-time visual warnings (Green/Yellow/Red).
 
-### **Software Stack**
-- **Ubuntu 22.04 + JetPack 6.2**
-- **ROS2 Humble** (core middleware)
-- **C++17 & Python 3.10**
-- **MQTT / Flask backend** (optional)
-- **YOLOv11 (Ultralytics)**  
-- **Colab + Roboflow training**  
 
 ---
 
