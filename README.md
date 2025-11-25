@@ -90,43 +90,22 @@ Combines:
 
 ---
 
-# 📦 Repository Architecture & Folder Breakdown
+# � Repository Architecture & Folder Breakdown
 
 This repository contains the complete ROS2 implementation of the **Real-Time Autonomous Safety Detector (RASD)**.  
 Below is a detailed explanation of each folder and its role in the system.
 
-## 📁 Top-Level Repository Structure
 
-RASD/
-├── src/ # Main ROS2 workspace packages
-│ ├── rasd_camera/ # Camera-based pothole detection (YOLOv11)
-│ ├── rasd_roi_filter/ # LiDAR ROI corridor filtering
-│ ├── rasd_elev_profile/ # 1D elevation profile (dz) bump detection
-│ ├── rasd_ransac_speedbump/ # Alternative RANSAC bump detector (deprecated)
-│ ├── rasd_gridmap/ # Grid-map conversion of LiDAR slices
-│ ├── rasd_fusion/ # Sensor fusion (LiDAR + Camera → final alerts)
-│ ├── rasd_led_serial/ # LED strip alert sender (serial)
-│ ├── rasd_gps/ # GNSS logging & GPS event publishing
-│ ├── rasd_tf/ # Static transform publisher (base_link → livox)
-│ ├── livox_ros2_driver/ # Official Livox driver (points → /livox/points)
-│ └── grid_map/ # Dependencies for elevation/grid-map processing
-│
-├── log/ # ROS2 build/run logs (should be ignored)
-├── build/ # Colcon build output
-├── install/ # Installed ROS2 environments
-├── documentation/ # Reports, sprint notes, diagrams
-├── models/ # YOLO models (.pt)
-└── README.md # Project overview & documentation
 
+# RASD System Overview
+
+RASD is an ADAS-style multi-sensor perception system that detects road anomalies by combining LiDAR geometry, camera semantics, and temporal fusion. The LiDAR pipeline extracts a forward ROI corridor and fits a local road plane using Least Squares (LSQ) with MAD outlier rejection to obtain a clean ground model. The remaining points are projected into forward bins to build a 1D longitudinal height profile, where median height residuals and Δz gradients reveal elevations (speed bumps) and depressions (potholes). These geometric cues are stabilized using exponential smoothing and multi-frame confidence accumulation to prevent false positives.
+
+In parallel, the camera performs YOLO-based semantic pothole detection, providing class-level cues that LiDAR alone cannot infer. A dedicated fusion node aligns both modalities over time and distance, merges geometric and semantic evidence, and outputs a final hazard type, confidence, and range. The fused decision then drives the LED alert module for real-time driver feedback and updates the GPS logger for municipal reporting and dashboard visualization.
 
 ---
 
-# 🧠 How RASD Works (System Overview)
-
-RASD uses an ADAS-grade 1D longitudinal elevation-profile pipeline to detect both upward deviations (speed bumps) and downward depressions (potholes) by fitting a robust ground plane using Least-Squares (LSQ) and Median Absolute Deviation (MAD) filtering to remove outliers. The ROI-filtered LiDAR corridor is projected into evenly spaced forward bins, where the system computes the per-bin median height and Δz slope to identify local geometric anomalies. These LiDAR elevation cues are temporally smoothed using exponential filtering and confidence accumulation to eliminate false spikes. In parallel, the camera performs YOLO-based semantic detection of potholes, whose results are fused with LiDAR geometric evidence in a temporal fusion node that resolves final hazard type, distance, and confidence. The system outputs a unified anomaly event to the LED alert module and GPS logger for real-time driver warnings and dashboard reporting.
----
-
-# 🔧 Hardware & Software Stack
+#  Hardware & Software Stack
 
 The diagram below summarizes the entire stack used in RASD:
 
@@ -136,7 +115,7 @@ The diagram below summarizes the entire stack used in RASD:
 
 ---
 
-# 🔄 RASD ROS2 Node Graph
+#  RASD ROS2 Node Graph
 
 This diagram shows the flow of messages between all RASD ROS2 nodes:
 
