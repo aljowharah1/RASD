@@ -1,4 +1,4 @@
-<img width="228" height="228" alt="RASD logo" src="RASD_LOGO.png" />
+<img width="228" height="228" alt="RASD logo" src="RASD.png" />
 
 # Real-Time Autonomous Safety Detector (RASD)
 
