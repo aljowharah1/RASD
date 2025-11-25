@@ -88,5 +88,191 @@ Combines:
 
 ---
 
-# 📌 Repository Structure
+---
+
+# 📦 Repository Architecture & Folder Breakdown
+
+This repository contains the complete ROS2 implementation of the **Real-Time Autonomous Safety Detector (RASD)**.  
+Below is a detailed explanation of each folder and its role in the system.
+
+## 📁 Top-Level Repository Structure
+
+RASD/
+├── src/ # Main ROS2 workspace packages
+│ ├── rasd_camera/ # Camera-based pothole detection (YOLOv11)
+│ ├── rasd_roi_filter/ # LiDAR ROI corridor filtering
+│ ├── rasd_elev_profile/ # 1D elevation profile (dz) bump detection
+│ ├── rasd_ransac_speedbump/ # Alternative RANSAC bump detector (deprecated)
+│ ├── rasd_gridmap/ # Grid-map conversion of LiDAR slices
+│ ├── rasd_fusion/ # Sensor fusion (LiDAR + Camera → final alerts)
+│ ├── rasd_led_serial/ # LED strip alert sender (serial)
+│ ├── rasd_gps/ # GNSS logging & GPS event publishing
+│ ├── rasd_tf/ # Static transform publisher (base_link → livox)
+│ ├── livox_ros2_driver/ # Official Livox driver (points → /livox/points)
+│ └── grid_map/ # Dependencies for elevation/grid-map processing
+│
+├── log/ # ROS2 build/run logs (should be ignored)
+├── build/ # Colcon build output
+├── install/ # Installed ROS2 environments
+├── documentation/ # Reports, sprint notes, diagrams
+├── models/ # YOLO models (.pt)
+└── README.md # Project overview & documentation
+
+
+---
+
+# 🧠 How RASD Works (System Overview)
+
+RASD uses an ADAS-grade 1D longitudinal elevation-profile pipeline to detect both upward deviations (speed bumps) and downward depressions (potholes) by fitting a robust ground plane using Least-Squares (LSQ) and Median Absolute Deviation (MAD) filtering to remove outliers. The ROI-filtered LiDAR corridor is projected into evenly spaced forward bins, where the system computes the per-bin median height and Δz slope to identify local geometric anomalies. These LiDAR elevation cues are temporally smoothed using exponential filtering and confidence accumulation to eliminate false spikes. In parallel, the camera performs YOLO-based semantic detection of potholes, whose results are fused with LiDAR geometric evidence in a temporal fusion node that resolves final hazard type, distance, and confidence. The system outputs a unified anomaly event to the LED alert module and GPS logger for real-time driver warnings and dashboard reporting.
+---
+
+# 🔧 Hardware & Software Stack
+
+The diagram below summarizes the entire stack used in RASD:
+
+![System Stack](stack.png)
+
+### **Hardware Layer**
+- **Livox Mid-70 LiDAR**  
+  High-density 3D point cloud for detecting speed bumps.
+- **Global Shutter Camera (ELP)**  
+  Handles pothole detection using YOLOv11.
+- **Jetson Orin Nano (8GB)**  
+  Runs all ROS2 nodes, ML inference, filtering, and fusion.
+- **GPS Module**  
+  Attaches metadata for municipality reports.
+- **WS2812 LED Strip + Arduino**  
+  Real-time visual warnings (Green/Yellow/Red).
+
+### **Software Stack**
+- **Ubuntu 22.04 + JetPack 6.2**
+- **ROS2 Humble** (core middleware)
+- **C++17 & Python 3.10**
+- **MQTT / Flask backend** (optional)
+- **YOLOv11 (Ultralytics)**  
+- **Colab + Roboflow training**  
+
+---
+
+# 🔄 RASD ROS2 Node Graph
+
+This diagram shows the flow of messages between all RASD ROS2 nodes:
+
+![Node Graph](WhatsApp Image 2025-11-25 at 05.01.29.jpeg)
+
+### **Flow Explanation**
+
+1. **livox_ros_driver → rasd_tf**  
+   Raw LiDAR points converted into base_link frame.
+
+2. **rasd_tf → rasd_roi_filter**  
+   ROI filter isolates the forward corridor (0–60m, ±1.2m).
+
+3. **rasd_roi_filter → rasd_elev_profile**  
+   Elevation profiler computes dz across bins to detect bumps.
+
+4. **rasd_camera**  
+   YOLOv11 performs pothole detection on camera frames.
+
+5. **rasd_elev_profile + rasd_camera → rasd_fusion**  
+   Fusion node merges:
+   - bump distance & confidence  
+   - pothole bounding boxes  
+   - camera confidence and depth  
+
+6. **rasd_fusion → rasd_led_alert / rasd_gps**  
+   - LED: near-real-time driver alerts  
+   - GPS: logs anomalies to dashboard  
+
+---
+
+# 🛰️ Deployment Architecture
+
+This diagram shows how RASD runs on the Jetson and interacts with external hardware:
+
+![Deployment Diagram](WhatsApp Image 2025-11-25 at 05.14.34.jpeg)
+
+### **Pipeline Summary**
+
+#### **1. LiDAR Path**
+- Livox → /livox/points  
+- rasd_tf applies the static transform  
+- rasd_roi_filter cuts the forward corridor  
+- rasd_elev_profile computes dz → bump confidence  
+
+#### **2. Camera Path**
+- ELP camera → rasd_camera  
+- YOLOv11 detects potholes  
+- ByteTrack / EMA smoothing  
+- Publishes:
+  - `/camera/detections`  
+  - `/camera/confidence`  
+
+#### **3. Fusion Path**
+- Merges LiDAR + camera features  
+- Decides anomaly type: **bump / pothole / none**  
+- Sends:
+  - `/rasd/led_command` to LED controller  
+  - `/rasd/pothole_event` to GPS logger  
+
+#### **4. LED + Dashboard**
+- Arduino receives color commands  
+- Dashboard receives pothole JSON logs  
+  (latitude, longitude, confidence, timestamp)
+
+---
+
+# 📂 Detailed Explanation of Each ROS2 Package
+
+### **✔ rasd_camera/**
+Camera → YOLO → depth estimation → detections.  
+Outputs: `/camera/detections`, `/camera/confidence`.
+
+### **✔ rasd_roi_filter/**
+Filters LiDAR points to forward corridor:  
+- X: 0–60m  
+- Y: ±1.2m  
+- Z: -1m to +1m  
+Results in `/roi_point_cloud`.
+
+### **✔ rasd_elev_profile/**
+Processes filtered cloud:  
+- Splits X into bins  
+- Computes median dz  
+- Detects speed bumps (width + height thresholds)  
+Publishes `/rasd/lidar_bump`.
+
+### **✔ rasd_ransac_speedbump/**
+Deprecated older version (RANSAC plane removal).
+
+### **✔ rasd_gridmap/**
+Generates 2.5D grid-map representation using grid_map library.
+
+### **✔ rasd_fusion/**
+Main intelligence node.  
+Combines LiDAR + Camera + GPS metadata.  
+Outputs:
+- `/rasd/led_command`
+- `/rasd/pothole_event`
+
+### **✔ rasd_led_serial/**
+Sends RGB commands to the Arduino LED controller.
+
+### **✔ rasd_gps/**
+Reads NMEA GPS, attaches detection metadata, and sends JSON to dashboard.
+
+### **✔ rasd_tf/**
+Provides static transform (0.55m vertical offset, -10° pitch) for Livox.
+
+### **✔ livox_ros2_driver/**
+Official driver for Livox Mid-70.
+
+---
+
+# 🧩 End-to-End Summary (In One Sentence)
+
+> **LiDAR detects bumps, camera detects potholes, fusion node decides the final alert, LED warns the driver, and GPS logs it to the dashboard.**
+
+---
+
 
