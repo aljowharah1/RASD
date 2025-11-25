@@ -1,0 +1,21 @@
+[1.642s] Invoking command in '/home/rasd/ros2_ws/src/rasd_fusion': PYTHONPATH=/home/rasd/ros2_ws/build/rasd_fusion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasd/ros2_ws/install/rasd_fusion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rasd_fusion build --build-base /home/rasd/ros2_ws/build/rasd_fusion/build install --record /home/rasd/ros2_ws/build/rasd_fusion/install.log --single-version-externally-managed install_data
+[2.257s] running egg_info
+[2.259s] writing ../../build/rasd_fusion/rasd_fusion.egg-info/PKG-INFO
+[2.261s] writing dependency_links to ../../build/rasd_fusion/rasd_fusion.egg-info/dependency_links.txt
+[2.262s] writing entry points to ../../build/rasd_fusion/rasd_fusion.egg-info/entry_points.txt
+[2.262s] writing requirements to ../../build/rasd_fusion/rasd_fusion.egg-info/requires.txt
+[2.262s] writing top-level names to ../../build/rasd_fusion/rasd_fusion.egg-info/top_level.txt
+[2.269s] reading manifest file '../../build/rasd_fusion/rasd_fusion.egg-info/SOURCES.txt'
+[2.271s] writing manifest file '../../build/rasd_fusion/rasd_fusion.egg-info/SOURCES.txt'
+[2.271s] running build
+[2.271s] running build_py
+[2.272s] running install
+[2.273s] running install_lib
+[2.279s] running install_data
+[2.280s] running install_egg_info
+[2.284s] removing '/home/rasd/ros2_ws/install/rasd_fusion/lib/python3.10/site-packages/rasd_fusion-0.0.0-py3.10.egg-info' (and everything under it)
+[2.285s] Copying ../../build/rasd_fusion/rasd_fusion.egg-info to /home/rasd/ros2_ws/install/rasd_fusion/lib/python3.10/site-packages/rasd_fusion-0.0.0-py3.10.egg-info
+[2.288s] running install_scripts
+[2.338s] Installing fusion_node script to /home/rasd/ros2_ws/install/rasd_fusion/lib/rasd_fusion
+[2.339s] writing list of installed files to '/home/rasd/ros2_ws/build/rasd_fusion/install.log'
+[2.418s] Invoked command in '/home/rasd/ros2_ws/src/rasd_fusion' returned '0': PYTHONPATH=/home/rasd/ros2_ws/build/rasd_fusion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasd/ros2_ws/install/rasd_fusion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rasd_fusion build --build-base /home/rasd/ros2_ws/build/rasd_fusion/build install --record /home/rasd/ros2_ws/build/rasd_fusion/install.log --single-version-externally-managed install_data

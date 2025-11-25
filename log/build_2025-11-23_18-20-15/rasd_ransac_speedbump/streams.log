@@ -1,0 +1,34 @@
+[0.030s] Invoking command in '/home/rasd/ros2_ws/build/rasd_ransac_speedbump': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_gps:/home/rasd/ros2_ws/install/rasd_fusion:/home/rasd/ros2_ws/install/rasd_camera:/opt/ros/humble /usr/bin/cmake --build /home/rasd/ros2_ws/build/rasd_ransac_speedbump -- -j6 -l6
+[0.388s] [ 50%] [32mBuilding CXX object CMakeFiles/ransac_speedbump_node.dir/src/ransac_speedbump_node.cpp.o[0m
+[17.470s] [01m[K/home/rasd/ros2_ws/src/rasd_ransac_speedbump/src/ransac_speedbump_node.cpp:[m[K In member function ‘[01m[Kbool GroundPlaneSpeedbumpNode::robustFitGroundPlane(const pcl::PointCloud<pcl::PointXYZI>&, double&, double&, double&)[m[K’:
+[17.470s] [01m[K/home/rasd/ros2_ws/src/rasd_ransac_speedbump/src/ransac_speedbump_node.cpp:246:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[17.470s]   246 |         if ([01;35m[Kinliers.size() < plane_fit_min_points_/2[m[K)
+[17.471s]       |             [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[17.531s] [01m[K/home/rasd/ros2_ws/src/rasd_ransac_speedbump/src/ransac_speedbump_node.cpp:[m[K In member function ‘[01m[Kstd::vector<GroundPlaneSpeedbumpNode::Bump> GroundPlaneSpeedbumpNode::applyTemporalFilter(const std::vector<GroundPlaneSpeedbumpNode::Bump>&)[m[K’:
+[17.531s] [01m[K/home/rasd/ros2_ws/src/rasd_ransac_speedbump/src/ransac_speedbump_node.cpp:615:22:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kfound[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[17.532s]   615 |                 bool [01;35m[Kfound[m[K = false;
+[17.532s]       |                      [01;35m[K^~~~~[m[K
+[53.393s] [100%] [32m[1mLinking CXX executable ransac_speedbump_node[0m
+[57.979s] [100%] Built target ransac_speedbump_node
+[58.014s] Invoked command in '/home/rasd/ros2_ws/build/rasd_ransac_speedbump' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_gps:/home/rasd/ros2_ws/install/rasd_fusion:/home/rasd/ros2_ws/install/rasd_camera:/opt/ros/humble /usr/bin/cmake --build /home/rasd/ros2_ws/build/rasd_ransac_speedbump -- -j6 -l6
+[58.045s] Invoking command in '/home/rasd/ros2_ws/build/rasd_ransac_speedbump': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_gps:/home/rasd/ros2_ws/install/rasd_fusion:/home/rasd/ros2_ws/install/rasd_camera:/opt/ros/humble /usr/bin/cmake --install /home/rasd/ros2_ws/build/rasd_ransac_speedbump
+[58.066s] -- Install configuration: ""
+[58.067s] -- Execute custom install script
+[58.069s] -- Symlinking: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/lib/rasd_ransac_speedbump/ransac_speedbump_node
+[58.095s] -- Symlinking: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/ament_index/resource_index/package_run_dependencies/rasd_ransac_speedbump
+[58.119s] -- Symlinking: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/ament_index/resource_index/parent_prefix_path/rasd_ransac_speedbump
+[58.141s] -- Symlinking: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/environment/ament_prefix_path.sh
+[58.163s] -- Symlinking: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/environment/ament_prefix_path.dsv
+[58.187s] -- Symlinking: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/environment/path.sh
+[58.210s] -- Symlinking: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/environment/path.dsv
+[58.232s] -- Symlinking: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/local_setup.bash
+[58.253s] -- Symlinking: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/local_setup.sh
+[58.276s] -- Symlinking: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/local_setup.zsh
+[58.298s] -- Symlinking: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/local_setup.dsv
+[58.320s] -- Symlinking: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/package.dsv
+[58.342s] -- Symlinking: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/ament_index/resource_index/packages/rasd_ransac_speedbump
+[58.364s] -- Symlinking: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/cmake/ament_cmake_export_include_directories-extras.cmake
+[58.387s] -- Symlinking: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/cmake/rasd_ransac_speedbumpConfig.cmake
+[58.408s] -- Symlinking: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/cmake/rasd_ransac_speedbumpConfig-version.cmake
+[58.429s] -- Symlinking: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/package.xml
+[58.457s] Invoked command in '/home/rasd/ros2_ws/build/rasd_ransac_speedbump' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_gps:/home/rasd/ros2_ws/install/rasd_fusion:/home/rasd/ros2_ws/install/rasd_camera:/opt/ros/humble /usr/bin/cmake --install /home/rasd/ros2_ws/build/rasd_ransac_speedbump

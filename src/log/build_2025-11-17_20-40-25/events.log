@@ -1,0 +1,567 @@
+[0.000000] (-) TimerEvent: {}
+[0.000950] (-) JobUnselected: {'identifier': 'grid_map'}
+[0.001692] (-) JobUnselected: {'identifier': 'grid_map_cmake_helpers'}
+[0.002088] (-) JobUnselected: {'identifier': 'grid_map_core'}
+[0.002532] (-) JobUnselected: {'identifier': 'grid_map_costmap_2d'}
+[0.002670] (-) JobUnselected: {'identifier': 'grid_map_cv'}
+[0.002760] (-) JobUnselected: {'identifier': 'grid_map_demos'}
+[0.002893] (-) JobUnselected: {'identifier': 'grid_map_filters'}
+[0.003276] (-) JobUnselected: {'identifier': 'grid_map_loader'}
+[0.003411] (-) JobUnselected: {'identifier': 'grid_map_msgs'}
+[0.003499] (-) JobUnselected: {'identifier': 'grid_map_octomap'}
+[0.003584] (-) JobUnselected: {'identifier': 'grid_map_pcl'}
+[0.003656] (-) JobUnselected: {'identifier': 'grid_map_ros'}
+[0.003758] (-) JobUnselected: {'identifier': 'grid_map_rviz_plugin'}
+[0.003818] (-) JobUnselected: {'identifier': 'grid_map_sdf'}
+[0.004060] (-) JobUnselected: {'identifier': 'grid_map_visualization'}
+[0.004157] (-) JobUnselected: {'identifier': 'livox_interfaces'}
+[0.004200] (-) JobUnselected: {'identifier': 'livox_ros2_driver'}
+[0.004288] (-) JobUnselected: {'identifier': 'livox_sdk'}
+[0.004332] (-) JobUnselected: {'identifier': 'livox_sdk_vendor'}
+[0.004398] (-) JobUnselected: {'identifier': 'rasd_1d_profile'}
+[0.004617] (-) JobUnselected: {'identifier': 'rasd_camera'}
+[0.004736] (-) JobUnselected: {'identifier': 'rasd_gridmap'}
+[0.004799] (-) JobUnselected: {'identifier': 'rasd_roi_filter'}
+[0.004840] (-) JobUnselected: {'identifier': 'rasd_tf'}
+[0.004887] (rasd_elev_profile) JobQueued: {'identifier': 'rasd_elev_profile', 'dependencies': OrderedDict()}
+[0.004946] (rasd_elev_profile) JobStarted: {'identifier': 'rasd_elev_profile'}
+[0.029370] (rasd_elev_profile) JobProgress: {'identifier': 'rasd_elev_profile', 'progress': 'cmake'}
+[0.031786] (rasd_elev_profile) Command: {'cmd': ['/usr/bin/cmake', '/home/rasd/ros2_ws/src/rasd_elev_profile', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/rasd/ros2_ws/src/install/rasd_elev_profile'], 'cwd': '/home/rasd/ros2_ws/src/build/rasd_elev_profile', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rasd'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/home/rasd/ros2_ws/install/livox_ros2_driver/lib:/home/rasd/ros2_ws/install/livox_interfaces/lib:/home/rasd/ros2_ws/install/grid_map_sdf/lib:/home/rasd/ros2_ws/install/grid_map_ros/lib:/home/rasd/ros2_ws/install/grid_map_octomap/lib:/home/rasd/ros2_ws/install/grid_map_msgs/lib:/home/rasd/ros2_ws/install/grid_map_cv/lib:/home/rasd/ros2_ws/install/grid_map_costmap_2d/lib:/home/rasd/ros2_ws/install/grid_map_core/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rasd'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.4.7'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '6227'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rasd/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rasd'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1422725053860'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rasd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/opt/ros/humble/bin:/home/rasd/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rasd-desktop:@/tmp/.ICE-unix/2484,unix/rasd-desktop:/tmp/.ICE-unix/2484'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4e2a0189_17ef_4e5c_8935_62d9e167f5b4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.123'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_elev_profile:/home/rasd/ros2_ws/install/rasd_camera:/home/rasd/ros2_ws/install/rasd_1d_profile:/home/rasd/ros2_ws/install/livox_ros2_driver:/home/rasd/ros2_ws/install/livox_sdk_vendor:/home/rasd/ros2_ws/install/livox_interfaces:/home/rasd/ros2_ws/install/grid_map_sdf:/home/rasd/ros2_ws/install/grid_map_ros:/home/rasd/ros2_ws/install/grid_map_octomap:/home/rasd/ros2_ws/install/grid_map_msgs:/home/rasd/ros2_ws/install/grid_map_cv:/home/rasd/ros2_ws/install/grid_map_costmap_2d:/home/rasd/ros2_ws/install/grid_map_core:/home/rasd/ros2_ws/install/grid_map_cmake_helpers:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/rasd/ros2_ws/src/build/rasd_elev_profile'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/usr/lib/python3.10/dist-packages:/home/rasd/ros2_ws/build/rasd_tf:/home/rasd/ros2_ws/install/rasd_tf/lib/python3.10/site-packages:/home/rasd/ros2_ws/build/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_roi_filter/lib/python3.10/site-packages:/home/rasd/ros2_ws/build/rasd_camera:/home/rasd/ros2_ws/install/rasd_camera/lib/python3.10/site-packages:/home/rasd/ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages:/home/rasd/ros2_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', ''), ('CMAKE_PREFIX_PATH', '/home/rasd/ros2_ws/install/rasd_elev_profile:/home/rasd/ros2_ws/install/rasd_1d_profile:/home/rasd/ros2_ws/install/livox_ros2_driver:/home/rasd/ros2_ws/install/livox_sdk_vendor:/home/rasd/ros2_ws/install/livox_interfaces:/home/rasd/ros2_ws/install/grid_map_sdf:/home/rasd/ros2_ws/install/grid_map_ros:/home/rasd/ros2_ws/install/grid_map_octomap:/home/rasd/ros2_ws/install/grid_map_msgs:/home/rasd/ros2_ws/install/grid_map_cv:/home/rasd/ros2_ws/install/grid_map_costmap_2d:/home/rasd/ros2_ws/install/grid_map_core:/home/rasd/ros2_ws/install/grid_map_cmake_helpers:/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_camera:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0005')]), 'shell': False}
+[0.098930] (-) TimerEvent: {}
+[0.199915] (-) TimerEvent: {}
+[0.300970] (-) TimerEvent: {}
+[0.402060] (-) TimerEvent: {}
+[0.503388] (-) TimerEvent: {}
+[0.604420] (-) TimerEvent: {}
+[0.640381] (rasd_elev_profile) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.704659] (-) TimerEvent: {}
+[0.805707] (-) TimerEvent: {}
+[0.906849] (-) TimerEvent: {}
+[1.008080] (-) TimerEvent: {}
+[1.093044] (rasd_elev_profile) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.108263] (-) TimerEvent: {}
+[1.126871] (rasd_elev_profile) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.208527] (-) TimerEvent: {}
+[1.309765] (-) TimerEvent: {}
+[1.341282] (rasd_elev_profile) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.358158] (rasd_elev_profile) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.360621] (rasd_elev_profile) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.362553] (rasd_elev_profile) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.373847] (rasd_elev_profile) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.410040] (-) TimerEvent: {}
+[1.511121] (-) TimerEvent: {}
+[1.593137] (rasd_elev_profile) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.611394] (-) TimerEvent: {}
+[1.617345] (rasd_elev_profile) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.618405] (rasd_elev_profile) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.620139] (rasd_elev_profile) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.636869] (rasd_elev_profile) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.711595] (-) TimerEvent: {}
+[1.812602] (-) TimerEvent: {}
+[1.913618] (-) TimerEvent: {}
+[2.014636] (-) TimerEvent: {}
+[2.107525] (rasd_elev_profile) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.114757] (-) TimerEvent: {}
+[2.215589] (-) TimerEvent: {}
+[2.316672] (-) TimerEvent: {}
+[2.341614] (rasd_elev_profile) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.416966] (-) TimerEvent: {}
+[2.496436] (rasd_elev_profile) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.517244] (-) TimerEvent: {}
+[2.618945] (-) TimerEvent: {}
+[2.683853] (rasd_elev_profile) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.704898] (rasd_elev_profile) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.719090] (-) TimerEvent: {}
+[2.736626] (rasd_elev_profile) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.782369] (rasd_elev_profile) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.819328] (-) TimerEvent: {}
+[2.889610] (rasd_elev_profile) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.919538] (-) TimerEvent: {}
+[3.020484] (-) TimerEvent: {}
+[3.074646] (rasd_elev_profile) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.090016] (rasd_elev_profile) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.121023] (-) TimerEvent: {}
+[3.222652] (-) TimerEvent: {}
+[3.323714] (-) TimerEvent: {}
+[3.424189] (rasd_elev_profile) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.424985] (-) TimerEvent: {}
+[3.509551] (rasd_elev_profile) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.525240] (-) TimerEvent: {}
+[3.622170] (rasd_elev_profile) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.625365] (-) TimerEvent: {}
+[3.662709] (rasd_elev_profile) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.725725] (-) TimerEvent: {}
+[3.826865] (-) TimerEvent: {}
+[3.881495] (rasd_elev_profile) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.883102] (rasd_elev_profile) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.927089] (-) TimerEvent: {}
+[4.028129] (-) TimerEvent: {}
+[4.093127] (rasd_elev_profile) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.097220] (rasd_elev_profile) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.128294] (-) TimerEvent: {}
+[4.229290] (-) TimerEvent: {}
+[4.323880] (rasd_elev_profile) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[4.329379] (-) TimerEvent: {}
+[4.429578] (rasd_elev_profile) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[4.430338] (-) TimerEvent: {}
+[4.488244] (rasd_elev_profile) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[4.530586] (-) TimerEvent: {}
+[4.603577] (rasd_elev_profile) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[4.630835] (-) TimerEvent: {}
+[4.635893] (rasd_elev_profile) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[4.726296] (rasd_elev_profile) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[4.727187] (rasd_elev_profile) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[4.730924] (-) TimerEvent: {}
+[4.831705] (-) TimerEvent: {}
+[4.877788] (rasd_elev_profile) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[4.914445] (rasd_elev_profile) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[4.931924] (-) TimerEvent: {}
+[5.027512] (rasd_elev_profile) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/aarch64-linux-gnu/libflann_cpp.so  \n'}
+[5.028364] (rasd_elev_profile) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)\n'}
+[5.032045] (-) TimerEvent: {}
+[5.132854] (-) TimerEvent: {}
+[5.233966] (-) TimerEvent: {}
+[5.334961] (-) TimerEvent: {}
+[5.435861] (-) TimerEvent: {}
+[5.536882] (-) TimerEvent: {}
+[5.638009] (-) TimerEvent: {}
+[5.738955] (-) TimerEvent: {}
+[5.839902] (-) TimerEvent: {}
+[5.940864] (-) TimerEvent: {}
+[6.042008] (-) TimerEvent: {}
+[6.143098] (-) TimerEvent: {}
+[6.244270] (-) TimerEvent: {}
+[6.346213] (-) TimerEvent: {}
+[6.447311] (-) TimerEvent: {}
+[6.548558] (-) TimerEvent: {}
+[6.649819] (-) TimerEvent: {}
+[6.751187] (-) TimerEvent: {}
+[6.852290] (-) TimerEvent: {}
+[6.953382] (-) TimerEvent: {}
+[7.055003] (-) TimerEvent: {}
+[7.156092] (-) TimerEvent: {}
+[7.257149] (-) TimerEvent: {}
+[7.358240] (-) TimerEvent: {}
+[7.459392] (-) TimerEvent: {}
+[7.560455] (-) TimerEvent: {}
+[7.661688] (-) TimerEvent: {}
+[7.762782] (-) TimerEvent: {}
+[7.863805] (-) TimerEvent: {}
+[7.964875] (-) TimerEvent: {}
+[8.066129] (-) TimerEvent: {}
+[8.104907] (rasd_elev_profile) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[8.151389] (rasd_elev_profile) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[8.166347] (-) TimerEvent: {}
+[8.253261] (rasd_elev_profile) StdoutLine: {'line': b'-- Found libusb: /usr/lib/aarch64-linux-gnu/libusb-1.0.so  \n'}
+[8.258159] (rasd_elev_profile) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[8.266614] (-) TimerEvent: {}
+[8.367561] (-) TimerEvent: {}
+[8.435696] (rasd_elev_profile) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[8.467803] (-) TimerEvent: {}
+[8.568848] (-) TimerEvent: {}
+[8.669916] (-) TimerEvent: {}
+[8.770915] (-) TimerEvent: {}
+[8.841576] (rasd_elev_profile) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[8.871286] (-) TimerEvent: {}
+[8.873517] (rasd_elev_profile) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[8.899683] (rasd_elev_profile) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[8.971466] (-) TimerEvent: {}
+[9.072507] (-) TimerEvent: {}
+[9.173542] (-) TimerEvent: {}
+[9.274529] (-) TimerEvent: {}
+[9.304537] (rasd_elev_profile) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[9.374762] (-) TimerEvent: {}
+[9.475789] (-) TimerEvent: {}
+[9.576747] (-) TimerEvent: {}
+[9.677798] (-) TimerEvent: {}
+[9.704715] (rasd_elev_profile) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[9.777997] (-) TimerEvent: {}
+[9.878955] (-) TimerEvent: {}
+[9.979943] (-) TimerEvent: {}
+[10.080864] (-) TimerEvent: {}
+[10.124961] (rasd_elev_profile) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  \n'}
+[10.128493] (rasd_elev_profile) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  \n'}
+[10.131142] (rasd_elev_profile) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  \n'}
+[10.133941] (rasd_elev_profile) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  \n'}
+[10.136533] (rasd_elev_profile) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[10.139108] (rasd_elev_profile) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  \n'}
+[10.140264] (rasd_elev_profile) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[10.141273] (rasd_elev_profile) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[10.143908] (rasd_elev_profile) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  \n'}
+[10.147323] (rasd_elev_profile) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  \n'}
+[10.152364] (rasd_elev_profile) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  \n'}
+[10.156090] (rasd_elev_profile) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  \n'}
+[10.159179] (rasd_elev_profile) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/aarch64-linux-gnu/libpcl_visualization.so  \n'}
+[10.162113] (rasd_elev_profile) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  \n'}
+[10.164680] (rasd_elev_profile) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/aarch64-linux-gnu/libpcl_registration.so  \n'}
+[10.167404] (rasd_elev_profile) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/aarch64-linux-gnu/libpcl_keypoints.so  \n'}
+[10.170061] (rasd_elev_profile) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/aarch64-linux-gnu/libpcl_tracking.so  \n'}
+[10.172591] (rasd_elev_profile) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/aarch64-linux-gnu/libpcl_recognition.so  \n'}
+[10.175848] (rasd_elev_profile) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/aarch64-linux-gnu/libpcl_stereo.so  \n'}
+[10.178356] (rasd_elev_profile) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/aarch64-linux-gnu/libpcl_apps.so  \n'}
+[10.181065] (rasd_elev_profile) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[10.181526] (-) TimerEvent: {}
+[10.182118] (rasd_elev_profile) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[10.185248] (rasd_elev_profile) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[10.189251] (rasd_elev_profile) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/aarch64-linux-gnu/libpcl_outofcore.so  \n'}
+[10.191757] (rasd_elev_profile) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/aarch64-linux-gnu/libpcl_people.so  \n'}
+[10.204529] (rasd_elev_profile) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[10.281766] (-) TimerEvent: {}
+[10.382717] (-) TimerEvent: {}
+[10.483789] (-) TimerEvent: {}
+[10.557641] (rasd_elev_profile) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[10.558574] (rasd_elev_profile) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[10.558841] (rasd_elev_profile) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[10.562776] (rasd_elev_profile) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[10.567874] (rasd_elev_profile) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[10.568206] (rasd_elev_profile) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[10.570946] (rasd_elev_profile) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.578752] (rasd_elev_profile) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.583820] (-) TimerEvent: {}
+[10.684555] (-) TimerEvent: {}
+[10.763631] (rasd_elev_profile) StdoutLine: {'line': b'-- Generating done\n'}
+[10.784747] (-) TimerEvent: {}
+[10.800647] (rasd_elev_profile) StdoutLine: {'line': b'-- Build files have been written to: /home/rasd/ros2_ws/src/build/rasd_elev_profile\n'}
+[10.881175] (rasd_elev_profile) CommandEnded: {'returncode': 0}
+[10.889572] (-) TimerEvent: {}
+[10.891124] (rasd_elev_profile) JobProgress: {'identifier': 'rasd_elev_profile', 'progress': 'build'}
+[10.891227] (rasd_elev_profile) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rasd/ros2_ws/src/build/rasd_elev_profile', '--', '-j6', '-l6'], 'cwd': '/home/rasd/ros2_ws/src/build/rasd_elev_profile', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rasd'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/home/rasd/ros2_ws/install/livox_ros2_driver/lib:/home/rasd/ros2_ws/install/livox_interfaces/lib:/home/rasd/ros2_ws/install/grid_map_sdf/lib:/home/rasd/ros2_ws/install/grid_map_ros/lib:/home/rasd/ros2_ws/install/grid_map_octomap/lib:/home/rasd/ros2_ws/install/grid_map_msgs/lib:/home/rasd/ros2_ws/install/grid_map_cv/lib:/home/rasd/ros2_ws/install/grid_map_costmap_2d/lib:/home/rasd/ros2_ws/install/grid_map_core/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rasd'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.4.7'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '6227'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rasd/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rasd'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1422725053860'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rasd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/opt/ros/humble/bin:/home/rasd/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rasd-desktop:@/tmp/.ICE-unix/2484,unix/rasd-desktop:/tmp/.ICE-unix/2484'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4e2a0189_17ef_4e5c_8935_62d9e167f5b4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.123'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_elev_profile:/home/rasd/ros2_ws/install/rasd_camera:/home/rasd/ros2_ws/install/rasd_1d_profile:/home/rasd/ros2_ws/install/livox_ros2_driver:/home/rasd/ros2_ws/install/livox_sdk_vendor:/home/rasd/ros2_ws/install/livox_interfaces:/home/rasd/ros2_ws/install/grid_map_sdf:/home/rasd/ros2_ws/install/grid_map_ros:/home/rasd/ros2_ws/install/grid_map_octomap:/home/rasd/ros2_ws/install/grid_map_msgs:/home/rasd/ros2_ws/install/grid_map_cv:/home/rasd/ros2_ws/install/grid_map_costmap_2d:/home/rasd/ros2_ws/install/grid_map_core:/home/rasd/ros2_ws/install/grid_map_cmake_helpers:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/rasd/ros2_ws/src/build/rasd_elev_profile'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/usr/lib/python3.10/dist-packages:/home/rasd/ros2_ws/build/rasd_tf:/home/rasd/ros2_ws/install/rasd_tf/lib/python3.10/site-packages:/home/rasd/ros2_ws/build/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_roi_filter/lib/python3.10/site-packages:/home/rasd/ros2_ws/build/rasd_camera:/home/rasd/ros2_ws/install/rasd_camera/lib/python3.10/site-packages:/home/rasd/ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages:/home/rasd/ros2_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', ''), ('CMAKE_PREFIX_PATH', '/home/rasd/ros2_ws/install/rasd_elev_profile:/home/rasd/ros2_ws/install/rasd_1d_profile:/home/rasd/ros2_ws/install/livox_ros2_driver:/home/rasd/ros2_ws/install/livox_sdk_vendor:/home/rasd/ros2_ws/install/livox_interfaces:/home/rasd/ros2_ws/install/grid_map_sdf:/home/rasd/ros2_ws/install/grid_map_ros:/home/rasd/ros2_ws/install/grid_map_octomap:/home/rasd/ros2_ws/install/grid_map_msgs:/home/rasd/ros2_ws/install/grid_map_cv:/home/rasd/ros2_ws/install/grid_map_costmap_2d:/home/rasd/ros2_ws/install/grid_map_core:/home/rasd/ros2_ws/install/grid_map_cmake_helpers:/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_camera:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0005')]), 'shell': False}
+[10.989826] (-) TimerEvent: {}
+[11.039913] (rasd_elev_profile) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/elevation_profile_node.dir/src/elevation_profile_node.cpp.o\x1b[0m\n'}
+[11.090064] (-) TimerEvent: {}
+[11.191556] (-) TimerEvent: {}
+[11.292638] (-) TimerEvent: {}
+[11.393801] (-) TimerEvent: {}
+[11.494914] (-) TimerEvent: {}
+[11.596251] (-) TimerEvent: {}
+[11.697295] (-) TimerEvent: {}
+[11.798501] (-) TimerEvent: {}
+[11.899969] (-) TimerEvent: {}
+[12.001163] (-) TimerEvent: {}
+[12.102339] (-) TimerEvent: {}
+[12.203513] (-) TimerEvent: {}
+[12.304584] (-) TimerEvent: {}
+[12.405645] (-) TimerEvent: {}
+[12.506654] (-) TimerEvent: {}
+[12.607787] (-) TimerEvent: {}
+[12.708829] (-) TimerEvent: {}
+[12.810023] (-) TimerEvent: {}
+[12.911466] (-) TimerEvent: {}
+[13.012813] (-) TimerEvent: {}
+[13.114020] (-) TimerEvent: {}
+[13.215118] (-) TimerEvent: {}
+[13.316359] (-) TimerEvent: {}
+[13.417678] (-) TimerEvent: {}
+[13.518791] (-) TimerEvent: {}
+[13.619913] (-) TimerEvent: {}
+[13.721408] (-) TimerEvent: {}
+[13.822558] (-) TimerEvent: {}
+[13.923700] (-) TimerEvent: {}
+[14.024858] (-) TimerEvent: {}
+[14.126044] (-) TimerEvent: {}
+[14.227489] (-) TimerEvent: {}
+[14.329190] (-) TimerEvent: {}
+[14.430396] (-) TimerEvent: {}
+[14.531502] (-) TimerEvent: {}
+[14.632666] (-) TimerEvent: {}
+[14.734283] (-) TimerEvent: {}
+[14.835465] (-) TimerEvent: {}
+[14.936596] (-) TimerEvent: {}
+[15.037951] (-) TimerEvent: {}
+[15.139418] (-) TimerEvent: {}
+[15.240466] (-) TimerEvent: {}
+[15.341563] (-) TimerEvent: {}
+[15.442648] (-) TimerEvent: {}
+[15.543682] (-) TimerEvent: {}
+[15.644880] (-) TimerEvent: {}
+[15.746017] (-) TimerEvent: {}
+[15.847128] (-) TimerEvent: {}
+[15.948492] (-) TimerEvent: {}
+[16.050287] (-) TimerEvent: {}
+[16.151382] (-) TimerEvent: {}
+[16.252563] (-) TimerEvent: {}
+[16.353895] (-) TimerEvent: {}
+[16.455362] (-) TimerEvent: {}
+[16.556532] (-) TimerEvent: {}
+[16.658037] (-) TimerEvent: {}
+[16.759136] (-) TimerEvent: {}
+[16.860206] (-) TimerEvent: {}
+[16.961482] (-) TimerEvent: {}
+[17.062661] (-) TimerEvent: {}
+[17.163817] (-) TimerEvent: {}
+[17.265234] (-) TimerEvent: {}
+[17.366706] (-) TimerEvent: {}
+[17.467852] (-) TimerEvent: {}
+[17.569000] (-) TimerEvent: {}
+[17.670524] (-) TimerEvent: {}
+[17.772008] (-) TimerEvent: {}
+[17.873684] (-) TimerEvent: {}
+[17.975270] (-) TimerEvent: {}
+[18.076420] (-) TimerEvent: {}
+[18.177571] (-) TimerEvent: {}
+[18.278846] (-) TimerEvent: {}
+[18.381078] (-) TimerEvent: {}
+[18.482222] (-) TimerEvent: {}
+[18.583259] (-) TimerEvent: {}
+[18.684443] (-) TimerEvent: {}
+[18.785818] (-) TimerEvent: {}
+[18.886921] (-) TimerEvent: {}
+[18.987992] (-) TimerEvent: {}
+[19.089175] (-) TimerEvent: {}
+[19.190336] (-) TimerEvent: {}
+[19.291386] (-) TimerEvent: {}
+[19.392419] (-) TimerEvent: {}
+[19.493504] (-) TimerEvent: {}
+[19.594571] (-) TimerEvent: {}
+[19.695670] (-) TimerEvent: {}
+[19.796781] (-) TimerEvent: {}
+[19.897918] (-) TimerEvent: {}
+[19.999245] (-) TimerEvent: {}
+[20.100392] (-) TimerEvent: {}
+[20.201541] (-) TimerEvent: {}
+[20.302644] (-) TimerEvent: {}
+[20.403763] (-) TimerEvent: {}
+[20.504866] (-) TimerEvent: {}
+[20.605991] (-) TimerEvent: {}
+[20.707103] (-) TimerEvent: {}
+[20.808291] (-) TimerEvent: {}
+[20.909549] (-) TimerEvent: {}
+[21.010786] (-) TimerEvent: {}
+[21.112122] (-) TimerEvent: {}
+[21.213388] (-) TimerEvent: {}
+[21.314616] (-) TimerEvent: {}
+[21.415778] (-) TimerEvent: {}
+[21.516943] (-) TimerEvent: {}
+[21.618199] (-) TimerEvent: {}
+[21.719417] (-) TimerEvent: {}
+[21.820624] (-) TimerEvent: {}
+[21.921779] (-) TimerEvent: {}
+[22.022898] (-) TimerEvent: {}
+[22.124159] (-) TimerEvent: {}
+[22.225400] (-) TimerEvent: {}
+[22.326504] (-) TimerEvent: {}
+[22.427665] (-) TimerEvent: {}
+[22.528847] (-) TimerEvent: {}
+[22.630087] (-) TimerEvent: {}
+[22.731256] (-) TimerEvent: {}
+[22.832429] (-) TimerEvent: {}
+[22.933572] (-) TimerEvent: {}
+[23.034688] (-) TimerEvent: {}
+[23.135842] (-) TimerEvent: {}
+[23.237015] (-) TimerEvent: {}
+[23.338801] (-) TimerEvent: {}
+[23.440037] (-) TimerEvent: {}
+[23.541150] (-) TimerEvent: {}
+[23.642335] (-) TimerEvent: {}
+[23.743546] (-) TimerEvent: {}
+[23.844699] (-) TimerEvent: {}
+[23.945827] (-) TimerEvent: {}
+[24.047221] (-) TimerEvent: {}
+[24.148396] (-) TimerEvent: {}
+[24.249580] (-) TimerEvent: {}
+[24.351320] (-) TimerEvent: {}
+[24.452368] (-) TimerEvent: {}
+[24.553583] (-) TimerEvent: {}
+[24.655023] (-) TimerEvent: {}
+[24.756522] (-) TimerEvent: {}
+[24.858095] (-) TimerEvent: {}
+[24.959163] (-) TimerEvent: {}
+[25.060242] (-) TimerEvent: {}
+[25.161467] (-) TimerEvent: {}
+[25.262654] (-) TimerEvent: {}
+[25.363858] (-) TimerEvent: {}
+[25.465399] (-) TimerEvent: {}
+[25.566511] (-) TimerEvent: {}
+[25.667557] (-) TimerEvent: {}
+[25.768598] (-) TimerEvent: {}
+[25.869729] (-) TimerEvent: {}
+[25.970866] (-) TimerEvent: {}
+[26.072017] (-) TimerEvent: {}
+[26.173099] (-) TimerEvent: {}
+[26.274383] (-) TimerEvent: {}
+[26.375520] (-) TimerEvent: {}
+[26.476595] (-) TimerEvent: {}
+[26.577832] (-) TimerEvent: {}
+[26.679035] (-) TimerEvent: {}
+[26.780328] (-) TimerEvent: {}
+[26.881527] (-) TimerEvent: {}
+[26.982752] (-) TimerEvent: {}
+[27.084078] (-) TimerEvent: {}
+[27.185580] (-) TimerEvent: {}
+[27.289074] (-) TimerEvent: {}
+[27.390285] (-) TimerEvent: {}
+[27.491428] (-) TimerEvent: {}
+[27.592528] (-) TimerEvent: {}
+[27.693743] (-) TimerEvent: {}
+[27.795249] (-) TimerEvent: {}
+[27.896487] (-) TimerEvent: {}
+[27.997844] (-) TimerEvent: {}
+[28.099025] (-) TimerEvent: {}
+[28.200393] (-) TimerEvent: {}
+[28.301568] (-) TimerEvent: {}
+[28.402879] (-) TimerEvent: {}
+[28.504340] (-) TimerEvent: {}
+[28.605867] (-) TimerEvent: {}
+[28.614032] (rasd_elev_profile) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rasd/ros2_ws/src/rasd_elev_profile/src/elevation_profile_node.cpp:351:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kuse of \xe2\x80\x98\x1b[01m\x1b[Kauto\x1b[m\x1b[K\xe2\x80\x99 in parameter declaration only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++20\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-fconcepts\x1b[m\x1b[K\xe2\x80\x99\n'}
+[28.615004] (rasd_elev_profile) StderrLine: {'line': b'  351 | void publishBumps(const std::vector<\x1b[01;35m\x1b[Kauto\x1b[m\x1b[K>& dets, const std::vector<float>& baseline)\n'}
+[28.615378] (rasd_elev_profile) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[28.706143] (-) TimerEvent: {}
+[28.808210] (-) TimerEvent: {}
+[28.871711] (rasd_elev_profile) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rasd/ros2_ws/src/rasd_elev_profile/src/elevation_profile_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SpeedbumpProfileNode::cloudCallback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[28.872587] (rasd_elev_profile) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rasd/ros2_ws/src/rasd_elev_profile/src/elevation_profile_node.cpp:238:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kstd::deque<std::vector<int> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[28.872877] (rasd_elev_profile) StderrLine: {'line': b'  238 |     if (\x1b[01;35m\x1b[Khistory_.size() > history_size_\x1b[m\x1b[K) history_.pop_front();\n'}
+[28.873048] (rasd_elev_profile) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[28.873197] (rasd_elev_profile) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rasd/ros2_ws/src/rasd_elev_profile/src/elevation_profile_node.cpp:242:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kstd::deque<std::vector<int> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[28.873410] (rasd_elev_profile) StderrLine: {'line': b'  242 |     if (\x1b[01;35m\x1b[Khistory_.size() == history_size_\x1b[m\x1b[K)\n'}
+[28.873595] (rasd_elev_profile) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[28.884062] (rasd_elev_profile) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rasd/ros2_ws/src/rasd_elev_profile/src/elevation_profile_node.cpp:297:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kclamp(double, float, float)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[28.884873] (rasd_elev_profile) StderrLine: {'line': b'  297 |         float height_score = \x1b[01;31m\x1b[Kstd::clamp((maxdz - bump_min_height_) /\x1b[m\x1b[K\n'}
+[28.885142] (rasd_elev_profile) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[28.885428] (rasd_elev_profile) StderrLine: {'line': b'  298 | \x1b[01;31m\x1b[K                                        (bump_max_height_ - bump_min_height_), 0.0f, 1.0f)\x1b[m\x1b[K;\n'}
+[28.885661] (rasd_elev_profile) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[28.886793] (rasd_elev_profile) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:62\x1b[m\x1b[K,\n'}
+[28.887255] (rasd_elev_profile) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18\x1b[m\x1b[K,\n'}
+[28.887488] (rasd_elev_profile) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[28.887635] (rasd_elev_profile) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[28.887770] (rasd_elev_profile) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[28.887903] (rasd_elev_profile) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rasd/ros2_ws/src/rasd_elev_profile/src/elevation_profile_node.cpp:1\x1b[m\x1b[K:\n'}
+[28.888033] (rasd_elev_profile) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:3656:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr const _Tp& std::clamp(const _Tp&, const _Tp&, const _Tp&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[28.888207] (rasd_elev_profile) StderrLine: {'line': b' 3656 |     \x1b[01;36m\x1b[Kclamp\x1b[m\x1b[K(const _Tp& __val, const _Tp& __lo, const _Tp& __hi)\n'}
+[28.888337] (rasd_elev_profile) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[28.888465] (rasd_elev_profile) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:3656:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[28.888596] (rasd_elev_profile) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rasd/ros2_ws/src/rasd_elev_profile/src/elevation_profile_node.cpp:297:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  deduced conflicting types for parameter \xe2\x80\x98\x1b[01m\x1b[Kconst _Tp\x1b[m\x1b[K\xe2\x80\x99 (\xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[28.888777] (rasd_elev_profile) StderrLine: {'line': b'  297 |         float height_score = \x1b[01;36m\x1b[Kstd::clamp((maxdz - bump_min_height_) /\x1b[m\x1b[K\n'}
+[28.888943] (rasd_elev_profile) StderrLine: {'line': b'      |                              \x1b[01;36m\x1b[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[28.889114] (rasd_elev_profile) StderrLine: {'line': b'  298 | \x1b[01;36m\x1b[K                                        (bump_max_height_ - bump_min_height_), 0.0f, 1.0f)\x1b[m\x1b[K;\n'}
+[28.889287] (rasd_elev_profile) StderrLine: {'line': b'      |                                         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[28.889671] (rasd_elev_profile) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:62\x1b[m\x1b[K,\n'}
+[28.889858] (rasd_elev_profile) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18\x1b[m\x1b[K,\n'}
+[28.890034] (rasd_elev_profile) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[28.890233] (rasd_elev_profile) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[28.890406] (rasd_elev_profile) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[28.890571] (rasd_elev_profile) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rasd/ros2_ws/src/rasd_elev_profile/src/elevation_profile_node.cpp:1\x1b[m\x1b[K:\n'}
+[28.890732] (rasd_elev_profile) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:3674:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Compare> constexpr const _Tp& std::clamp(const _Tp&, const _Tp&, const _Tp&, _Compare)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[28.890886] (rasd_elev_profile) StderrLine: {'line': b' 3674 |     \x1b[01;36m\x1b[Kclamp\x1b[m\x1b[K(const _Tp& __val, const _Tp& __lo, const _Tp& __hi, _Compare __comp)\n'}
+[28.891030] (rasd_elev_profile) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[28.891172] (rasd_elev_profile) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:3674:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[28.891336] (rasd_elev_profile) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rasd/ros2_ws/src/rasd_elev_profile/src/elevation_profile_node.cpp:297:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  deduced conflicting types for parameter \xe2\x80\x98\x1b[01m\x1b[Kconst _Tp\x1b[m\x1b[K\xe2\x80\x99 (\xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[28.891498] (rasd_elev_profile) StderrLine: {'line': b'  297 |         float height_score = \x1b[01;36m\x1b[Kstd::clamp((maxdz - bump_min_height_) /\x1b[m\x1b[K\n'}
+[28.891645] (rasd_elev_profile) StderrLine: {'line': b'      |                              \x1b[01;36m\x1b[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[28.891815] (rasd_elev_profile) StderrLine: {'line': b'  298 | \x1b[01;36m\x1b[K                                        (bump_max_height_ - bump_min_height_), 0.0f, 1.0f)\x1b[m\x1b[K;\n'}
+[28.891957] (rasd_elev_profile) StderrLine: {'line': b'      |                                         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[28.908469] (-) TimerEvent: {}
+[29.009777] (-) TimerEvent: {}
+[29.110921] (-) TimerEvent: {}
+[29.212093] (-) TimerEvent: {}
+[29.313224] (-) TimerEvent: {}
+[29.414407] (-) TimerEvent: {}
+[29.515518] (-) TimerEvent: {}
+[29.616633] (-) TimerEvent: {}
+[29.717859] (-) TimerEvent: {}
+[29.818979] (-) TimerEvent: {}
+[29.920052] (-) TimerEvent: {}
+[30.021012] (-) TimerEvent: {}
+[30.122002] (-) TimerEvent: {}
+[30.223128] (-) TimerEvent: {}
+[30.324322] (-) TimerEvent: {}
+[30.425539] (-) TimerEvent: {}
+[30.526643] (-) TimerEvent: {}
+[30.627860] (-) TimerEvent: {}
+[30.729005] (-) TimerEvent: {}
+[30.830206] (-) TimerEvent: {}
+[30.931424] (-) TimerEvent: {}
+[31.032538] (-) TimerEvent: {}
+[31.133709] (-) TimerEvent: {}
+[31.235130] (-) TimerEvent: {}
+[31.336169] (-) TimerEvent: {}
+[31.437155] (-) TimerEvent: {}
+[31.538239] (-) TimerEvent: {}
+[31.639454] (-) TimerEvent: {}
+[31.740727] (-) TimerEvent: {}
+[31.842165] (-) TimerEvent: {}
+[31.943576] (-) TimerEvent: {}
+[32.044724] (-) TimerEvent: {}
+[32.146527] (-) TimerEvent: {}
+[32.248496] (-) TimerEvent: {}
+[32.349540] (-) TimerEvent: {}
+[32.450563] (-) TimerEvent: {}
+[32.551664] (-) TimerEvent: {}
+[32.652847] (-) TimerEvent: {}
+[32.754098] (-) TimerEvent: {}
+[32.855210] (-) TimerEvent: {}
+[32.956334] (-) TimerEvent: {}
+[33.057556] (-) TimerEvent: {}
+[33.158626] (-) TimerEvent: {}
+[33.259675] (-) TimerEvent: {}
+[33.360796] (-) TimerEvent: {}
+[33.461893] (-) TimerEvent: {}
+[33.563171] (-) TimerEvent: {}
+[33.664633] (-) TimerEvent: {}
+[33.765923] (-) TimerEvent: {}
+[33.866932] (-) TimerEvent: {}
+[33.968058] (-) TimerEvent: {}
+[34.069137] (-) TimerEvent: {}
+[34.170277] (-) TimerEvent: {}
+[34.271321] (-) TimerEvent: {}
+[34.372506] (-) TimerEvent: {}
+[34.473669] (-) TimerEvent: {}
+[34.574746] (-) TimerEvent: {}
+[34.675870] (-) TimerEvent: {}
+[34.776984] (-) TimerEvent: {}
+[34.878079] (-) TimerEvent: {}
+[34.979224] (-) TimerEvent: {}
+[35.080323] (-) TimerEvent: {}
+[35.181444] (-) TimerEvent: {}
+[35.282553] (-) TimerEvent: {}
+[35.383795] (-) TimerEvent: {}
+[35.484982] (-) TimerEvent: {}
+[35.586212] (-) TimerEvent: {}
+[35.687319] (-) TimerEvent: {}
+[35.788442] (-) TimerEvent: {}
+[35.889498] (-) TimerEvent: {}
+[35.990535] (-) TimerEvent: {}
+[36.091734] (-) TimerEvent: {}
+[36.192896] (-) TimerEvent: {}
+[36.294055] (-) TimerEvent: {}
+[36.395296] (-) TimerEvent: {}
+[36.496637] (-) TimerEvent: {}
+[36.598056] (-) TimerEvent: {}
+[36.699401] (-) TimerEvent: {}
+[36.800564] (-) TimerEvent: {}
+[36.901685] (-) TimerEvent: {}
+[37.002816] (-) TimerEvent: {}
+[37.104028] (-) TimerEvent: {}
+[37.205278] (-) TimerEvent: {}
+[37.306525] (-) TimerEvent: {}
+[37.407748] (-) TimerEvent: {}
+[37.508908] (-) TimerEvent: {}
+[37.610120] (-) TimerEvent: {}
+[37.711360] (-) TimerEvent: {}
+[37.813012] (-) TimerEvent: {}
+[37.914318] (-) TimerEvent: {}
+[38.015407] (-) TimerEvent: {}
+[38.116561] (-) TimerEvent: {}
+[38.217718] (-) TimerEvent: {}
+[38.318870] (-) TimerEvent: {}
+[38.420044] (-) TimerEvent: {}
+[38.521569] (-) TimerEvent: {}
+[38.623079] (-) TimerEvent: {}
+[38.724496] (-) TimerEvent: {}
+[38.825609] (-) TimerEvent: {}
+[38.926722] (-) TimerEvent: {}
+[39.027873] (-) TimerEvent: {}
+[39.129065] (-) TimerEvent: {}
+[39.230278] (-) TimerEvent: {}
+[39.331843] (-) TimerEvent: {}
+[39.433626] (-) TimerEvent: {}
+[39.534727] (-) TimerEvent: {}
+[39.635926] (-) TimerEvent: {}
+[39.737100] (-) TimerEvent: {}
+[39.838392] (-) TimerEvent: {}
+[39.939543] (-) TimerEvent: {}
+[39.940406] (rasd_elev_profile) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/elevation_profile_node.dir/build.make:76: CMakeFiles/elevation_profile_node.dir/src/elevation_profile_node.cpp.o] Error 1\n'}
+[39.941165] (rasd_elev_profile) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/elevation_profile_node.dir/all] Error 2\n'}
+[39.941460] (rasd_elev_profile) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[39.949064] (rasd_elev_profile) CommandEnded: {'returncode': 2}
+[39.975606] (rasd_elev_profile) JobEnded: {'identifier': 'rasd_elev_profile', 'rc': 2}
+[39.987361] (-) EventReactorShutdown: {}

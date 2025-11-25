@@ -1,0 +1,32 @@
+running develop
+Removing /home/rasd/ros2_ws/install/rasd_roi_filter/lib/python3.10/site-packages/rasd-roi-filter.egg-link (link to .)
+running egg_info
+writing ../../build/rasd_roi_filter/rasd_roi_filter.egg-info/PKG-INFO
+writing dependency_links to ../../build/rasd_roi_filter/rasd_roi_filter.egg-info/dependency_links.txt
+writing entry points to ../../build/rasd_roi_filter/rasd_roi_filter.egg-info/entry_points.txt
+writing requirements to ../../build/rasd_roi_filter/rasd_roi_filter.egg-info/requires.txt
+writing top-level names to ../../build/rasd_roi_filter/rasd_roi_filter.egg-info/top_level.txt
+reading manifest file '../../build/rasd_roi_filter/rasd_roi_filter.egg-info/SOURCES.txt'
+writing manifest file '../../build/rasd_roi_filter/rasd_roi_filter.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rasd/ros2_ws/build/rasd_roi_filter/build
+creating /home/rasd/ros2_ws/build/rasd_roi_filter/build/lib
+creating /home/rasd/ros2_ws/build/rasd_roi_filter/build/lib/rasd_roi_filter
+copying ./rasd_roi_filter/roi_node.py -> /home/rasd/ros2_ws/build/rasd_roi_filter/build/lib/rasd_roi_filter
+copying ./rasd_roi_filter/__init__.py -> /home/rasd/ros2_ws/build/rasd_roi_filter/build/lib/rasd_roi_filter
+running install
+running install_lib
+creating /home/rasd/ros2_ws/install/rasd_roi_filter/lib/python3.10/site-packages/rasd_roi_filter
+copying /home/rasd/ros2_ws/build/rasd_roi_filter/build/lib/rasd_roi_filter/roi_node.py -> /home/rasd/ros2_ws/install/rasd_roi_filter/lib/python3.10/site-packages/rasd_roi_filter
+copying /home/rasd/ros2_ws/build/rasd_roi_filter/build/lib/rasd_roi_filter/__init__.py -> /home/rasd/ros2_ws/install/rasd_roi_filter/lib/python3.10/site-packages/rasd_roi_filter
+byte-compiling /home/rasd/ros2_ws/install/rasd_roi_filter/lib/python3.10/site-packages/rasd_roi_filter/roi_node.py to roi_node.cpython-310.pyc
+byte-compiling /home/rasd/ros2_ws/install/rasd_roi_filter/lib/python3.10/site-packages/rasd_roi_filter/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/rasd_roi_filter -> /home/rasd/ros2_ws/install/rasd_roi_filter/share/ament_index/resource_index/packages
+copying package.xml -> /home/rasd/ros2_ws/install/rasd_roi_filter/share/rasd_roi_filter
+running install_egg_info
+Copying ../../build/rasd_roi_filter/rasd_roi_filter.egg-info to /home/rasd/ros2_ws/install/rasd_roi_filter/lib/python3.10/site-packages/rasd_roi_filter-0.0.1-py3.10.egg-info
+running install_scripts
+Installing roi_node script to /home/rasd/ros2_ws/install/rasd_roi_filter/lib/rasd_roi_filter
+writing list of installed files to '/home/rasd/ros2_ws/build/rasd_roi_filter/install.log'

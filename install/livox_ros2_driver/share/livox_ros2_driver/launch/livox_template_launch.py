@@ -1,0 +1,1 @@
+/home/rasd/ros2_ws/src/livox_ros2_driver/livox_ros2_driver/launch/livox_template_launch.py

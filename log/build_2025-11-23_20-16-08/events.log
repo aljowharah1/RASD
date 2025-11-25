@@ -1,0 +1,152 @@
+[0.000000] (-) TimerEvent: {}
+[0.000910] (-) JobUnselected: {'identifier': 'grid_map'}
+[0.001637] (-) JobUnselected: {'identifier': 'grid_map_cmake_helpers'}
+[0.002092] (-) JobUnselected: {'identifier': 'grid_map_core'}
+[0.002659] (-) JobUnselected: {'identifier': 'grid_map_costmap_2d'}
+[0.002808] (-) JobUnselected: {'identifier': 'grid_map_cv'}
+[0.002901] (-) JobUnselected: {'identifier': 'grid_map_demos'}
+[0.002981] (-) JobUnselected: {'identifier': 'grid_map_filters'}
+[0.003057] (-) JobUnselected: {'identifier': 'grid_map_loader'}
+[0.003130] (-) JobUnselected: {'identifier': 'grid_map_msgs'}
+[0.003205] (-) JobUnselected: {'identifier': 'grid_map_octomap'}
+[0.003279] (-) JobUnselected: {'identifier': 'grid_map_pcl'}
+[0.003351] (-) JobUnselected: {'identifier': 'grid_map_ros'}
+[0.003422] (-) JobUnselected: {'identifier': 'grid_map_rviz_plugin'}
+[0.003494] (-) JobUnselected: {'identifier': 'grid_map_sdf'}
+[0.003567] (-) JobUnselected: {'identifier': 'grid_map_visualization'}
+[0.003638] (-) JobUnselected: {'identifier': 'livox_interfaces'}
+[0.003710] (-) JobUnselected: {'identifier': 'livox_ros2_driver'}
+[0.003784] (-) JobUnselected: {'identifier': 'livox_sdk'}
+[0.003860] (-) JobUnselected: {'identifier': 'livox_sdk_vendor'}
+[0.003939] (-) JobUnselected: {'identifier': 'rasd_camera'}
+[0.004013] (-) JobUnselected: {'identifier': 'rasd_elev_profile'}
+[0.004087] (-) JobUnselected: {'identifier': 'rasd_fusion'}
+[0.004162] (-) JobUnselected: {'identifier': 'rasd_gps'}
+[0.004227] (-) JobUnselected: {'identifier': 'rasd_gridmap'}
+[0.004267] (-) JobUnselected: {'identifier': 'rasd_led_serial'}
+[0.004302] (-) JobUnselected: {'identifier': 'rasd_roi_filter'}
+[0.004336] (-) JobUnselected: {'identifier': 'rasd_tf'}
+[0.004380] (rasd_ransac_speedbump) JobQueued: {'identifier': 'rasd_ransac_speedbump', 'dependencies': OrderedDict()}
+[0.004435] (rasd_ransac_speedbump) JobStarted: {'identifier': 'rasd_ransac_speedbump'}
+[0.035456] (rasd_ransac_speedbump) JobProgress: {'identifier': 'rasd_ransac_speedbump', 'progress': 'cmake'}
+[0.042713] (rasd_ransac_speedbump) Command: {'cmd': ['/usr/bin/cmake', '/home/rasd/ros2_ws/src/rasd_ransac_speedbump', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/rasd/ros2_ws/install/rasd_ransac_speedbump'], 'cwd': '/home/rasd/ros2_ws/build/rasd_ransac_speedbump', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rasd'), ('SSH_CLIENT', '192.168.43.163 51665 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/home/rasd/ros2_ws/install/livox_ros2_driver/lib:/home/rasd/ros2_ws/install/livox_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rasd'), ('OLDPWD', '/home/rasd'), ('SSH_TTY', '/dev/pts/3'), ('JETSON_L4T', '36.4.7'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super'), ('LC_MONETARY', 'en_US.UTF-8'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/rasd/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rasd'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1422725053860'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rasd/.local/bin:/usr/local/cuda/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('AMENT_PREFIX_PATH', '/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_ransac_speedbump:/home/rasd/ros2_ws/install/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_gps:/home/rasd/ros2_ws/install/rasd_fusion:/home/rasd/ros2_ws/install/rasd_camera:/home/rasd/ros2_ws/install/livox_ros2_driver:/home/rasd/ros2_ws/install/livox_sdk_vendor:/home/rasd/ros2_ws/install/livox_interfaces:/home/rasd/ros2_ws/install/grid_map_cmake_helpers:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/rasd/ros2_ws/build/rasd_ransac_speedbump'), ('SSH_CONNECTION', '192.168.43.163 51665 192.168.43.165 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/usr/lib/python3.10/dist-packages:/home/rasd/ros2_ws/build/rasd_tf:/home/rasd/ros2_ws/install/rasd_tf/lib/python3.10/site-packages:/home/rasd/ros2_ws/install/rasd_roi_filter/lib/python3.10/site-packages:/home/rasd/ros2_ws/build/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_led_serial/lib/python3.10/site-packages:/home/rasd/ros2_ws/build/rasd_gps:/home/rasd/ros2_ws/install/rasd_gps/lib/python3.10/site-packages:/home/rasd/ros2_ws/build/rasd_fusion:/home/rasd/ros2_ws/install/rasd_fusion/lib/python3.10/site-packages:/home/rasd/ros2_ws/install/rasd_camera/lib/python3.10/site-packages:/home/rasd/ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', ''), ('CMAKE_PREFIX_PATH', '/home/rasd/ros2_ws/install/rasd_ransac_speedbump:/home/rasd/ros2_ws/install/livox_ros2_driver:/home/rasd/ros2_ws/install/livox_sdk_vendor:/home/rasd/ros2_ws/install/livox_interfaces:/home/rasd/ros2_ws/install/grid_map_cmake_helpers:/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_gps:/home/rasd/ros2_ws/install/rasd_fusion:/home/rasd/ros2_ws/install/rasd_camera:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0005')]), 'shell': False}
+[0.099137] (-) TimerEvent: {}
+[0.200213] (-) TimerEvent: {}
+[0.227587] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300416] (-) TimerEvent: {}
+[0.401394] (-) TimerEvent: {}
+[0.502354] (-) TimerEvent: {}
+[0.603384] (-) TimerEvent: {}
+[0.640054] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.703661] (-) TimerEvent: {}
+[0.715418] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.803974] (-) TimerEvent: {}
+[0.868369] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.878986] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.904172] (-) TimerEvent: {}
+[0.904978] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.945303] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.994196] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.004358] (-) TimerEvent: {}
+[1.105313] (-) TimerEvent: {}
+[1.125104] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.134759] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.205539] (-) TimerEvent: {}
+[1.306614] (-) TimerEvent: {}
+[1.407634] (-) TimerEvent: {}
+[1.433235] (rasd_ransac_speedbump) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.507871] (-) TimerEvent: {}
+[1.608830] (-) TimerEvent: {}
+[1.611561] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.699503] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[1.708971] (-) TimerEvent: {}
+[1.807137] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.809050] (-) TimerEvent: {}
+[1.898684] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.909309] (-) TimerEvent: {}
+[1.917730] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.918525] (rasd_ransac_speedbump) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[1.918954] (rasd_ransac_speedbump) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to png will be disabled\x1b[0m\n'}
+[2.009532] (-) TimerEvent: {}
+[2.110530] (-) TimerEvent: {}
+[2.211835] (-) TimerEvent: {}
+[2.313166] (-) TimerEvent: {}
+[2.414266] (-) TimerEvent: {}
+[2.515317] (-) TimerEvent: {}
+[2.616388] (-) TimerEvent: {}
+[2.717403] (-) TimerEvent: {}
+[2.818922] (-) TimerEvent: {}
+[2.919965] (-) TimerEvent: {}
+[3.020922] (-) TimerEvent: {}
+[3.122050] (-) TimerEvent: {}
+[3.223101] (-) TimerEvent: {}
+[3.324088] (-) TimerEvent: {}
+[3.425156] (-) TimerEvent: {}
+[3.526267] (-) TimerEvent: {}
+[3.617752] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[3.626374] (-) TimerEvent: {}
+[3.673843] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)\n'}
+[3.726622] (-) TimerEvent: {}
+[3.827586] (-) TimerEvent: {}
+[3.928569] (-) TimerEvent: {}
+[4.029596] (-) TimerEvent: {}
+[4.130631] (-) TimerEvent: {}
+[4.231614] (-) TimerEvent: {}
+[4.287322] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[4.288732] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[4.289153] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[4.290005] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[4.290888] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[4.291533] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[4.292328] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[4.293162] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[4.293845] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[4.294540] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[4.295452] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[4.296154] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[4.302393] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[4.331822] (-) TimerEvent: {}
+[4.432719] (-) TimerEvent: {}
+[4.533641] (-) TimerEvent: {}
+[4.617210] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.633840] (-) TimerEvent: {}
+[4.734771] (-) TimerEvent: {}
+[4.798969] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Generating done\n'}
+[4.828053] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Build files have been written to: /home/rasd/ros2_ws/build/rasd_ransac_speedbump\n'}
+[4.834874] (-) TimerEvent: {}
+[4.889995] (rasd_ransac_speedbump) CommandEnded: {'returncode': 0}
+[4.892669] (rasd_ransac_speedbump) JobProgress: {'identifier': 'rasd_ransac_speedbump', 'progress': 'build'}
+[4.895818] (rasd_ransac_speedbump) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rasd/ros2_ws/build/rasd_ransac_speedbump', '--', '-j6', '-l6'], 'cwd': '/home/rasd/ros2_ws/build/rasd_ransac_speedbump', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rasd'), ('SSH_CLIENT', '192.168.43.163 51665 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/home/rasd/ros2_ws/install/livox_ros2_driver/lib:/home/rasd/ros2_ws/install/livox_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rasd'), ('OLDPWD', '/home/rasd'), ('SSH_TTY', '/dev/pts/3'), ('JETSON_L4T', '36.4.7'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super'), ('LC_MONETARY', 'en_US.UTF-8'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/rasd/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rasd'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1422725053860'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rasd/.local/bin:/usr/local/cuda/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('AMENT_PREFIX_PATH', '/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_ransac_speedbump:/home/rasd/ros2_ws/install/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_gps:/home/rasd/ros2_ws/install/rasd_fusion:/home/rasd/ros2_ws/install/rasd_camera:/home/rasd/ros2_ws/install/livox_ros2_driver:/home/rasd/ros2_ws/install/livox_sdk_vendor:/home/rasd/ros2_ws/install/livox_interfaces:/home/rasd/ros2_ws/install/grid_map_cmake_helpers:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/rasd/ros2_ws/build/rasd_ransac_speedbump'), ('SSH_CONNECTION', '192.168.43.163 51665 192.168.43.165 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/usr/lib/python3.10/dist-packages:/home/rasd/ros2_ws/build/rasd_tf:/home/rasd/ros2_ws/install/rasd_tf/lib/python3.10/site-packages:/home/rasd/ros2_ws/install/rasd_roi_filter/lib/python3.10/site-packages:/home/rasd/ros2_ws/build/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_led_serial/lib/python3.10/site-packages:/home/rasd/ros2_ws/build/rasd_gps:/home/rasd/ros2_ws/install/rasd_gps/lib/python3.10/site-packages:/home/rasd/ros2_ws/build/rasd_fusion:/home/rasd/ros2_ws/install/rasd_fusion/lib/python3.10/site-packages:/home/rasd/ros2_ws/install/rasd_camera/lib/python3.10/site-packages:/home/rasd/ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', ''), ('CMAKE_PREFIX_PATH', '/home/rasd/ros2_ws/install/rasd_ransac_speedbump:/home/rasd/ros2_ws/install/livox_ros2_driver:/home/rasd/ros2_ws/install/livox_sdk_vendor:/home/rasd/ros2_ws/install/livox_interfaces:/home/rasd/ros2_ws/install/grid_map_cmake_helpers:/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_gps:/home/rasd/ros2_ws/install/rasd_fusion:/home/rasd/ros2_ws/install/rasd_camera:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0005')]), 'shell': False}
+[4.935181] (-) TimerEvent: {}
+[5.015489] (rasd_ransac_speedbump) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ransac_speedbump_node\x1b[0m\n'}
+[5.035353] (-) TimerEvent: {}
+[5.136315] (-) TimerEvent: {}
+[5.237423] (-) TimerEvent: {}
+[5.282818] (rasd_ransac_speedbump) StdoutLine: {'line': b'[100%] Built target ransac_speedbump_node\n'}
+[5.315789] (rasd_ransac_speedbump) CommandEnded: {'returncode': 0}
+[5.321077] (rasd_ransac_speedbump) JobProgress: {'identifier': 'rasd_ransac_speedbump', 'progress': 'install'}
+[5.337606] (-) TimerEvent: {}
+[5.346335] (rasd_ransac_speedbump) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rasd/ros2_ws/build/rasd_ransac_speedbump'], 'cwd': '/home/rasd/ros2_ws/build/rasd_ransac_speedbump', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rasd'), ('SSH_CLIENT', '192.168.43.163 51665 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/home/rasd/ros2_ws/install/livox_ros2_driver/lib:/home/rasd/ros2_ws/install/livox_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rasd'), ('OLDPWD', '/home/rasd'), ('SSH_TTY', '/dev/pts/3'), ('JETSON_L4T', '36.4.7'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super'), ('LC_MONETARY', 'en_US.UTF-8'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/rasd/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rasd'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1422725053860'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rasd/.local/bin:/usr/local/cuda/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('AMENT_PREFIX_PATH', '/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_ransac_speedbump:/home/rasd/ros2_ws/install/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_gps:/home/rasd/ros2_ws/install/rasd_fusion:/home/rasd/ros2_ws/install/rasd_camera:/home/rasd/ros2_ws/install/livox_ros2_driver:/home/rasd/ros2_ws/install/livox_sdk_vendor:/home/rasd/ros2_ws/install/livox_interfaces:/home/rasd/ros2_ws/install/grid_map_cmake_helpers:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/rasd/ros2_ws/build/rasd_ransac_speedbump'), ('SSH_CONNECTION', '192.168.43.163 51665 192.168.43.165 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/usr/lib/python3.10/dist-packages:/home/rasd/ros2_ws/build/rasd_tf:/home/rasd/ros2_ws/install/rasd_tf/lib/python3.10/site-packages:/home/rasd/ros2_ws/install/rasd_roi_filter/lib/python3.10/site-packages:/home/rasd/ros2_ws/build/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_led_serial/lib/python3.10/site-packages:/home/rasd/ros2_ws/build/rasd_gps:/home/rasd/ros2_ws/install/rasd_gps/lib/python3.10/site-packages:/home/rasd/ros2_ws/build/rasd_fusion:/home/rasd/ros2_ws/install/rasd_fusion/lib/python3.10/site-packages:/home/rasd/ros2_ws/install/rasd_camera/lib/python3.10/site-packages:/home/rasd/ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', ''), ('CMAKE_PREFIX_PATH', '/home/rasd/ros2_ws/install/rasd_ransac_speedbump:/home/rasd/ros2_ws/install/livox_ros2_driver:/home/rasd/ros2_ws/install/livox_sdk_vendor:/home/rasd/ros2_ws/install/livox_interfaces:/home/rasd/ros2_ws/install/grid_map_cmake_helpers:/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_gps:/home/rasd/ros2_ws/install/rasd_fusion:/home/rasd/ros2_ws/install/rasd_camera:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0005')]), 'shell': False}
+[5.369456] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.370614] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.372823] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/lib/rasd_ransac_speedbump/ransac_speedbump_node\n'}
+[5.374645] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/ament_index/resource_index/package_run_dependencies/rasd_ransac_speedbump\n'}
+[5.375990] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/ament_index/resource_index/parent_prefix_path/rasd_ransac_speedbump\n'}
+[5.376747] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/environment/ament_prefix_path.sh\n'}
+[5.377117] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/environment/ament_prefix_path.dsv\n'}
+[5.377864] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/environment/path.sh\n'}
+[5.378195] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/environment/path.dsv\n'}
+[5.379039] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/local_setup.bash\n'}
+[5.379721] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/local_setup.sh\n'}
+[5.380373] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/local_setup.zsh\n'}
+[5.380724] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/local_setup.dsv\n'}
+[5.380970] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Symlinking: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/package.dsv\n'}
+[5.407474] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/ament_index/resource_index/packages/rasd_ransac_speedbump\n'}
+[5.408477] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.409358] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/cmake/rasd_ransac_speedbumpConfig.cmake\n'}
+[5.410127] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/cmake/rasd_ransac_speedbumpConfig-version.cmake\n'}
+[5.410631] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/package.xml\n'}
+[5.416765] (rasd_ransac_speedbump) CommandEnded: {'returncode': 0}
+[5.437767] (-) TimerEvent: {}
+[5.510725] (rasd_ransac_speedbump) JobEnded: {'identifier': 'rasd_ransac_speedbump', 'rc': 0}
+[5.513832] (-) EventReactorShutdown: {}

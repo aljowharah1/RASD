@@ -1,0 +1,16 @@
+running develop
+running egg_info
+creating rasd_roi_filter.egg-info
+writing rasd_roi_filter.egg-info/PKG-INFO
+writing dependency_links to rasd_roi_filter.egg-info/dependency_links.txt
+writing entry points to rasd_roi_filter.egg-info/entry_points.txt
+writing requirements to rasd_roi_filter.egg-info/requires.txt
+writing top-level names to rasd_roi_filter.egg-info/top_level.txt
+writing manifest file 'rasd_roi_filter.egg-info/SOURCES.txt'
+reading manifest file 'rasd_roi_filter.egg-info/SOURCES.txt'
+writing manifest file 'rasd_roi_filter.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rasd/ros2_ws/src/install/rasd_roi_filter/lib/python3.10/site-packages/rasd-roi-filter.egg-link (link to .)
+Installing roi_node script to /home/rasd/ros2_ws/src/install/rasd_roi_filter/lib/rasd_roi_filter
+
+Installed /home/rasd/ros2_ws/src/build/rasd_roi_filter

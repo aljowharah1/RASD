@@ -1,0 +1,75 @@
+[0.000000] (-) TimerEvent: {}
+[0.001047] (-) JobUnselected: {'identifier': 'grid_map'}
+[0.001795] (-) JobUnselected: {'identifier': 'grid_map_cmake_helpers'}
+[0.002201] (-) JobUnselected: {'identifier': 'grid_map_core'}
+[0.002589] (-) JobUnselected: {'identifier': 'grid_map_costmap_2d'}
+[0.002739] (-) JobUnselected: {'identifier': 'grid_map_cv'}
+[0.002849] (-) JobUnselected: {'identifier': 'grid_map_demos'}
+[0.002952] (-) JobUnselected: {'identifier': 'grid_map_filters'}
+[0.003050] (-) JobUnselected: {'identifier': 'grid_map_loader'}
+[0.003147] (-) JobUnselected: {'identifier': 'grid_map_msgs'}
+[0.003269] (-) JobUnselected: {'identifier': 'grid_map_octomap'}
+[0.003363] (-) JobUnselected: {'identifier': 'grid_map_pcl'}
+[0.003457] (-) JobUnselected: {'identifier': 'grid_map_ros'}
+[0.003550] (-) JobUnselected: {'identifier': 'grid_map_rviz_plugin'}
+[0.003644] (-) JobUnselected: {'identifier': 'grid_map_sdf'}
+[0.003736] (-) JobUnselected: {'identifier': 'grid_map_visualization'}
+[0.003831] (-) JobUnselected: {'identifier': 'livox_interfaces'}
+[0.003957] (-) JobUnselected: {'identifier': 'livox_ros2_driver'}
+[0.004053] (-) JobUnselected: {'identifier': 'livox_sdk'}
+[0.004150] (-) JobUnselected: {'identifier': 'livox_sdk_vendor'}
+[0.004247] (-) JobUnselected: {'identifier': 'rasd_camera'}
+[0.004335] (-) JobUnselected: {'identifier': 'rasd_elev_profile'}
+[0.004455] (-) JobUnselected: {'identifier': 'rasd_gridmap'}
+[0.004724] (-) JobUnselected: {'identifier': 'rasd_tf'}
+[0.004794] (rasd_roi_filter) JobQueued: {'identifier': 'rasd_roi_filter', 'dependencies': OrderedDict()}
+[0.004915] (rasd_roi_filter) JobStarted: {'identifier': 'rasd_roi_filter'}
+[0.098881] (-) TimerEvent: {}
+[0.199786] (-) TimerEvent: {}
+[0.300807] (-) TimerEvent: {}
+[0.401981] (-) TimerEvent: {}
+[0.503044] (-) TimerEvent: {}
+[0.604039] (-) TimerEvent: {}
+[0.705086] (-) TimerEvent: {}
+[0.806134] (-) TimerEvent: {}
+[0.907115] (-) TimerEvent: {}
+[1.008072] (-) TimerEvent: {}
+[1.109023] (-) TimerEvent: {}
+[1.210049] (-) TimerEvent: {}
+[1.311018] (-) TimerEvent: {}
+[1.411998] (-) TimerEvent: {}
+[1.512923] (-) TimerEvent: {}
+[1.613852] (-) TimerEvent: {}
+[1.714903] (-) TimerEvent: {}
+[1.816421] (-) TimerEvent: {}
+[1.847743] (rasd_roi_filter) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/rasd/ros2_ws/src/build/rasd_roi_filter/build', '--no-deps'], 'cwd': '/home/rasd/ros2_ws/src/build/rasd_roi_filter', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rasd', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/cuda/lib64:/home/rasd/ros2_ws/install/livox_ros2_driver/lib:/home/rasd/ros2_ws/install/livox_interfaces/lib:/home/rasd/ros2_ws/install/grid_map_sdf/lib:/home/rasd/ros2_ws/install/grid_map_ros/lib:/home/rasd/ros2_ws/install/grid_map_octomap/lib:/home/rasd/ros2_ws/install/grid_map_msgs/lib:/home/rasd/ros2_ws/install/grid_map_cv/lib:/home/rasd/ros2_ws/install/grid_map_costmap_2d/lib:/home/rasd/ros2_ws/install/grid_map_core/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/rasd', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '36.4.7', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super', 'LC_MONETARY': 'en_US.UTF-8', 'SYSTEMD_EXEC_PID': '8015', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/rasd/ros2_ws/install:/home/rasd/ros2_ws/src/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'rasd', 'JETSON_MODULE': 'NVIDIA Jetson Orin Nano (Developer kit)', 'JETSON_SERIAL_NUMBER': '1422725053860', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rasd', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/usr/local/cuda/bin:/opt/ros/humble/bin:/home/rasd/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rasd-desktop:@/tmp/.ICE-unix/2484,unix/rasd-desktop:/tmp/.ICE-unix/2484', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b2f35ffb_e079_4f2f_a277_4ef7c3e406e1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra234', 'GNOME_TERMINAL_SERVICE': ':1.140', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/rasd/ros2_ws/src/install/rasd_elev_profile:/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_elev_profile:/home/rasd/ros2_ws/install/rasd_camera:/home/rasd/ros2_ws/install/rasd_1d_profile:/home/rasd/ros2_ws/install/livox_ros2_driver:/home/rasd/ros2_ws/install/livox_sdk_vendor:/home/rasd/ros2_ws/install/livox_interfaces:/home/rasd/ros2_ws/install/grid_map_sdf:/home/rasd/ros2_ws/install/grid_map_ros:/home/rasd/ros2_ws/install/grid_map_octomap:/home/rasd/ros2_ws/install/grid_map_msgs:/home/rasd/ros2_ws/install/grid_map_cv:/home/rasd/ros2_ws/install/grid_map_costmap_2d:/home/rasd/ros2_ws/install/grid_map_core:/home/rasd/ros2_ws/install/grid_map_cmake_helpers:/home/rasd/ros2_ws/src/install/rasd_roi_filter:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/rasd/ros2_ws/src/build/rasd_roi_filter', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rasd/ros2_ws/src/build/rasd_roi_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasd/ros2_ws/src/install/rasd_roi_filter/lib/python3.10/site-packages:/usr/lib/python3.10/dist-packages:/home/rasd/ros2_ws/build/rasd_tf:/home/rasd/ros2_ws/install/rasd_tf/lib/python3.10/site-packages:/home/rasd/ros2_ws/build/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_roi_filter/lib/python3.10/site-packages:/home/rasd/ros2_ws/build/rasd_camera:/home/rasd/ros2_ws/install/rasd_camera/lib/python3.10/site-packages:/home/rasd/ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages:/home/rasd/ros2_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages:/home/rasd/ros2_ws/src/build/rasd_roi_filter:/home/rasd/ros2_ws/src/install/rasd_roi_filter/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'JETSON_JETPACK': '', 'CMAKE_PREFIX_PATH': '/home/rasd/ros2_ws/src/install/rasd_elev_profile:/home/rasd/ros2_ws/install/rasd_elev_profile:/home/rasd/ros2_ws/install/rasd_1d_profile:/home/rasd/ros2_ws/install/livox_ros2_driver:/home/rasd/ros2_ws/install/livox_sdk_vendor:/home/rasd/ros2_ws/install/livox_interfaces:/home/rasd/ros2_ws/install/grid_map_sdf:/home/rasd/ros2_ws/install/grid_map_ros:/home/rasd/ros2_ws/install/grid_map_octomap:/home/rasd/ros2_ws/install/grid_map_msgs:/home/rasd/ros2_ws/install/grid_map_cv:/home/rasd/ros2_ws/install/grid_map_costmap_2d:/home/rasd/ros2_ws/install/grid_map_core:/home/rasd/ros2_ws/install/grid_map_cmake_helpers', 'JETSON_P_NUMBER': 'p3767-0005'}, 'shell': False}
+[1.916621] (-) TimerEvent: {}
+[2.017524] (-) TimerEvent: {}
+[2.118390] (-) TimerEvent: {}
+[2.219157] (-) TimerEvent: {}
+[2.320086] (-) TimerEvent: {}
+[2.421019] (-) TimerEvent: {}
+[2.521944] (-) TimerEvent: {}
+[2.535736] (rasd_roi_filter) StdoutLine: {'line': b'running develop\n'}
+[2.622134] (-) TimerEvent: {}
+[2.723058] (-) TimerEvent: {}
+[2.823962] (-) TimerEvent: {}
+[2.924857] (-) TimerEvent: {}
+[2.969947] (rasd_roi_filter) StdoutLine: {'line': b'running egg_info\n'}
+[2.970695] (rasd_roi_filter) StdoutLine: {'line': b'writing rasd_roi_filter.egg-info/PKG-INFO\n'}
+[2.971581] (rasd_roi_filter) StdoutLine: {'line': b'writing dependency_links to rasd_roi_filter.egg-info/dependency_links.txt\n'}
+[2.972116] (rasd_roi_filter) StdoutLine: {'line': b'writing entry points to rasd_roi_filter.egg-info/entry_points.txt\n'}
+[2.972603] (rasd_roi_filter) StdoutLine: {'line': b'writing requirements to rasd_roi_filter.egg-info/requires.txt\n'}
+[2.972971] (rasd_roi_filter) StdoutLine: {'line': b'writing top-level names to rasd_roi_filter.egg-info/top_level.txt\n'}
+[2.979598] (rasd_roi_filter) StdoutLine: {'line': b"reading manifest file 'rasd_roi_filter.egg-info/SOURCES.txt'\n"}
+[2.981115] (rasd_roi_filter) StdoutLine: {'line': b"writing manifest file 'rasd_roi_filter.egg-info/SOURCES.txt'\n"}
+[2.985711] (rasd_roi_filter) StdoutLine: {'line': b'running build_ext\n'}
+[2.986272] (rasd_roi_filter) StdoutLine: {'line': b'Creating /home/rasd/ros2_ws/src/install/rasd_roi_filter/lib/python3.10/site-packages/rasd-roi-filter.egg-link (link to .)\n'}
+[2.988716] (rasd_roi_filter) StdoutLine: {'line': b'Installing roi_node script to /home/rasd/ros2_ws/src/install/rasd_roi_filter/lib/rasd_roi_filter\n'}
+[2.989465] (rasd_roi_filter) StdoutLine: {'line': b'\n'}
+[2.989658] (rasd_roi_filter) StdoutLine: {'line': b'Installed /home/rasd/ros2_ws/src/build/rasd_roi_filter\n'}
+[3.025050] (-) TimerEvent: {}
+[3.126028] (-) TimerEvent: {}
+[3.128958] (rasd_roi_filter) CommandEnded: {'returncode': 0}
+[3.176272] (rasd_roi_filter) JobEnded: {'identifier': 'rasd_roi_filter', 'rc': 0}
+[3.179606] (-) EventReactorShutdown: {}

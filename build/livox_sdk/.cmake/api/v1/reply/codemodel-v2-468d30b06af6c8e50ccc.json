@@ -1,0 +1,278 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "sdk_core",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-sdk_core-a1965ef41e1ef9f47957.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "sdk_core",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "sample/hub",
+					"jsonFile" : "directory-sample.hub-19399a42efcbb06d4e40.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "sample/hub",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "sample/lidar",
+					"jsonFile" : "directory-sample.lidar-1cba6b79db8a443dd408.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "sample/lidar",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "sample/hub_lvx_file",
+					"jsonFile" : "directory-sample.hub_lvx_file-e847a3f4e85ffbc23788.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "sample/hub_lvx_file",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "sample/lidar_lvx_file",
+					"jsonFile" : "directory-sample.lidar_lvx_file-fa27778834e306e7c52f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "sample/lidar_lvx_file",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "sample_cc/hub",
+					"jsonFile" : "directory-sample_cc.hub-1d3ca5edbce0b3f2c3a2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "sample_cc/hub",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "sample_cc/lidar",
+					"jsonFile" : "directory-sample_cc.lidar-b5ff1ea508f53fe9a815.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "sample_cc/lidar",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "sample_cc/trouble_shooting",
+					"jsonFile" : "directory-sample_cc.trouble_shooting-2ac297452514c14efb94.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "sample_cc/trouble_shooting",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "sample_cc/lidar_utc_sync",
+					"jsonFile" : "directory-sample_cc.lidar_utc_sync-696e19392d78b23b102c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "sample_cc/lidar_utc_sync",
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					],
+					"name" : "livox_sdk",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "hub_lvx_sample::@6a2d3d53d21e715fbd90",
+					"jsonFile" : "target-hub_lvx_sample-70a8651a2bee23ccee7c.json",
+					"name" : "hub_lvx_sample",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "hub_sample::@6a6f9e8b5b2fd8d6ac9c",
+					"jsonFile" : "target-hub_sample-db94d8a2ac69b9965d15.json",
+					"name" : "hub_sample",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "hub_sample_cc::@e9815a2c9b63b1574fe6",
+					"jsonFile" : "target-hub_sample_cc-88b0bfeea2ecd374b1e5.json",
+					"name" : "hub_sample_cc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "lidar_lvx_sample::@696b8f1896f5100c0784",
+					"jsonFile" : "target-lidar_lvx_sample-3352bf5e6522c5d74147.json",
+					"name" : "lidar_lvx_sample",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "lidar_sample::@59015f51b15bc333c370",
+					"jsonFile" : "target-lidar_sample-e345142b2b9ae662b00c.json",
+					"name" : "lidar_sample",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "lidar_sample_cc::@c0ba37b4212b19059db9",
+					"jsonFile" : "target-lidar_sample_cc-e0059a4ff5019e2cdb38.json",
+					"name" : "lidar_sample_cc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "lidar_utc_sync::@c6d1107796f82b966067",
+					"jsonFile" : "target-lidar_utc_sync-4a381d7b930ba1bba321.json",
+					"name" : "lidar_utc_sync",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "livox_sdk_static::@bae76f41bc05054a2095",
+					"jsonFile" : "target-livox_sdk_static-17fa39db4a245a08d7d6.json",
+					"name" : "livox_sdk_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "trouble_shooting::@8b7471f73664718edc1f",
+					"jsonFile" : "target-trouble_shooting-f3dae16802d201bd7d4e.json",
+					"name" : "trouble_shooting",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rasd/ros2_ws/build/livox_sdk",
+		"source" : "/home/rasd/ros2_ws/src/Livox-SDK"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

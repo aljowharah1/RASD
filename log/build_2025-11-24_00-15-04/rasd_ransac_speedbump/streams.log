@@ -1,0 +1,24 @@
+[0.031s] Invoking command in '/home/rasd/ros2_ws/build/rasd_ransac_speedbump': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_gps:/home/rasd/ros2_ws/install/rasd_fusion:/home/rasd/ros2_ws/install/rasd_camera:/home/rasd/install/rasd_tf:/home/rasd/install/rasd_roi_filter:/opt/ros/humble /usr/bin/cmake --build /home/rasd/ros2_ws/build/rasd_ransac_speedbump -- -j6 -l6
+[0.292s] [100%] Built target ransac_speedbump_node
+[0.327s] Invoked command in '/home/rasd/ros2_ws/build/rasd_ransac_speedbump' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_gps:/home/rasd/ros2_ws/install/rasd_fusion:/home/rasd/ros2_ws/install/rasd_camera:/home/rasd/install/rasd_tf:/home/rasd/install/rasd_roi_filter:/opt/ros/humble /usr/bin/cmake --build /home/rasd/ros2_ws/build/rasd_ransac_speedbump -- -j6 -l6
+[0.355s] Invoking command in '/home/rasd/ros2_ws/build/rasd_ransac_speedbump': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_gps:/home/rasd/ros2_ws/install/rasd_fusion:/home/rasd/ros2_ws/install/rasd_camera:/home/rasd/install/rasd_tf:/home/rasd/install/rasd_roi_filter:/opt/ros/humble /usr/bin/cmake --install /home/rasd/ros2_ws/build/rasd_ransac_speedbump
+[0.375s] -- Install configuration: ""
+[0.376s] -- Execute custom install script
+[0.376s] -- Up-to-date symlink: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/lib/rasd_ransac_speedbump/ransac_speedbump_node
+[0.377s] -- Up-to-date symlink: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/ament_index/resource_index/package_run_dependencies/rasd_ransac_speedbump
+[0.378s] -- Up-to-date symlink: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/ament_index/resource_index/parent_prefix_path/rasd_ransac_speedbump
+[0.378s] -- Up-to-date symlink: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/environment/ament_prefix_path.sh
+[0.378s] -- Up-to-date symlink: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/environment/ament_prefix_path.dsv
+[0.379s] -- Up-to-date symlink: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/environment/path.sh
+[0.379s] -- Up-to-date symlink: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/environment/path.dsv
+[0.379s] -- Up-to-date symlink: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/local_setup.bash
+[0.380s] -- Up-to-date symlink: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/local_setup.sh
+[0.380s] -- Up-to-date symlink: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/local_setup.zsh
+[0.380s] -- Up-to-date symlink: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/local_setup.dsv
+[0.380s] -- Symlinking: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/package.dsv
+[0.404s] -- Up-to-date symlink: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/ament_index/resource_index/packages/rasd_ransac_speedbump
+[0.404s] -- Up-to-date symlink: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.404s] -- Up-to-date symlink: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/cmake/rasd_ransac_speedbumpConfig.cmake
+[0.404s] -- Up-to-date symlink: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/cmake/rasd_ransac_speedbumpConfig-version.cmake
+[0.404s] -- Up-to-date symlink: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/package.xml
+[0.412s] Invoked command in '/home/rasd/ros2_ws/build/rasd_ransac_speedbump' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_gps:/home/rasd/ros2_ws/install/rasd_fusion:/home/rasd/ros2_ws/install/rasd_camera:/home/rasd/install/rasd_tf:/home/rasd/install/rasd_roi_filter:/opt/ros/humble /usr/bin/cmake --install /home/rasd/ros2_ws/build/rasd_ransac_speedbump

@@ -1,0 +1,426 @@
+[0.365s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'rasd_elev_profile', '--symlink-install']
+[0.366s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['rasd_elev_profile'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff826ea5c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff826ea020>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff826ea020>>)
+[0.840s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.841s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.841s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.841s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.841s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.841s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.842s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rasd/ros2_ws/src'
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK) by extensions ['ignore', 'ignore_ament_install']
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK) by extension 'ignore'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK) by extension 'ignore_ament_install'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK) by extensions ['colcon_pkg']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK) by extension 'colcon_pkg'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK) by extensions ['colcon_meta']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK) by extension 'colcon_meta'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK) by extensions ['ros']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK) by extension 'ros'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK) by extensions ['cmake', 'python']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK) by extension 'cmake'
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK) by extension 'python'
+[0.900s] DEBUG:colcon.colcon_core.package_identification:Package 'Livox-SDK' with type 'cmake' and name 'livox_sdk'
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map) by extensions ['ignore', 'ignore_ament_install']
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map) by extension 'ignore'
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map) by extension 'ignore_ament_install'
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map) by extensions ['colcon_pkg']
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map) by extension 'colcon_pkg'
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map) by extensions ['colcon_meta']
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map) by extension 'colcon_meta'
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map) by extensions ['ros']
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map) by extension 'ros'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map) by extensions ['cmake', 'python']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map) by extension 'cmake'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map) by extension 'python'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map) by extensions ['python_setup_py']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map) by extension 'python_setup_py'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map) by extensions ['ignore', 'ignore_ament_install']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map) by extension 'ignore'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map) by extension 'ignore_ament_install'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map) by extensions ['colcon_pkg']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map) by extension 'colcon_pkg'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map) by extensions ['colcon_meta']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map) by extension 'colcon_meta'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map) by extensions ['ros']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map) by extension 'ros'
+[0.912s] DEBUG:colcon.colcon_core.package_identification:Package 'grid_map/grid_map' with type 'ros.ament_cmake' and name 'grid_map'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_cmake_helpers) by extensions ['ignore', 'ignore_ament_install']
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_cmake_helpers) by extension 'ignore'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_cmake_helpers) by extension 'ignore_ament_install'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_cmake_helpers) by extensions ['colcon_pkg']
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_cmake_helpers) by extension 'colcon_pkg'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_cmake_helpers) by extensions ['colcon_meta']
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_cmake_helpers) by extension 'colcon_meta'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_cmake_helpers) by extensions ['ros']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_cmake_helpers) by extension 'ros'
+[0.915s] DEBUG:colcon.colcon_core.package_identification:Package 'grid_map/grid_map_cmake_helpers' with type 'ros.ament_cmake' and name 'grid_map_cmake_helpers'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_core) by extensions ['ignore', 'ignore_ament_install']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_core) by extension 'ignore'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_core) by extension 'ignore_ament_install'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_core) by extensions ['colcon_pkg']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_core) by extension 'colcon_pkg'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_core) by extensions ['colcon_meta']
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_core) by extension 'colcon_meta'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_core) by extensions ['ros']
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_core) by extension 'ros'
+[0.919s] DEBUG:colcon.colcon_core.package_identification:Package 'grid_map/grid_map_core' with type 'ros.ament_cmake' and name 'grid_map_core'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_costmap_2d) by extensions ['ignore', 'ignore_ament_install']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_costmap_2d) by extension 'ignore'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_costmap_2d) by extension 'ignore_ament_install'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_costmap_2d) by extensions ['colcon_pkg']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_costmap_2d) by extension 'colcon_pkg'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_costmap_2d) by extensions ['colcon_meta']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_costmap_2d) by extension 'colcon_meta'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_costmap_2d) by extensions ['ros']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_costmap_2d) by extension 'ros'
+[0.922s] DEBUG:colcon.colcon_core.package_identification:Package 'grid_map/grid_map_costmap_2d' with type 'ros.ament_cmake' and name 'grid_map_costmap_2d'
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_cv) by extensions ['ignore', 'ignore_ament_install']
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_cv) by extension 'ignore'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_cv) by extension 'ignore_ament_install'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_cv) by extensions ['colcon_pkg']
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_cv) by extension 'colcon_pkg'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_cv) by extensions ['colcon_meta']
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_cv) by extension 'colcon_meta'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_cv) by extensions ['ros']
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_cv) by extension 'ros'
+[0.926s] DEBUG:colcon.colcon_core.package_identification:Package 'grid_map/grid_map_cv' with type 'ros.ament_cmake' and name 'grid_map_cv'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_demos) by extensions ['ignore', 'ignore_ament_install']
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_demos) by extension 'ignore'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_demos) by extension 'ignore_ament_install'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_demos) by extensions ['colcon_pkg']
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_demos) by extension 'colcon_pkg'
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_demos) by extensions ['colcon_meta']
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_demos) by extension 'colcon_meta'
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_demos) by extensions ['ros']
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_demos) by extension 'ros'
+[0.931s] DEBUG:colcon.colcon_core.package_identification:Package 'grid_map/grid_map_demos' with type 'ros.ament_cmake' and name 'grid_map_demos'
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_filters) by extensions ['ignore', 'ignore_ament_install']
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_filters) by extension 'ignore'
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_filters) by extension 'ignore_ament_install'
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_filters) by extensions ['colcon_pkg']
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_filters) by extension 'colcon_pkg'
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_filters) by extensions ['colcon_meta']
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_filters) by extension 'colcon_meta'
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_filters) by extensions ['ros']
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_filters) by extension 'ros'
+[0.935s] DEBUG:colcon.colcon_core.package_identification:Package 'grid_map/grid_map_filters' with type 'ros.ament_cmake' and name 'grid_map_filters'
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_loader) by extensions ['ignore', 'ignore_ament_install']
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_loader) by extension 'ignore'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_loader) by extension 'ignore_ament_install'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_loader) by extensions ['colcon_pkg']
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_loader) by extension 'colcon_pkg'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_loader) by extensions ['colcon_meta']
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_loader) by extension 'colcon_meta'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_loader) by extensions ['ros']
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_loader) by extension 'ros'
+[0.938s] DEBUG:colcon.colcon_core.package_identification:Package 'grid_map/grid_map_loader' with type 'ros.ament_cmake' and name 'grid_map_loader'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_msgs) by extension 'ignore'
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_msgs) by extension 'ignore_ament_install'
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_msgs) by extensions ['colcon_pkg']
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_msgs) by extension 'colcon_pkg'
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_msgs) by extensions ['colcon_meta']
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_msgs) by extension 'colcon_meta'
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_msgs) by extensions ['ros']
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_msgs) by extension 'ros'
+[0.941s] DEBUG:colcon.colcon_core.package_identification:Package 'grid_map/grid_map_msgs' with type 'ros.ament_cmake' and name 'grid_map_msgs'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_octomap) by extensions ['ignore', 'ignore_ament_install']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_octomap) by extension 'ignore'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_octomap) by extension 'ignore_ament_install'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_octomap) by extensions ['colcon_pkg']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_octomap) by extension 'colcon_pkg'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_octomap) by extensions ['colcon_meta']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_octomap) by extension 'colcon_meta'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_octomap) by extensions ['ros']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_octomap) by extension 'ros'
+[0.944s] DEBUG:colcon.colcon_core.package_identification:Package 'grid_map/grid_map_octomap' with type 'ros.ament_cmake' and name 'grid_map_octomap'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_pcl) by extensions ['ignore', 'ignore_ament_install']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_pcl) by extension 'ignore'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_pcl) by extension 'ignore_ament_install'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_pcl) by extensions ['colcon_pkg']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_pcl) by extension 'colcon_pkg'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_pcl) by extensions ['colcon_meta']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_pcl) by extension 'colcon_meta'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_pcl) by extensions ['ros']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_pcl) by extension 'ros'
+[0.948s] DEBUG:colcon.colcon_core.package_identification:Package 'grid_map/grid_map_pcl' with type 'ros.ament_cmake' and name 'grid_map_pcl'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_ros) by extension 'ignore'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_ros) by extension 'ignore_ament_install'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_ros) by extensions ['colcon_pkg']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_ros) by extension 'colcon_pkg'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_ros) by extensions ['colcon_meta']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_ros) by extension 'colcon_meta'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_ros) by extensions ['ros']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_ros) by extension 'ros'
+[0.952s] DEBUG:colcon.colcon_core.package_identification:Package 'grid_map/grid_map_ros' with type 'ros.ament_cmake' and name 'grid_map_ros'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_rviz_plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_rviz_plugin) by extension 'ignore'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_rviz_plugin) by extension 'ignore_ament_install'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_rviz_plugin) by extensions ['colcon_pkg']
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_rviz_plugin) by extension 'colcon_pkg'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_rviz_plugin) by extensions ['colcon_meta']
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_rviz_plugin) by extension 'colcon_meta'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_rviz_plugin) by extensions ['ros']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_rviz_plugin) by extension 'ros'
+[0.956s] DEBUG:colcon.colcon_core.package_identification:Package 'grid_map/grid_map_rviz_plugin' with type 'ros.ament_cmake' and name 'grid_map_rviz_plugin'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_sdf) by extensions ['ignore', 'ignore_ament_install']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_sdf) by extension 'ignore'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_sdf) by extension 'ignore_ament_install'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_sdf) by extensions ['colcon_pkg']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_sdf) by extension 'colcon_pkg'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_sdf) by extensions ['colcon_meta']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_sdf) by extension 'colcon_meta'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_sdf) by extensions ['ros']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_sdf) by extension 'ros'
+[0.958s] DEBUG:colcon.colcon_core.package_identification:Package 'grid_map/grid_map_sdf' with type 'ros.ament_cmake' and name 'grid_map_sdf'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_visualization) by extensions ['ignore', 'ignore_ament_install']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_visualization) by extension 'ignore'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_visualization) by extension 'ignore_ament_install'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_visualization) by extensions ['colcon_pkg']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_visualization) by extension 'colcon_pkg'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_visualization) by extensions ['colcon_meta']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_visualization) by extension 'colcon_meta'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_visualization) by extensions ['ros']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(grid_map/grid_map_visualization) by extension 'ros'
+[0.962s] DEBUG:colcon.colcon_core.package_identification:Package 'grid_map/grid_map_visualization' with type 'ros.ament_cmake' and name 'grid_map_visualization'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver) by extension 'ignore'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver) by extension 'ignore_ament_install'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver) by extensions ['colcon_pkg']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver) by extension 'colcon_pkg'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver) by extensions ['colcon_meta']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver) by extension 'colcon_meta'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver) by extensions ['ros']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver) by extension 'ros'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver) by extensions ['cmake', 'python']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver) by extension 'cmake'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver) by extension 'python'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver) by extensions ['python_setup_py']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver) by extension 'python_setup_py'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver/images) by extensions ['ignore', 'ignore_ament_install']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver/images) by extension 'ignore'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver/images) by extension 'ignore_ament_install'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver/images) by extensions ['colcon_pkg']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver/images) by extension 'colcon_pkg'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver/images) by extensions ['colcon_meta']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver/images) by extension 'colcon_meta'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver/images) by extensions ['ros']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver/images) by extension 'ros'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver/images) by extensions ['cmake', 'python']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver/images) by extension 'cmake'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver/images) by extension 'python'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver/images) by extensions ['python_setup_py']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver/images) by extension 'python_setup_py'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver/livox_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver/livox_interfaces) by extension 'ignore'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver/livox_interfaces) by extension 'ignore_ament_install'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver/livox_interfaces) by extensions ['colcon_pkg']
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver/livox_interfaces) by extension 'colcon_pkg'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver/livox_interfaces) by extensions ['colcon_meta']
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver/livox_interfaces) by extension 'colcon_meta'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver/livox_interfaces) by extensions ['ros']
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver/livox_interfaces) by extension 'ros'
+[0.973s] DEBUG:colcon.colcon_core.package_identification:Package 'livox_ros2_driver/livox_interfaces' with type 'ros.ament_cmake' and name 'livox_interfaces'
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver/livox_ros2_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver/livox_ros2_driver) by extension 'ignore'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver/livox_ros2_driver) by extension 'ignore_ament_install'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver/livox_ros2_driver) by extensions ['colcon_pkg']
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver/livox_ros2_driver) by extension 'colcon_pkg'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver/livox_ros2_driver) by extensions ['colcon_meta']
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver/livox_ros2_driver) by extension 'colcon_meta'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver/livox_ros2_driver) by extensions ['ros']
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver/livox_ros2_driver) by extension 'ros'
+[0.980s] DEBUG:colcon.colcon_core.package_identification:Package 'livox_ros2_driver/livox_ros2_driver' with type 'ros.ament_cmake' and name 'livox_ros2_driver'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver/livox_sdk_vendor) by extensions ['ignore', 'ignore_ament_install']
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver/livox_sdk_vendor) by extension 'ignore'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver/livox_sdk_vendor) by extension 'ignore_ament_install'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver/livox_sdk_vendor) by extensions ['colcon_pkg']
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver/livox_sdk_vendor) by extension 'colcon_pkg'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver/livox_sdk_vendor) by extensions ['colcon_meta']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver/livox_sdk_vendor) by extension 'colcon_meta'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver/livox_sdk_vendor) by extensions ['ros']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros2_driver/livox_sdk_vendor) by extension 'ros'
+[0.984s] DEBUG:colcon.colcon_core.package_identification:Package 'livox_ros2_driver/livox_sdk_vendor' with type 'ros.ament_cmake' and name 'livox_sdk_vendor'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(rasd_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(rasd_camera) by extension 'ignore'
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(rasd_camera) by extension 'ignore_ament_install'
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(rasd_camera) by extensions ['colcon_pkg']
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(rasd_camera) by extension 'colcon_pkg'
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(rasd_camera) by extensions ['colcon_meta']
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(rasd_camera) by extension 'colcon_meta'
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(rasd_camera) by extensions ['ros']
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(rasd_camera) by extension 'ros'
+[0.988s] DEBUG:colcon.colcon_core.package_identification:Package 'rasd_camera' with type 'ros.ament_python' and name 'rasd_camera'
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(rasd_elev_profile) by extensions ['ignore', 'ignore_ament_install']
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(rasd_elev_profile) by extension 'ignore'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(rasd_elev_profile) by extension 'ignore_ament_install'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(rasd_elev_profile) by extensions ['colcon_pkg']
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(rasd_elev_profile) by extension 'colcon_pkg'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(rasd_elev_profile) by extensions ['colcon_meta']
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(rasd_elev_profile) by extension 'colcon_meta'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(rasd_elev_profile) by extensions ['ros']
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(rasd_elev_profile) by extension 'ros'
+[0.991s] DEBUG:colcon.colcon_core.package_identification:Package 'rasd_elev_profile' with type 'ros.ament_cmake' and name 'rasd_elev_profile'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(rasd_gridmap) by extensions ['ignore', 'ignore_ament_install']
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(rasd_gridmap) by extension 'ignore'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(rasd_gridmap) by extension 'ignore_ament_install'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(rasd_gridmap) by extensions ['colcon_pkg']
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(rasd_gridmap) by extension 'colcon_pkg'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(rasd_gridmap) by extensions ['colcon_meta']
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(rasd_gridmap) by extension 'colcon_meta'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(rasd_gridmap) by extensions ['ros']
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(rasd_gridmap) by extension 'ros'
+[1.057s] DEBUG:colcon.colcon_core.package_identification:Package 'rasd_gridmap' with type 'ros.ament_cmake' and name 'rasd_gridmap'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(rasd_roi_filter) by extensions ['ignore', 'ignore_ament_install']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(rasd_roi_filter) by extension 'ignore'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(rasd_roi_filter) by extension 'ignore_ament_install'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(rasd_roi_filter) by extensions ['colcon_pkg']
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(rasd_roi_filter) by extension 'colcon_pkg'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(rasd_roi_filter) by extensions ['colcon_meta']
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(rasd_roi_filter) by extension 'colcon_meta'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(rasd_roi_filter) by extensions ['ros']
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(rasd_roi_filter) by extension 'ros'
+[1.062s] DEBUG:colcon.colcon_core.package_identification:Package 'rasd_roi_filter' with type 'ros.ament_python' and name 'rasd_roi_filter'
+[1.062s] Level 1:colcon.colcon_core.package_identification:_identify(rasd_tf) by extensions ['ignore', 'ignore_ament_install']
+[1.062s] Level 1:colcon.colcon_core.package_identification:_identify(rasd_tf) by extension 'ignore'
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(rasd_tf) by extension 'ignore_ament_install'
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(rasd_tf) by extensions ['colcon_pkg']
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(rasd_tf) by extension 'colcon_pkg'
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(rasd_tf) by extensions ['colcon_meta']
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(rasd_tf) by extension 'colcon_meta'
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(rasd_tf) by extensions ['ros']
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(rasd_tf) by extension 'ros'
+[1.066s] DEBUG:colcon.colcon_core.package_identification:Package 'rasd_tf' with type 'ros.ament_python' and name 'rasd_tf'
+[1.066s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.066s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.066s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.066s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.066s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.137s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'grid_map_cmake_helpers' in 'grid_map/grid_map_cmake_helpers'
+[1.137s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'livox_interfaces' in 'livox_ros2_driver/livox_interfaces'
+[1.138s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'livox_sdk' in 'Livox-SDK'
+[1.138s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'livox_sdk_vendor' in 'livox_ros2_driver/livox_sdk_vendor'
+[1.138s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rasd_camera' in 'rasd_camera'
+[1.138s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rasd_roi_filter' in 'rasd_roi_filter'
+[1.138s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rasd_tf' in 'rasd_tf'
+[1.138s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'grid_map_core' in 'grid_map/grid_map_core'
+[1.138s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'grid_map_msgs' in 'grid_map/grid_map_msgs'
+[1.138s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'livox_ros2_driver' in 'livox_ros2_driver/livox_ros2_driver'
+[1.138s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'grid_map_costmap_2d' in 'grid_map/grid_map_costmap_2d'
+[1.138s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'grid_map_cv' in 'grid_map/grid_map_cv'
+[1.138s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'grid_map_octomap' in 'grid_map/grid_map_octomap'
+[1.138s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'grid_map_sdf' in 'grid_map/grid_map_sdf'
+[1.138s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'grid_map_ros' in 'grid_map/grid_map_ros'
+[1.138s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'grid_map_filters' in 'grid_map/grid_map_filters'
+[1.138s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'grid_map_loader' in 'grid_map/grid_map_loader'
+[1.139s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'grid_map_pcl' in 'grid_map/grid_map_pcl'
+[1.139s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'grid_map_rviz_plugin' in 'grid_map/grid_map_rviz_plugin'
+[1.139s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'grid_map_visualization' in 'grid_map/grid_map_visualization'
+[1.139s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rasd_gridmap' in 'rasd_gridmap'
+[1.139s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'grid_map_demos' in 'grid_map/grid_map_demos'
+[1.139s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'grid_map' in 'grid_map/grid_map'
+[1.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.150s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 17 installed packages in /home/rasd/ros2_ws/install
+[1.151s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/rasd/ros2_ws/src/install
+[1.154s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 294 installed packages in /opt/ros/humble
+[1.162s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.257s] Level 5:colcon.colcon_core.verb:set package 'rasd_elev_profile' build argument 'cmake_args' from command line to 'None'
+[1.258s] Level 5:colcon.colcon_core.verb:set package 'rasd_elev_profile' build argument 'cmake_target' from command line to 'None'
+[1.258s] Level 5:colcon.colcon_core.verb:set package 'rasd_elev_profile' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.258s] Level 5:colcon.colcon_core.verb:set package 'rasd_elev_profile' build argument 'cmake_clean_cache' from command line to 'False'
+[1.258s] Level 5:colcon.colcon_core.verb:set package 'rasd_elev_profile' build argument 'cmake_clean_first' from command line to 'False'
+[1.258s] Level 5:colcon.colcon_core.verb:set package 'rasd_elev_profile' build argument 'cmake_force_configure' from command line to 'False'
+[1.258s] Level 5:colcon.colcon_core.verb:set package 'rasd_elev_profile' build argument 'ament_cmake_args' from command line to 'None'
+[1.258s] Level 5:colcon.colcon_core.verb:set package 'rasd_elev_profile' build argument 'catkin_cmake_args' from command line to 'None'
+[1.258s] Level 5:colcon.colcon_core.verb:set package 'rasd_elev_profile' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.258s] DEBUG:colcon.colcon_core.verb:Building package 'rasd_elev_profile' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rasd/ros2_ws/src/build/rasd_elev_profile', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rasd/ros2_ws/src/install/rasd_elev_profile', 'merge_install': False, 'path': '/home/rasd/ros2_ws/src/rasd_elev_profile', 'symlink_install': True, 'test_result_base': None}
+[1.259s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.263s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.263s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rasd/ros2_ws/src/rasd_elev_profile' with build type 'ament_cmake'
+[1.264s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rasd/ros2_ws/src/rasd_elev_profile'
+[1.272s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.272s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.272s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rasd/ros2_ws/src/build/rasd_elev_profile': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_camera:/home/rasd/ros2_ws/src/install/rasd_roi_filter:/opt/ros/humble /usr/bin/cmake --build /home/rasd/ros2_ws/src/build/rasd_elev_profile -- -j6 -l6
+[1.611s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rasd/ros2_ws/src/build/rasd_elev_profile' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_camera:/home/rasd/ros2_ws/src/install/rasd_roi_filter:/opt/ros/humble /usr/bin/cmake --build /home/rasd/ros2_ws/src/build/rasd_elev_profile -- -j6 -l6
+[1.648s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rasd/ros2_ws/src/build/rasd_elev_profile': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_camera:/home/rasd/ros2_ws/src/install/rasd_roi_filter:/opt/ros/humble /usr/bin/cmake --install /home/rasd/ros2_ws/src/build/rasd_elev_profile
+[1.715s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rasd_elev_profile)
+[1.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rasd/ros2_ws/src/build/rasd_elev_profile' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_camera:/home/rasd/ros2_ws/src/install/rasd_roi_filter:/opt/ros/humble /usr/bin/cmake --install /home/rasd/ros2_ws/src/build/rasd_elev_profile
+[1.726s] Level 1:colcon.colcon_core.environment:checking '/home/rasd/ros2_ws/src/install/rasd_elev_profile' for CMake module files
+[1.729s] Level 1:colcon.colcon_core.environment:checking '/home/rasd/ros2_ws/src/install/rasd_elev_profile' for CMake config files
+[1.731s] Level 1:colcon.colcon_core.shell:create_environment_hook('rasd_elev_profile', 'cmake_prefix_path')
+[1.732s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/hook/cmake_prefix_path.ps1'
+[1.737s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/hook/cmake_prefix_path.dsv'
+[1.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/hook/cmake_prefix_path.sh'
+[1.744s] Level 1:colcon.colcon_core.environment:checking '/home/rasd/ros2_ws/src/install/rasd_elev_profile/lib'
+[1.745s] Level 1:colcon.colcon_core.environment:checking '/home/rasd/ros2_ws/src/install/rasd_elev_profile/bin'
+[1.745s] Level 1:colcon.colcon_core.environment:checking '/home/rasd/ros2_ws/src/install/rasd_elev_profile/lib/pkgconfig/rasd_elev_profile.pc'
+[1.746s] Level 1:colcon.colcon_core.environment:checking '/home/rasd/ros2_ws/src/install/rasd_elev_profile/lib/python3.10/site-packages'
+[1.748s] Level 1:colcon.colcon_core.environment:checking '/home/rasd/ros2_ws/src/install/rasd_elev_profile/bin'
+[1.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/package.ps1'
+[1.753s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/package.dsv'
+[1.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/package.sh'
+[1.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/package.bash'
+[1.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/package.zsh'
+[1.768s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rasd/ros2_ws/src/install/rasd_elev_profile/share/colcon-core/packages/rasd_elev_profile)
+[1.771s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rasd_elev_profile)
+[1.772s] Level 1:colcon.colcon_core.environment:checking '/home/rasd/ros2_ws/src/install/rasd_elev_profile' for CMake module files
+[1.774s] Level 1:colcon.colcon_core.environment:checking '/home/rasd/ros2_ws/src/install/rasd_elev_profile' for CMake config files
+[1.775s] Level 1:colcon.colcon_core.shell:create_environment_hook('rasd_elev_profile', 'cmake_prefix_path')
+[1.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/hook/cmake_prefix_path.ps1'
+[1.778s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/hook/cmake_prefix_path.dsv'
+[1.779s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/hook/cmake_prefix_path.sh'
+[1.782s] Level 1:colcon.colcon_core.environment:checking '/home/rasd/ros2_ws/src/install/rasd_elev_profile/lib'
+[1.782s] Level 1:colcon.colcon_core.environment:checking '/home/rasd/ros2_ws/src/install/rasd_elev_profile/bin'
+[1.782s] Level 1:colcon.colcon_core.environment:checking '/home/rasd/ros2_ws/src/install/rasd_elev_profile/lib/pkgconfig/rasd_elev_profile.pc'
+[1.783s] Level 1:colcon.colcon_core.environment:checking '/home/rasd/ros2_ws/src/install/rasd_elev_profile/lib/python3.10/site-packages'
+[1.784s] Level 1:colcon.colcon_core.environment:checking '/home/rasd/ros2_ws/src/install/rasd_elev_profile/bin'
+[1.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/package.ps1'
+[1.788s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/package.dsv'
+[1.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/package.sh'
+[1.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/package.bash'
+[1.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/package.zsh'
+[1.795s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rasd/ros2_ws/src/install/rasd_elev_profile/share/colcon-core/packages/rasd_elev_profile)
+[1.797s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.798s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.799s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.800s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.821s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.821s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.821s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.895s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.896s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rasd/ros2_ws/src/install/local_setup.ps1'
+[1.901s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rasd/ros2_ws/src/install/_local_setup_util_ps1.py'
+[1.907s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rasd/ros2_ws/src/install/setup.ps1'
+[1.913s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rasd/ros2_ws/src/install/local_setup.sh'
+[1.916s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rasd/ros2_ws/src/install/_local_setup_util_sh.py'
+[1.918s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rasd/ros2_ws/src/install/setup.sh'
+[1.924s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rasd/ros2_ws/src/install/local_setup.bash'
+[1.925s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rasd/ros2_ws/src/install/setup.bash'
+[1.930s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rasd/ros2_ws/src/install/local_setup.zsh'
+[1.932s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rasd/ros2_ws/src/install/setup.zsh'

@@ -1,0 +1,11 @@
+grid_map_pcl:
+  ros__parameters:
+    input_pointcloud_topic: "/roi_point_cloud"
+    output_grid_map_topic: "/grid_map"
+    resolution: 0.1
+    min_x: 0.0
+    max_x: 10.0
+    min_y: -5.0
+    max_y: 5.0
+    min_z: 0.0
+    max_z: 3.0

@@ -1,0 +1,32 @@
+running develop
+Removing /home/rasd/ros2_ws/install/rasd_gps/lib/python3.10/site-packages/rasd-gps.egg-link (link to .)
+running egg_info
+writing ../../build/rasd_gps/rasd_gps.egg-info/PKG-INFO
+writing dependency_links to ../../build/rasd_gps/rasd_gps.egg-info/dependency_links.txt
+writing entry points to ../../build/rasd_gps/rasd_gps.egg-info/entry_points.txt
+writing requirements to ../../build/rasd_gps/rasd_gps.egg-info/requires.txt
+writing top-level names to ../../build/rasd_gps/rasd_gps.egg-info/top_level.txt
+reading manifest file '../../build/rasd_gps/rasd_gps.egg-info/SOURCES.txt'
+writing manifest file '../../build/rasd_gps/rasd_gps.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rasd/ros2_ws/build/rasd_gps/build
+creating /home/rasd/ros2_ws/build/rasd_gps/build/lib
+creating /home/rasd/ros2_ws/build/rasd_gps/build/lib/rasd_gps
+copying rasd_gps/rasd_gps_node.py -> /home/rasd/ros2_ws/build/rasd_gps/build/lib/rasd_gps
+copying rasd_gps/__init__.py -> /home/rasd/ros2_ws/build/rasd_gps/build/lib/rasd_gps
+running install
+running install_lib
+creating /home/rasd/ros2_ws/install/rasd_gps/lib/python3.10/site-packages/rasd_gps
+copying /home/rasd/ros2_ws/build/rasd_gps/build/lib/rasd_gps/rasd_gps_node.py -> /home/rasd/ros2_ws/install/rasd_gps/lib/python3.10/site-packages/rasd_gps
+copying /home/rasd/ros2_ws/build/rasd_gps/build/lib/rasd_gps/__init__.py -> /home/rasd/ros2_ws/install/rasd_gps/lib/python3.10/site-packages/rasd_gps
+byte-compiling /home/rasd/ros2_ws/install/rasd_gps/lib/python3.10/site-packages/rasd_gps/rasd_gps_node.py to rasd_gps_node.cpython-310.pyc
+byte-compiling /home/rasd/ros2_ws/install/rasd_gps/lib/python3.10/site-packages/rasd_gps/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/rasd_gps -> /home/rasd/ros2_ws/install/rasd_gps/share/ament_index/resource_index/packages
+copying package.xml -> /home/rasd/ros2_ws/install/rasd_gps/share/rasd_gps
+running install_egg_info
+Copying ../../build/rasd_gps/rasd_gps.egg-info to /home/rasd/ros2_ws/install/rasd_gps/lib/python3.10/site-packages/rasd_gps-0.0.0-py3.10.egg-info
+running install_scripts
+Installing rasd_gps_node script to /home/rasd/ros2_ws/install/rasd_gps/lib/rasd_gps
+writing list of installed files to '/home/rasd/ros2_ws/build/rasd_gps/install.log'

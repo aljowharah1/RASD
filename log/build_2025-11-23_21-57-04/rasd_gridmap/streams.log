@@ -1,0 +1,120 @@
+[0.051s] Invoking command in '/home/rasd/ros2_ws/build/rasd_gridmap': CMAKE_PREFIX_PATH=/home/rasd/ros2_ws/install/grid_map_cmake_helpers:/home/rasd/ros2_ws/install/rasd_ransac_speedbump:/home/rasd/ros2_ws/install/livox_ros2_driver:/home/rasd/ros2_ws/install/livox_sdk_vendor:/home/rasd/ros2_ws/install/livox_interfaces:/home/rasd/install/rasd_ransac_speedbump:/home/rasd/install/rasd_elev_profile:/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_gps:/home/rasd/ros2_ws/install/rasd_fusion:/home/rasd/ros2_ws/install/rasd_camera:/home/rasd/install/rasd_tf:/home/rasd/install/rasd_roi_filter:/opt/ros/humble /usr/bin/cmake /home/rasd/ros2_ws/src/rasd_gridmap -DCMAKE_INSTALL_PREFIX=/home/rasd/ros2_ws/install/rasd_gridmap
+[0.785s] -- The C compiler identification is GNU 11.4.0
+[1.306s] -- The CXX compiler identification is GNU 11.4.0
+[1.350s] -- Detecting C compiler ABI info
+[1.551s] -- Detecting C compiler ABI info - done
+[1.572s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.575s] -- Detecting C compile features
+[1.578s] -- Detecting C compile features - done
+[1.590s] -- Detecting CXX compiler ABI info
+[1.810s] -- Detecting CXX compiler ABI info - done
+[1.826s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.827s] -- Detecting CXX compile features
+[1.828s] -- Detecting CXX compile features - done
+[1.848s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.394s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.848s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[3.107s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.134s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.181s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.246s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.318s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.546s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.565s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.880s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.964s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.066s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.107s] -- Looking for pthread.h
+[4.346s] -- Looking for pthread.h - found
+[4.347s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.550s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.553s] -- Found Threads: TRUE  
+[4.791s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.919s] -- Found grid_map_ros: 2.0.1 (/opt/ros/humble/share/grid_map_ros/cmake)
+[5.690s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[5.945s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[6.079s] -- Checking for module 'eigen3'
+[6.150s] --   Found eigen3, version 3.4.0
+[6.205s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[6.205s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[6.319s] -- Checking for module 'flann'
+[6.353s] --   Found flann, version 1.9.1
+[6.454s] -- Found FLANN: /usr/lib/aarch64-linux-gnu/libflann_cpp.so  
+[6.454s] -- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)
+[9.384s] -- Checking for module 'libusb-1.0'
+[9.422s] --   Found libusb-1.0, version 1.0.25
+[9.509s] -- Found libusb: /usr/lib/aarch64-linux-gnu/libusb-1.0.so  
+[9.515s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.657s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[10.016s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[10.033s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[10.049s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[10.386s] -- Found Qhull version 8.0.2
+[10.730s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[11.081s] -- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+[11.083s] -- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  
+[11.085s] -- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  
+[11.091s] -- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  
+[11.093s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  
+[11.095s] -- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  
+[11.097s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[11.097s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[11.099s] -- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  
+[11.101s] -- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  
+[11.103s] -- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  
+[11.105s] -- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  
+[11.108s] -- Found PCL_VISUALIZATION: /usr/lib/aarch64-linux-gnu/libpcl_visualization.so  
+[11.110s] -- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  
+[11.111s] -- Found PCL_REGISTRATION: /usr/lib/aarch64-linux-gnu/libpcl_registration.so  
+[11.114s] -- Found PCL_KEYPOINTS: /usr/lib/aarch64-linux-gnu/libpcl_keypoints.so  
+[11.116s] -- Found PCL_TRACKING: /usr/lib/aarch64-linux-gnu/libpcl_tracking.so  
+[11.117s] -- Found PCL_RECOGNITION: /usr/lib/aarch64-linux-gnu/libpcl_recognition.so  
+[11.120s] -- Found PCL_STEREO: /usr/lib/aarch64-linux-gnu/libpcl_stereo.so  
+[11.122s] -- Found PCL_APPS: /usr/lib/aarch64-linux-gnu/libpcl_apps.so  
+[11.126s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[11.126s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[11.127s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[11.130s] -- Found PCL_OUTOFCORE: /usr/lib/aarch64-linux-gnu/libpcl_outofcore.so  
+[11.132s] -- Found PCL_PEOPLE: /usr/lib/aarch64-linux-gnu/libpcl_people.so  
+[11.137s] [33mCMake Warning (dev) at CMakeLists.txt:16 (find_package):
+[11.137s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[11.137s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[11.137s]   command to set the policy and suppress this warning.
+[11.137s] 
+[11.138s]   CMake variable PCL_ROOT is set to:
+[11.138s] 
+[11.138s]     /usr
+[11.138s] 
+[11.138s]   For compatibility, CMake is ignoring the variable.
+[11.138s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[11.138s] [0m
+[11.483s] -- Configuring done
+[11.782s] -- Generating done
+[11.825s] -- Build files have been written to: /home/rasd/ros2_ws/build/rasd_gridmap
+[11.911s] Invoked command in '/home/rasd/ros2_ws/build/rasd_gridmap' returned '0': CMAKE_PREFIX_PATH=/home/rasd/ros2_ws/install/grid_map_cmake_helpers:/home/rasd/ros2_ws/install/rasd_ransac_speedbump:/home/rasd/ros2_ws/install/livox_ros2_driver:/home/rasd/ros2_ws/install/livox_sdk_vendor:/home/rasd/ros2_ws/install/livox_interfaces:/home/rasd/install/rasd_ransac_speedbump:/home/rasd/install/rasd_elev_profile:/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_gps:/home/rasd/ros2_ws/install/rasd_fusion:/home/rasd/ros2_ws/install/rasd_camera:/home/rasd/install/rasd_tf:/home/rasd/install/rasd_roi_filter:/opt/ros/humble /usr/bin/cmake /home/rasd/ros2_ws/src/rasd_gridmap -DCMAKE_INSTALL_PREFIX=/home/rasd/ros2_ws/install/rasd_gridmap
+[11.919s] Invoking command in '/home/rasd/ros2_ws/build/rasd_gridmap': CMAKE_PREFIX_PATH=/home/rasd/ros2_ws/install/grid_map_cmake_helpers:/home/rasd/ros2_ws/install/rasd_ransac_speedbump:/home/rasd/ros2_ws/install/livox_ros2_driver:/home/rasd/ros2_ws/install/livox_sdk_vendor:/home/rasd/ros2_ws/install/livox_interfaces:/home/rasd/install/rasd_ransac_speedbump:/home/rasd/install/rasd_elev_profile:/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_gps:/home/rasd/ros2_ws/install/rasd_fusion:/home/rasd/ros2_ws/install/rasd_camera:/home/rasd/install/rasd_tf:/home/rasd/install/rasd_roi_filter:/opt/ros/humble /usr/bin/cmake --build /home/rasd/ros2_ws/build/rasd_gridmap -- -j6 -l6
+[12.069s] [ 50%] [32mBuilding CXX object CMakeFiles/cloud_to_grid_node.dir/src/cloud_to_grid_node.cpp.o[0m
+[51.899s] [100%] [32m[1mLinking CXX executable cloud_to_grid_node[0m
+[56.669s] /usr/bin/ld: warning: libopencv_photo.so.4.5d, needed by /opt/ros/humble/lib/libgrid_map_cv.so, may conflict with libopencv_photo.so.408
+[58.891s] [100%] Built target cloud_to_grid_node
+[58.927s] Invoked command in '/home/rasd/ros2_ws/build/rasd_gridmap' returned '0': CMAKE_PREFIX_PATH=/home/rasd/ros2_ws/install/grid_map_cmake_helpers:/home/rasd/ros2_ws/install/rasd_ransac_speedbump:/home/rasd/ros2_ws/install/livox_ros2_driver:/home/rasd/ros2_ws/install/livox_sdk_vendor:/home/rasd/ros2_ws/install/livox_interfaces:/home/rasd/install/rasd_ransac_speedbump:/home/rasd/install/rasd_elev_profile:/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_gps:/home/rasd/ros2_ws/install/rasd_fusion:/home/rasd/ros2_ws/install/rasd_camera:/home/rasd/install/rasd_tf:/home/rasd/install/rasd_roi_filter:/opt/ros/humble /usr/bin/cmake --build /home/rasd/ros2_ws/build/rasd_gridmap -- -j6 -l6
+[58.959s] Invoking command in '/home/rasd/ros2_ws/build/rasd_gridmap': CMAKE_PREFIX_PATH=/home/rasd/ros2_ws/install/grid_map_cmake_helpers:/home/rasd/ros2_ws/install/rasd_ransac_speedbump:/home/rasd/ros2_ws/install/livox_ros2_driver:/home/rasd/ros2_ws/install/livox_sdk_vendor:/home/rasd/ros2_ws/install/livox_interfaces:/home/rasd/install/rasd_ransac_speedbump:/home/rasd/install/rasd_elev_profile:/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_gps:/home/rasd/ros2_ws/install/rasd_fusion:/home/rasd/ros2_ws/install/rasd_camera:/home/rasd/install/rasd_tf:/home/rasd/install/rasd_roi_filter:/opt/ros/humble /usr/bin/cmake --install /home/rasd/ros2_ws/build/rasd_gridmap
+[59.011s] -- Install configuration: ""
+[59.012s] -- Installing: /home/rasd/ros2_ws/install/rasd_gridmap/lib/rasd_gridmap/cloud_to_grid_node
+[59.023s] -- Set runtime path of "/home/rasd/ros2_ws/install/rasd_gridmap/lib/rasd_gridmap/cloud_to_grid_node" to ""
+[59.023s] -- Installing: /home/rasd/ros2_ws/install/rasd_gridmap/share/ament_index/resource_index/package_run_dependencies/rasd_gridmap
+[59.024s] -- Installing: /home/rasd/ros2_ws/install/rasd_gridmap/share/ament_index/resource_index/parent_prefix_path/rasd_gridmap
+[59.024s] -- Installing: /home/rasd/ros2_ws/install/rasd_gridmap/share/rasd_gridmap/environment/ament_prefix_path.sh
+[59.024s] -- Installing: /home/rasd/ros2_ws/install/rasd_gridmap/share/rasd_gridmap/environment/ament_prefix_path.dsv
+[59.025s] -- Installing: /home/rasd/ros2_ws/install/rasd_gridmap/share/rasd_gridmap/environment/path.sh
+[59.025s] -- Installing: /home/rasd/ros2_ws/install/rasd_gridmap/share/rasd_gridmap/environment/path.dsv
+[59.025s] -- Installing: /home/rasd/ros2_ws/install/rasd_gridmap/share/rasd_gridmap/local_setup.bash
+[59.026s] -- Installing: /home/rasd/ros2_ws/install/rasd_gridmap/share/rasd_gridmap/local_setup.sh
+[59.026s] -- Installing: /home/rasd/ros2_ws/install/rasd_gridmap/share/rasd_gridmap/local_setup.zsh
+[59.026s] -- Installing: /home/rasd/ros2_ws/install/rasd_gridmap/share/rasd_gridmap/local_setup.dsv
+[59.026s] -- Installing: /home/rasd/ros2_ws/install/rasd_gridmap/share/rasd_gridmap/package.dsv
+[59.027s] -- Installing: /home/rasd/ros2_ws/install/rasd_gridmap/share/ament_index/resource_index/packages/rasd_gridmap
+[59.027s] -- Installing: /home/rasd/ros2_ws/install/rasd_gridmap/share/rasd_gridmap/cmake/rasd_gridmapConfig.cmake
+[59.027s] -- Installing: /home/rasd/ros2_ws/install/rasd_gridmap/share/rasd_gridmap/cmake/rasd_gridmapConfig-version.cmake
+[59.028s] -- Installing: /home/rasd/ros2_ws/install/rasd_gridmap/share/rasd_gridmap/package.xml
+[59.036s] Invoked command in '/home/rasd/ros2_ws/build/rasd_gridmap' returned '0': CMAKE_PREFIX_PATH=/home/rasd/ros2_ws/install/grid_map_cmake_helpers:/home/rasd/ros2_ws/install/rasd_ransac_speedbump:/home/rasd/ros2_ws/install/livox_ros2_driver:/home/rasd/ros2_ws/install/livox_sdk_vendor:/home/rasd/ros2_ws/install/livox_interfaces:/home/rasd/install/rasd_ransac_speedbump:/home/rasd/install/rasd_elev_profile:/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_gps:/home/rasd/ros2_ws/install/rasd_fusion:/home/rasd/ros2_ws/install/rasd_camera:/home/rasd/install/rasd_tf:/home/rasd/install/rasd_roi_filter:/opt/ros/humble /usr/bin/cmake --install /home/rasd/ros2_ws/build/rasd_gridmap

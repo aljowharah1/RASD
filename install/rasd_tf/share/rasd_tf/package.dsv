@@ -1,0 +1,9 @@
+source;share/rasd_tf/hook/pythonpath.ps1
+source;share/rasd_tf/hook/pythonpath.dsv
+source;share/rasd_tf/hook/pythonpath.sh
+source;share/rasd_tf/hook/ament_prefix_path.ps1
+source;share/rasd_tf/hook/ament_prefix_path.dsv
+source;share/rasd_tf/hook/ament_prefix_path.sh
+source;../../build/rasd_tf/share/rasd_tf/hook/pythonpath_develop.ps1
+source;../../build/rasd_tf/share/rasd_tf/hook/pythonpath_develop.dsv
+source;../../build/rasd_tf/share/rasd_tf/hook/pythonpath_develop.sh

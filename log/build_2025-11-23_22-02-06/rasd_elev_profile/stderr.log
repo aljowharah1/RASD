@@ -1,0 +1,4 @@
+[01m[K/home/rasd/ros2_ws/src/rasd_elev_profile/src/elevation_profile_node.cpp:[m[K In member function ‘[01m[Kvoid GroundPlaneSpeedbumpNode::cloudCallback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/rasd/ros2_ws/src/rasd_elev_profile/src/elevation_profile_node.cpp:273:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Khalf_w[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  273 |         const float [01;35m[Khalf_w[m[K = static_cast<float>(lane_width_ * 0.5f);
+      |                     [01;35m[K^~~~~~[m[K

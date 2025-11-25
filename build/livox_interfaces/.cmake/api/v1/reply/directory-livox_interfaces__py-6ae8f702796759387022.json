@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "livox_interfaces__py",
+		"source" : "/home/rasd/ros2_ws/build/livox_interfaces/livox_interfaces__py"
+	}
+}

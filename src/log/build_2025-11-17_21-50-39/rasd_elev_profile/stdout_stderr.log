@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target elevation_profile_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/elevation_profile_node.dir/src/elevation_profile_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable elevation_profile_node[0m
+[100%] Built target elevation_profile_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/lib/rasd_elev_profile/elevation_profile_node
+-- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/share/ament_index/resource_index/package_run_dependencies/rasd_elev_profile
+-- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/share/ament_index/resource_index/parent_prefix_path/rasd_elev_profile
+-- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/environment/ament_prefix_path.sh
+-- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/environment/ament_prefix_path.dsv
+-- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/environment/path.sh
+-- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/environment/path.dsv
+-- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/local_setup.bash
+-- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/local_setup.sh
+-- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/local_setup.zsh
+-- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/local_setup.dsv
+-- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/package.dsv
+-- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/share/ament_index/resource_index/packages/rasd_elev_profile
+-- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/cmake/rasd_elev_profileConfig.cmake
+-- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/cmake/rasd_elev_profileConfig-version.cmake
+-- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/package.xml

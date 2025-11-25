@@ -1,0 +1,3 @@
+[console_scripts]
+roi_node = rasd_roi_filter.roi_node:main
+

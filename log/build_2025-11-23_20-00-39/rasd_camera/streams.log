@@ -1,0 +1,36 @@
+[1.747s] Invoking command in '/home/rasd/ros2_ws/build/rasd_camera': PYTHONPATH=/home/rasd/ros2_ws/build/rasd_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasd/ros2_ws/install/rasd_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/rasd/ros2_ws/build/rasd_camera/build
+[2.423s] running develop
+[2.859s] Removing /home/rasd/ros2_ws/install/rasd_camera/lib/python3.10/site-packages/rasd-camera.egg-link (link to .)
+[2.984s] Invoked command in '/home/rasd/ros2_ws/build/rasd_camera' returned '0': PYTHONPATH=/home/rasd/ros2_ws/build/rasd_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasd/ros2_ws/install/rasd_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/rasd/ros2_ws/build/rasd_camera/build
+[2.989s] Invoking command in '/home/rasd/ros2_ws/src/rasd_camera': PYTHONPATH=/home/rasd/ros2_ws/build/rasd_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasd/ros2_ws/install/rasd_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rasd_camera build --build-base /home/rasd/ros2_ws/build/rasd_camera/build install --record /home/rasd/ros2_ws/build/rasd_camera/install.log --single-version-externally-managed install_data --force
+[3.620s] running egg_info
+[3.621s] writing ../../build/rasd_camera/rasd_camera.egg-info/PKG-INFO
+[3.622s] writing dependency_links to ../../build/rasd_camera/rasd_camera.egg-info/dependency_links.txt
+[3.623s] writing entry points to ../../build/rasd_camera/rasd_camera.egg-info/entry_points.txt
+[3.623s] writing requirements to ../../build/rasd_camera/rasd_camera.egg-info/requires.txt
+[3.623s] writing top-level names to ../../build/rasd_camera/rasd_camera.egg-info/top_level.txt
+[3.632s] reading manifest file '../../build/rasd_camera/rasd_camera.egg-info/SOURCES.txt'
+[3.635s] writing manifest file '../../build/rasd_camera/rasd_camera.egg-info/SOURCES.txt'
+[3.635s] running build
+[3.636s] running build_py
+[3.636s] creating /home/rasd/ros2_ws/build/rasd_camera/build
+[3.636s] creating /home/rasd/ros2_ws/build/rasd_camera/build/lib
+[3.636s] creating /home/rasd/ros2_ws/build/rasd_camera/build/lib/rasd_camera
+[3.637s] copying rasd_camera/__init__.py -> /home/rasd/ros2_ws/build/rasd_camera/build/lib/rasd_camera
+[3.637s] copying rasd_camera/camera_node.py -> /home/rasd/ros2_ws/build/rasd_camera/build/lib/rasd_camera
+[3.638s] running install
+[3.638s] running install_lib
+[3.640s] creating /home/rasd/ros2_ws/install/rasd_camera/lib/python3.10/site-packages/rasd_camera
+[3.640s] copying /home/rasd/ros2_ws/build/rasd_camera/build/lib/rasd_camera/__init__.py -> /home/rasd/ros2_ws/install/rasd_camera/lib/python3.10/site-packages/rasd_camera
+[3.641s] copying /home/rasd/ros2_ws/build/rasd_camera/build/lib/rasd_camera/camera_node.py -> /home/rasd/ros2_ws/install/rasd_camera/lib/python3.10/site-packages/rasd_camera
+[3.642s] byte-compiling /home/rasd/ros2_ws/install/rasd_camera/lib/python3.10/site-packages/rasd_camera/__init__.py to __init__.cpython-310.pyc
+[3.643s] byte-compiling /home/rasd/ros2_ws/install/rasd_camera/lib/python3.10/site-packages/rasd_camera/camera_node.py to camera_node.cpython-310.pyc
+[3.647s] running install_data
+[3.647s] copying resource/rasd_camera -> /home/rasd/ros2_ws/install/rasd_camera/share/ament_index/resource_index/packages
+[3.648s] copying package.xml -> /home/rasd/ros2_ws/install/rasd_camera/share/rasd_camera
+[3.649s] running install_egg_info
+[3.654s] Copying ../../build/rasd_camera/rasd_camera.egg-info to /home/rasd/ros2_ws/install/rasd_camera/lib/python3.10/site-packages/rasd_camera-0.0.0-py3.10.egg-info
+[3.657s] running install_scripts
+[3.710s] Installing rasd_camera_node script to /home/rasd/ros2_ws/install/rasd_camera/lib/rasd_camera
+[3.711s] writing list of installed files to '/home/rasd/ros2_ws/build/rasd_camera/install.log'
+[3.817s] Invoked command in '/home/rasd/ros2_ws/src/rasd_camera' returned '0': PYTHONPATH=/home/rasd/ros2_ws/build/rasd_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasd/ros2_ws/install/rasd_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rasd_camera build --build-base /home/rasd/ros2_ws/build/rasd_camera/build install --record /home/rasd/ros2_ws/build/rasd_camera/install.log --single-version-externally-managed install_data --force

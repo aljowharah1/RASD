@@ -1,0 +1,3 @@
+[console_scripts]
+led_serial_node = rasd_led_serial.led_serial_node:main
+

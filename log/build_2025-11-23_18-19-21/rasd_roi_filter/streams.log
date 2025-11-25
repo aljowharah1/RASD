@@ -1,0 +1,19 @@
+[2.125s] Invoking command in '/home/rasd/ros2_ws/build/rasd_roi_filter': PYTHONPATH=/home/rasd/ros2_ws/build/rasd_roi_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasd/ros2_ws/install/rasd_roi_filter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rasd/ros2_ws/build/rasd_roi_filter/build --no-deps symlink_data --force
+[2.858s] running develop
+[3.297s] running egg_info
+[3.297s] writing rasd_roi_filter.egg-info/PKG-INFO
+[3.298s] writing dependency_links to rasd_roi_filter.egg-info/dependency_links.txt
+[3.299s] writing entry points to rasd_roi_filter.egg-info/entry_points.txt
+[3.299s] writing requirements to rasd_roi_filter.egg-info/requires.txt
+[3.299s] writing top-level names to rasd_roi_filter.egg-info/top_level.txt
+[3.305s] reading manifest file 'rasd_roi_filter.egg-info/SOURCES.txt'
+[3.307s] writing manifest file 'rasd_roi_filter.egg-info/SOURCES.txt'
+[3.312s] running build_ext
+[3.312s] Creating /home/rasd/ros2_ws/install/rasd_roi_filter/lib/python3.10/site-packages/rasd-roi-filter.egg-link (link to .)
+[3.314s] Installing roi_node script to /home/rasd/ros2_ws/install/rasd_roi_filter/lib/rasd_roi_filter
+[3.315s] 
+[3.315s] Installed /home/rasd/ros2_ws/build/rasd_roi_filter
+[3.315s] running symlink_data
+[3.316s] symbolically linking /home/rasd/ros2_ws/build/rasd_roi_filter/resource/rasd_roi_filter -> /home/rasd/ros2_ws/install/rasd_roi_filter/share/ament_index/resource_index/packages
+[3.316s] symbolically linking /home/rasd/ros2_ws/build/rasd_roi_filter/package.xml -> /home/rasd/ros2_ws/install/rasd_roi_filter/share/rasd_roi_filter
+[3.452s] Invoked command in '/home/rasd/ros2_ws/build/rasd_roi_filter' returned '0': PYTHONPATH=/home/rasd/ros2_ws/build/rasd_roi_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasd/ros2_ws/install/rasd_roi_filter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rasd/ros2_ws/build/rasd_roi_filter/build --no-deps symlink_data --force

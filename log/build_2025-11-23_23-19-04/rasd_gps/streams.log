@@ -1,0 +1,36 @@
+[2.050s] Invoking command in '/home/rasd/ros2_ws/build/rasd_gps': PYTHONPATH=/home/rasd/ros2_ws/build/rasd_gps/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasd/ros2_ws/install/rasd_gps/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/rasd/ros2_ws/build/rasd_gps/build
+[2.749s] running develop
+[3.207s] Removing /home/rasd/ros2_ws/install/rasd_gps/lib/python3.10/site-packages/rasd-gps.egg-link (link to .)
+[3.361s] Invoked command in '/home/rasd/ros2_ws/build/rasd_gps' returned '0': PYTHONPATH=/home/rasd/ros2_ws/build/rasd_gps/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasd/ros2_ws/install/rasd_gps/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/rasd/ros2_ws/build/rasd_gps/build
+[3.367s] Invoking command in '/home/rasd/ros2_ws/src/rasd_gps': PYTHONPATH=/home/rasd/ros2_ws/build/rasd_gps/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasd/ros2_ws/install/rasd_gps/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rasd_gps build --build-base /home/rasd/ros2_ws/build/rasd_gps/build install --record /home/rasd/ros2_ws/build/rasd_gps/install.log --single-version-externally-managed install_data --force
+[4.038s] running egg_info
+[4.039s] writing ../../build/rasd_gps/rasd_gps.egg-info/PKG-INFO
+[4.040s] writing dependency_links to ../../build/rasd_gps/rasd_gps.egg-info/dependency_links.txt
+[4.041s] writing entry points to ../../build/rasd_gps/rasd_gps.egg-info/entry_points.txt
+[4.041s] writing requirements to ../../build/rasd_gps/rasd_gps.egg-info/requires.txt
+[4.041s] writing top-level names to ../../build/rasd_gps/rasd_gps.egg-info/top_level.txt
+[4.048s] reading manifest file '../../build/rasd_gps/rasd_gps.egg-info/SOURCES.txt'
+[4.051s] writing manifest file '../../build/rasd_gps/rasd_gps.egg-info/SOURCES.txt'
+[4.051s] running build
+[4.051s] running build_py
+[4.051s] creating /home/rasd/ros2_ws/build/rasd_gps/build
+[4.052s] creating /home/rasd/ros2_ws/build/rasd_gps/build/lib
+[4.052s] creating /home/rasd/ros2_ws/build/rasd_gps/build/lib/rasd_gps
+[4.052s] copying rasd_gps/rasd_gps_node.py -> /home/rasd/ros2_ws/build/rasd_gps/build/lib/rasd_gps
+[4.052s] copying rasd_gps/__init__.py -> /home/rasd/ros2_ws/build/rasd_gps/build/lib/rasd_gps
+[4.053s] running install
+[4.054s] running install_lib
+[4.055s] creating /home/rasd/ros2_ws/install/rasd_gps/lib/python3.10/site-packages/rasd_gps
+[4.056s] copying /home/rasd/ros2_ws/build/rasd_gps/build/lib/rasd_gps/rasd_gps_node.py -> /home/rasd/ros2_ws/install/rasd_gps/lib/python3.10/site-packages/rasd_gps
+[4.060s] copying /home/rasd/ros2_ws/build/rasd_gps/build/lib/rasd_gps/__init__.py -> /home/rasd/ros2_ws/install/rasd_gps/lib/python3.10/site-packages/rasd_gps
+[4.062s] byte-compiling /home/rasd/ros2_ws/install/rasd_gps/lib/python3.10/site-packages/rasd_gps/rasd_gps_node.py to rasd_gps_node.cpython-310.pyc
+[4.066s] byte-compiling /home/rasd/ros2_ws/install/rasd_gps/lib/python3.10/site-packages/rasd_gps/__init__.py to __init__.cpython-310.pyc
+[4.066s] running install_data
+[4.066s] copying resource/rasd_gps -> /home/rasd/ros2_ws/install/rasd_gps/share/ament_index/resource_index/packages
+[4.067s] copying package.xml -> /home/rasd/ros2_ws/install/rasd_gps/share/rasd_gps
+[4.067s] running install_egg_info
+[4.072s] Copying ../../build/rasd_gps/rasd_gps.egg-info to /home/rasd/ros2_ws/install/rasd_gps/lib/python3.10/site-packages/rasd_gps-0.0.0-py3.10.egg-info
+[4.076s] running install_scripts
+[4.134s] Installing rasd_gps_node script to /home/rasd/ros2_ws/install/rasd_gps/lib/rasd_gps
+[4.135s] writing list of installed files to '/home/rasd/ros2_ws/build/rasd_gps/install.log'
+[4.252s] Invoked command in '/home/rasd/ros2_ws/src/rasd_gps' returned '0': PYTHONPATH=/home/rasd/ros2_ws/build/rasd_gps/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasd/ros2_ws/install/rasd_gps/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rasd_gps build --build-base /home/rasd/ros2_ws/build/rasd_gps/build install --record /home/rasd/ros2_ws/build/rasd_gps/install.log --single-version-externally-managed install_data --force

@@ -1,0 +1,3 @@
+[console_scripts]
+livox_tf = rasd_tf.livox_tf:main
+

@@ -1,0 +1,647 @@
+[0.000000] (-) TimerEvent: {}
+[0.000977] (-) JobUnselected: {'identifier': 'grid_map'}
+[0.001699] (-) JobUnselected: {'identifier': 'grid_map_cmake_helpers'}
+[0.002041] (-) JobUnselected: {'identifier': 'grid_map_core'}
+[0.002411] (-) JobUnselected: {'identifier': 'grid_map_costmap_2d'}
+[0.002545] (-) JobUnselected: {'identifier': 'grid_map_cv'}
+[0.002650] (-) JobUnselected: {'identifier': 'grid_map_demos'}
+[0.002746] (-) JobUnselected: {'identifier': 'grid_map_filters'}
+[0.002840] (-) JobUnselected: {'identifier': 'grid_map_loader'}
+[0.002940] (-) JobUnselected: {'identifier': 'grid_map_msgs'}
+[0.003058] (-) JobUnselected: {'identifier': 'grid_map_octomap'}
+[0.003179] (-) JobUnselected: {'identifier': 'grid_map_pcl'}
+[0.003272] (-) JobUnselected: {'identifier': 'grid_map_ros'}
+[0.003368] (-) JobUnselected: {'identifier': 'grid_map_rviz_plugin'}
+[0.003489] (-) JobUnselected: {'identifier': 'grid_map_sdf'}
+[0.003585] (-) JobUnselected: {'identifier': 'grid_map_visualization'}
+[0.003678] (-) JobUnselected: {'identifier': 'livox_interfaces'}
+[0.003842] (-) JobUnselected: {'identifier': 'livox_ros2_driver'}
+[0.003944] (-) JobUnselected: {'identifier': 'livox_sdk'}
+[0.004043] (-) JobUnselected: {'identifier': 'livox_sdk_vendor'}
+[0.004147] (-) JobUnselected: {'identifier': 'rasd_camera'}
+[0.004235] (-) JobUnselected: {'identifier': 'rasd_elev_profile'}
+[0.004356] (-) JobUnselected: {'identifier': 'rasd_fusion'}
+[0.004604] (-) JobUnselected: {'identifier': 'rasd_gps'}
+[0.004666] (-) JobUnselected: {'identifier': 'rasd_gridmap'}
+[0.004767] (-) JobUnselected: {'identifier': 'rasd_led_serial'}
+[0.004826] (-) JobUnselected: {'identifier': 'rasd_roi_filter'}
+[0.004902] (-) JobUnselected: {'identifier': 'rasd_tf'}
+[0.005107] (rasd_ransac_speedbump) JobQueued: {'identifier': 'rasd_ransac_speedbump', 'dependencies': OrderedDict()}
+[0.005282] (rasd_ransac_speedbump) JobStarted: {'identifier': 'rasd_ransac_speedbump'}
+[0.025056] (rasd_ransac_speedbump) JobProgress: {'identifier': 'rasd_ransac_speedbump', 'progress': 'cmake'}
+[0.030272] (rasd_ransac_speedbump) JobProgress: {'identifier': 'rasd_ransac_speedbump', 'progress': 'build'}
+[0.032383] (rasd_ransac_speedbump) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rasd/ros2_ws/build/rasd_ransac_speedbump', '--', '-j6', '-l6'], 'cwd': '/home/rasd/ros2_ws/build/rasd_ransac_speedbump', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rasd'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/home/rasd/ros2_ws/install/livox_ros2_driver/lib:/home/rasd/ros2_ws/install/livox_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rasd'), ('OLDPWD', '/home/rasd/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.4.7'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '2449'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rasd/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rasd'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1422725053860'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rasd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/opt/ros/humble/bin:/home/rasd/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rasd-desktop:@/tmp/.ICE-unix/2421,unix/rasd-desktop:/tmp/.ICE-unix/2421'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6b5b9b34_add3_4489_8096_72334fd1758e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_gps:/home/rasd/ros2_ws/install/rasd_fusion:/home/rasd/ros2_ws/install/rasd_camera:/home/rasd/ros2_ws/install/livox_ros2_driver:/home/rasd/ros2_ws/install/livox_sdk_vendor:/home/rasd/ros2_ws/install/livox_interfaces:/home/rasd/ros2_ws/install/grid_map_cmake_helpers:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/rasd/ros2_ws/build/rasd_ransac_speedbump'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rasd/ros2_ws/build/rasd_roi_filter/.:/usr/lib/python3.10/dist-packages:/home/rasd/ros2_ws/build/rasd_tf:/home/rasd/ros2_ws/install/rasd_tf/lib/python3.10/site-packages:/home/rasd/ros2_ws/install/rasd_roi_filter/lib/python3.10/site-packages:/home/rasd/ros2_ws/build/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_led_serial/lib/python3.10/site-packages:/home/rasd/ros2_ws/build/rasd_gps:/home/rasd/ros2_ws/install/rasd_gps/lib/python3.10/site-packages:/home/rasd/ros2_ws/build/rasd_fusion:/home/rasd/ros2_ws/install/rasd_fusion/lib/python3.10/site-packages:/home/rasd/ros2_ws/build/rasd_camera:/home/rasd/ros2_ws/install/rasd_camera/lib/python3.10/site-packages:/home/rasd/ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', ''), ('CMAKE_PREFIX_PATH', '/home/rasd/ros2_ws/install/livox_ros2_driver:/home/rasd/ros2_ws/install/livox_sdk_vendor:/home/rasd/ros2_ws/install/livox_interfaces:/home/rasd/ros2_ws/install/grid_map_cmake_helpers:/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_gps:/home/rasd/ros2_ws/install/rasd_fusion:/home/rasd/ros2_ws/install/rasd_camera:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0005')]), 'shell': False}
+[0.098827] (-) TimerEvent: {}
+[0.199683] (-) TimerEvent: {}
+[0.300584] (-) TimerEvent: {}
+[0.392455] (rasd_ransac_speedbump) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ransac_speedbump_node.dir/src/ransac_speedbump_node.cpp.o\x1b[0m\n'}
+[0.400688] (-) TimerEvent: {}
+[0.501470] (-) TimerEvent: {}
+[0.602487] (-) TimerEvent: {}
+[0.703391] (-) TimerEvent: {}
+[0.804327] (-) TimerEvent: {}
+[0.905202] (-) TimerEvent: {}
+[1.006124] (-) TimerEvent: {}
+[1.107041] (-) TimerEvent: {}
+[1.208014] (-) TimerEvent: {}
+[1.308983] (-) TimerEvent: {}
+[1.409985] (-) TimerEvent: {}
+[1.510925] (-) TimerEvent: {}
+[1.611870] (-) TimerEvent: {}
+[1.712832] (-) TimerEvent: {}
+[1.813906] (-) TimerEvent: {}
+[1.915147] (-) TimerEvent: {}
+[2.016209] (-) TimerEvent: {}
+[2.117277] (-) TimerEvent: {}
+[2.218359] (-) TimerEvent: {}
+[2.319445] (-) TimerEvent: {}
+[2.420504] (-) TimerEvent: {}
+[2.521606] (-) TimerEvent: {}
+[2.622686] (-) TimerEvent: {}
+[2.723805] (-) TimerEvent: {}
+[2.824908] (-) TimerEvent: {}
+[2.926006] (-) TimerEvent: {}
+[3.027161] (-) TimerEvent: {}
+[3.128300] (-) TimerEvent: {}
+[3.229273] (-) TimerEvent: {}
+[3.330144] (-) TimerEvent: {}
+[3.431127] (-) TimerEvent: {}
+[3.531990] (-) TimerEvent: {}
+[3.632841] (-) TimerEvent: {}
+[3.733708] (-) TimerEvent: {}
+[3.834712] (-) TimerEvent: {}
+[3.935733] (-) TimerEvent: {}
+[4.036768] (-) TimerEvent: {}
+[4.137853] (-) TimerEvent: {}
+[4.238907] (-) TimerEvent: {}
+[4.339998] (-) TimerEvent: {}
+[4.441013] (-) TimerEvent: {}
+[4.542081] (-) TimerEvent: {}
+[4.643162] (-) TimerEvent: {}
+[4.744299] (-) TimerEvent: {}
+[4.845354] (-) TimerEvent: {}
+[4.946453] (-) TimerEvent: {}
+[5.047592] (-) TimerEvent: {}
+[5.148675] (-) TimerEvent: {}
+[5.249718] (-) TimerEvent: {}
+[5.350727] (-) TimerEvent: {}
+[5.451786] (-) TimerEvent: {}
+[5.552832] (-) TimerEvent: {}
+[5.653942] (-) TimerEvent: {}
+[5.755101] (-) TimerEvent: {}
+[5.856251] (-) TimerEvent: {}
+[5.957505] (-) TimerEvent: {}
+[6.058686] (-) TimerEvent: {}
+[6.159863] (-) TimerEvent: {}
+[6.261050] (-) TimerEvent: {}
+[6.362253] (-) TimerEvent: {}
+[6.463487] (-) TimerEvent: {}
+[6.564645] (-) TimerEvent: {}
+[6.665872] (-) TimerEvent: {}
+[6.767066] (-) TimerEvent: {}
+[6.868289] (-) TimerEvent: {}
+[6.969568] (-) TimerEvent: {}
+[7.070839] (-) TimerEvent: {}
+[7.172165] (-) TimerEvent: {}
+[7.273476] (-) TimerEvent: {}
+[7.374324] (-) TimerEvent: {}
+[7.475546] (-) TimerEvent: {}
+[7.576715] (-) TimerEvent: {}
+[7.677934] (-) TimerEvent: {}
+[7.779138] (-) TimerEvent: {}
+[7.880321] (-) TimerEvent: {}
+[7.981527] (-) TimerEvent: {}
+[8.082689] (-) TimerEvent: {}
+[8.183881] (-) TimerEvent: {}
+[8.285059] (-) TimerEvent: {}
+[8.386268] (-) TimerEvent: {}
+[8.487463] (-) TimerEvent: {}
+[8.588630] (-) TimerEvent: {}
+[8.689870] (-) TimerEvent: {}
+[8.791088] (-) TimerEvent: {}
+[8.892276] (-) TimerEvent: {}
+[8.993550] (-) TimerEvent: {}
+[9.094739] (-) TimerEvent: {}
+[9.195912] (-) TimerEvent: {}
+[9.297107] (-) TimerEvent: {}
+[9.398332] (-) TimerEvent: {}
+[9.499555] (-) TimerEvent: {}
+[9.600730] (-) TimerEvent: {}
+[9.701948] (-) TimerEvent: {}
+[9.803134] (-) TimerEvent: {}
+[9.904365] (-) TimerEvent: {}
+[10.005614] (-) TimerEvent: {}
+[10.106811] (-) TimerEvent: {}
+[10.208099] (-) TimerEvent: {}
+[10.309277] (-) TimerEvent: {}
+[10.410540] (-) TimerEvent: {}
+[10.511736] (-) TimerEvent: {}
+[10.612905] (-) TimerEvent: {}
+[10.714104] (-) TimerEvent: {}
+[10.815287] (-) TimerEvent: {}
+[10.916493] (-) TimerEvent: {}
+[11.017666] (-) TimerEvent: {}
+[11.118814] (-) TimerEvent: {}
+[11.219835] (-) TimerEvent: {}
+[11.320942] (-) TimerEvent: {}
+[11.422169] (-) TimerEvent: {}
+[11.523371] (-) TimerEvent: {}
+[11.624574] (-) TimerEvent: {}
+[11.725752] (-) TimerEvent: {}
+[11.826996] (-) TimerEvent: {}
+[11.928169] (-) TimerEvent: {}
+[12.029403] (-) TimerEvent: {}
+[12.130596] (-) TimerEvent: {}
+[12.231734] (-) TimerEvent: {}
+[12.332895] (-) TimerEvent: {}
+[12.434078] (-) TimerEvent: {}
+[12.535245] (-) TimerEvent: {}
+[12.636424] (-) TimerEvent: {}
+[12.737625] (-) TimerEvent: {}
+[12.838740] (-) TimerEvent: {}
+[12.939894] (-) TimerEvent: {}
+[13.041072] (-) TimerEvent: {}
+[13.142277] (-) TimerEvent: {}
+[13.243449] (-) TimerEvent: {}
+[13.344580] (-) TimerEvent: {}
+[13.445737] (-) TimerEvent: {}
+[13.546866] (-) TimerEvent: {}
+[13.647997] (-) TimerEvent: {}
+[13.749094] (-) TimerEvent: {}
+[13.850232] (-) TimerEvent: {}
+[13.951385] (-) TimerEvent: {}
+[14.052464] (-) TimerEvent: {}
+[14.153516] (-) TimerEvent: {}
+[14.254714] (-) TimerEvent: {}
+[14.355903] (-) TimerEvent: {}
+[14.457111] (-) TimerEvent: {}
+[14.558368] (-) TimerEvent: {}
+[14.659584] (-) TimerEvent: {}
+[14.760845] (-) TimerEvent: {}
+[14.862652] (-) TimerEvent: {}
+[14.963836] (-) TimerEvent: {}
+[15.065156] (-) TimerEvent: {}
+[15.166918] (-) TimerEvent: {}
+[15.268693] (-) TimerEvent: {}
+[15.370378] (-) TimerEvent: {}
+[15.471374] (-) TimerEvent: {}
+[15.572122] (-) TimerEvent: {}
+[15.673162] (-) TimerEvent: {}
+[15.774857] (-) TimerEvent: {}
+[15.876101] (-) TimerEvent: {}
+[15.977314] (-) TimerEvent: {}
+[16.078553] (-) TimerEvent: {}
+[16.179747] (-) TimerEvent: {}
+[16.281102] (-) TimerEvent: {}
+[16.382338] (-) TimerEvent: {}
+[16.483523] (-) TimerEvent: {}
+[16.584697] (-) TimerEvent: {}
+[16.685905] (-) TimerEvent: {}
+[16.787224] (-) TimerEvent: {}
+[16.888389] (-) TimerEvent: {}
+[16.989577] (-) TimerEvent: {}
+[17.090731] (-) TimerEvent: {}
+[17.191917] (-) TimerEvent: {}
+[17.293119] (-) TimerEvent: {}
+[17.394351] (-) TimerEvent: {}
+[17.474199] (rasd_ransac_speedbump) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rasd/ros2_ws/src/rasd_ransac_speedbump/src/ransac_speedbump_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool GroundPlaneSpeedbumpNode::robustFitGroundPlane(const pcl::PointCloud<pcl::PointXYZI>&, double&, double&, double&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[17.475273] (rasd_ransac_speedbump) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rasd/ros2_ws/src/rasd_ransac_speedbump/src/ransac_speedbump_node.cpp:246:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[17.475607] (rasd_ransac_speedbump) StderrLine: {'line': b'  246 |         if (\x1b[01;35m\x1b[Kinliers.size() < plane_fit_min_points_/2\x1b[m\x1b[K)\n'}
+[17.475878] (rasd_ransac_speedbump) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.494398] (-) TimerEvent: {}
+[17.535933] (rasd_ransac_speedbump) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rasd/ros2_ws/src/rasd_ransac_speedbump/src/ransac_speedbump_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<GroundPlaneSpeedbumpNode::Bump> GroundPlaneSpeedbumpNode::applyTemporalFilter(const std::vector<GroundPlaneSpeedbumpNode::Bump>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[17.536587] (rasd_ransac_speedbump) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rasd/ros2_ws/src/rasd_ransac_speedbump/src/ransac_speedbump_node.cpp:615:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kfound\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[17.536877] (rasd_ransac_speedbump) StderrLine: {'line': b'  615 |                 bool \x1b[01;35m\x1b[Kfound\x1b[m\x1b[K = false;\n'}
+[17.537128] (rasd_ransac_speedbump) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[17.594620] (-) TimerEvent: {}
+[17.695546] (-) TimerEvent: {}
+[17.796510] (-) TimerEvent: {}
+[17.897600] (-) TimerEvent: {}
+[17.998714] (-) TimerEvent: {}
+[18.099824] (-) TimerEvent: {}
+[18.200970] (-) TimerEvent: {}
+[18.302174] (-) TimerEvent: {}
+[18.403333] (-) TimerEvent: {}
+[18.504473] (-) TimerEvent: {}
+[18.605670] (-) TimerEvent: {}
+[18.706845] (-) TimerEvent: {}
+[18.807995] (-) TimerEvent: {}
+[18.909164] (-) TimerEvent: {}
+[19.010402] (-) TimerEvent: {}
+[19.111585] (-) TimerEvent: {}
+[19.212780] (-) TimerEvent: {}
+[19.314064] (-) TimerEvent: {}
+[19.415261] (-) TimerEvent: {}
+[19.516448] (-) TimerEvent: {}
+[19.617630] (-) TimerEvent: {}
+[19.718830] (-) TimerEvent: {}
+[19.820052] (-) TimerEvent: {}
+[19.921258] (-) TimerEvent: {}
+[20.022506] (-) TimerEvent: {}
+[20.123717] (-) TimerEvent: {}
+[20.224918] (-) TimerEvent: {}
+[20.326257] (-) TimerEvent: {}
+[20.427474] (-) TimerEvent: {}
+[20.528704] (-) TimerEvent: {}
+[20.629910] (-) TimerEvent: {}
+[20.731104] (-) TimerEvent: {}
+[20.832298] (-) TimerEvent: {}
+[20.933528] (-) TimerEvent: {}
+[21.034717] (-) TimerEvent: {}
+[21.135925] (-) TimerEvent: {}
+[21.237120] (-) TimerEvent: {}
+[21.338330] (-) TimerEvent: {}
+[21.439510] (-) TimerEvent: {}
+[21.540695] (-) TimerEvent: {}
+[21.641919] (-) TimerEvent: {}
+[21.743097] (-) TimerEvent: {}
+[21.844262] (-) TimerEvent: {}
+[21.945466] (-) TimerEvent: {}
+[22.046615] (-) TimerEvent: {}
+[22.147754] (-) TimerEvent: {}
+[22.248862] (-) TimerEvent: {}
+[22.349977] (-) TimerEvent: {}
+[22.450902] (-) TimerEvent: {}
+[22.551822] (-) TimerEvent: {}
+[22.652862] (-) TimerEvent: {}
+[22.753835] (-) TimerEvent: {}
+[22.854915] (-) TimerEvent: {}
+[22.956031] (-) TimerEvent: {}
+[23.057013] (-) TimerEvent: {}
+[23.158116] (-) TimerEvent: {}
+[23.259021] (-) TimerEvent: {}
+[23.359904] (-) TimerEvent: {}
+[23.460788] (-) TimerEvent: {}
+[23.561755] (-) TimerEvent: {}
+[23.662885] (-) TimerEvent: {}
+[23.763979] (-) TimerEvent: {}
+[23.865105] (-) TimerEvent: {}
+[23.966331] (-) TimerEvent: {}
+[24.067502] (-) TimerEvent: {}
+[24.168672] (-) TimerEvent: {}
+[24.269909] (-) TimerEvent: {}
+[24.371229] (-) TimerEvent: {}
+[24.472695] (-) TimerEvent: {}
+[24.573957] (-) TimerEvent: {}
+[24.675160] (-) TimerEvent: {}
+[24.776328] (-) TimerEvent: {}
+[24.877552] (-) TimerEvent: {}
+[24.978763] (-) TimerEvent: {}
+[25.079929] (-) TimerEvent: {}
+[25.181088] (-) TimerEvent: {}
+[25.282320] (-) TimerEvent: {}
+[25.383486] (-) TimerEvent: {}
+[25.484637] (-) TimerEvent: {}
+[25.585791] (-) TimerEvent: {}
+[25.686907] (-) TimerEvent: {}
+[25.788088] (-) TimerEvent: {}
+[25.889311] (-) TimerEvent: {}
+[25.990529] (-) TimerEvent: {}
+[26.091644] (-) TimerEvent: {}
+[26.192758] (-) TimerEvent: {}
+[26.294007] (-) TimerEvent: {}
+[26.395161] (-) TimerEvent: {}
+[26.496286] (-) TimerEvent: {}
+[26.597476] (-) TimerEvent: {}
+[26.698629] (-) TimerEvent: {}
+[26.799785] (-) TimerEvent: {}
+[26.900920] (-) TimerEvent: {}
+[27.002148] (-) TimerEvent: {}
+[27.103343] (-) TimerEvent: {}
+[27.204518] (-) TimerEvent: {}
+[27.305662] (-) TimerEvent: {}
+[27.406797] (-) TimerEvent: {}
+[27.507966] (-) TimerEvent: {}
+[27.609159] (-) TimerEvent: {}
+[27.710351] (-) TimerEvent: {}
+[27.811467] (-) TimerEvent: {}
+[27.912585] (-) TimerEvent: {}
+[28.013785] (-) TimerEvent: {}
+[28.114981] (-) TimerEvent: {}
+[28.216176] (-) TimerEvent: {}
+[28.317343] (-) TimerEvent: {}
+[28.418539] (-) TimerEvent: {}
+[28.519694] (-) TimerEvent: {}
+[28.620838] (-) TimerEvent: {}
+[28.722033] (-) TimerEvent: {}
+[28.823214] (-) TimerEvent: {}
+[28.924384] (-) TimerEvent: {}
+[29.025601] (-) TimerEvent: {}
+[29.126797] (-) TimerEvent: {}
+[29.228018] (-) TimerEvent: {}
+[29.329284] (-) TimerEvent: {}
+[29.430509] (-) TimerEvent: {}
+[29.531701] (-) TimerEvent: {}
+[29.632869] (-) TimerEvent: {}
+[29.734094] (-) TimerEvent: {}
+[29.835298] (-) TimerEvent: {}
+[29.936460] (-) TimerEvent: {}
+[30.037617] (-) TimerEvent: {}
+[30.138709] (-) TimerEvent: {}
+[30.239917] (-) TimerEvent: {}
+[30.341094] (-) TimerEvent: {}
+[30.442161] (-) TimerEvent: {}
+[30.543284] (-) TimerEvent: {}
+[30.644373] (-) TimerEvent: {}
+[30.745533] (-) TimerEvent: {}
+[30.846692] (-) TimerEvent: {}
+[30.947857] (-) TimerEvent: {}
+[31.049055] (-) TimerEvent: {}
+[31.150271] (-) TimerEvent: {}
+[31.251435] (-) TimerEvent: {}
+[31.352600] (-) TimerEvent: {}
+[31.453826] (-) TimerEvent: {}
+[31.555061] (-) TimerEvent: {}
+[31.656263] (-) TimerEvent: {}
+[31.757500] (-) TimerEvent: {}
+[31.858695] (-) TimerEvent: {}
+[31.959898] (-) TimerEvent: {}
+[32.061093] (-) TimerEvent: {}
+[32.162327] (-) TimerEvent: {}
+[32.263512] (-) TimerEvent: {}
+[32.364694] (-) TimerEvent: {}
+[32.465886] (-) TimerEvent: {}
+[32.567051] (-) TimerEvent: {}
+[32.668237] (-) TimerEvent: {}
+[32.769440] (-) TimerEvent: {}
+[32.870612] (-) TimerEvent: {}
+[32.971810] (-) TimerEvent: {}
+[33.072893] (-) TimerEvent: {}
+[33.173856] (-) TimerEvent: {}
+[33.274822] (-) TimerEvent: {}
+[33.375914] (-) TimerEvent: {}
+[33.476939] (-) TimerEvent: {}
+[33.578122] (-) TimerEvent: {}
+[33.679287] (-) TimerEvent: {}
+[33.780427] (-) TimerEvent: {}
+[33.881629] (-) TimerEvent: {}
+[33.982776] (-) TimerEvent: {}
+[34.083939] (-) TimerEvent: {}
+[34.185120] (-) TimerEvent: {}
+[34.286309] (-) TimerEvent: {}
+[34.387443] (-) TimerEvent: {}
+[34.488602] (-) TimerEvent: {}
+[34.589748] (-) TimerEvent: {}
+[34.690923] (-) TimerEvent: {}
+[34.792038] (-) TimerEvent: {}
+[34.893158] (-) TimerEvent: {}
+[34.994364] (-) TimerEvent: {}
+[35.095504] (-) TimerEvent: {}
+[35.196628] (-) TimerEvent: {}
+[35.297854] (-) TimerEvent: {}
+[35.399036] (-) TimerEvent: {}
+[35.500062] (-) TimerEvent: {}
+[35.601006] (-) TimerEvent: {}
+[35.702112] (-) TimerEvent: {}
+[35.803008] (-) TimerEvent: {}
+[35.904086] (-) TimerEvent: {}
+[36.005274] (-) TimerEvent: {}
+[36.106493] (-) TimerEvent: {}
+[36.207612] (-) TimerEvent: {}
+[36.308547] (-) TimerEvent: {}
+[36.409491] (-) TimerEvent: {}
+[36.510439] (-) TimerEvent: {}
+[36.611528] (-) TimerEvent: {}
+[36.712432] (-) TimerEvent: {}
+[36.813323] (-) TimerEvent: {}
+[36.914423] (-) TimerEvent: {}
+[37.015571] (-) TimerEvent: {}
+[37.116737] (-) TimerEvent: {}
+[37.217929] (-) TimerEvent: {}
+[37.319122] (-) TimerEvent: {}
+[37.420295] (-) TimerEvent: {}
+[37.521515] (-) TimerEvent: {}
+[37.622679] (-) TimerEvent: {}
+[37.723840] (-) TimerEvent: {}
+[37.824980] (-) TimerEvent: {}
+[37.926179] (-) TimerEvent: {}
+[38.027295] (-) TimerEvent: {}
+[38.128488] (-) TimerEvent: {}
+[38.229694] (-) TimerEvent: {}
+[38.330854] (-) TimerEvent: {}
+[38.431972] (-) TimerEvent: {}
+[38.533086] (-) TimerEvent: {}
+[38.634207] (-) TimerEvent: {}
+[38.735282] (-) TimerEvent: {}
+[38.836320] (-) TimerEvent: {}
+[38.937407] (-) TimerEvent: {}
+[39.038546] (-) TimerEvent: {}
+[39.139656] (-) TimerEvent: {}
+[39.240757] (-) TimerEvent: {}
+[39.341893] (-) TimerEvent: {}
+[39.442976] (-) TimerEvent: {}
+[39.544039] (-) TimerEvent: {}
+[39.645117] (-) TimerEvent: {}
+[39.746278] (-) TimerEvent: {}
+[39.847322] (-) TimerEvent: {}
+[39.948380] (-) TimerEvent: {}
+[40.049478] (-) TimerEvent: {}
+[40.150548] (-) TimerEvent: {}
+[40.251639] (-) TimerEvent: {}
+[40.352732] (-) TimerEvent: {}
+[40.453818] (-) TimerEvent: {}
+[40.554874] (-) TimerEvent: {}
+[40.655920] (-) TimerEvent: {}
+[40.756992] (-) TimerEvent: {}
+[40.858088] (-) TimerEvent: {}
+[40.959154] (-) TimerEvent: {}
+[41.060243] (-) TimerEvent: {}
+[41.161322] (-) TimerEvent: {}
+[41.262454] (-) TimerEvent: {}
+[41.363546] (-) TimerEvent: {}
+[41.464627] (-) TimerEvent: {}
+[41.565725] (-) TimerEvent: {}
+[41.666797] (-) TimerEvent: {}
+[41.767898] (-) TimerEvent: {}
+[41.868977] (-) TimerEvent: {}
+[41.970105] (-) TimerEvent: {}
+[42.071200] (-) TimerEvent: {}
+[42.172278] (-) TimerEvent: {}
+[42.273325] (-) TimerEvent: {}
+[42.374362] (-) TimerEvent: {}
+[42.475369] (-) TimerEvent: {}
+[42.576338] (-) TimerEvent: {}
+[42.677322] (-) TimerEvent: {}
+[42.778388] (-) TimerEvent: {}
+[42.879395] (-) TimerEvent: {}
+[42.980429] (-) TimerEvent: {}
+[43.081530] (-) TimerEvent: {}
+[43.182605] (-) TimerEvent: {}
+[43.283654] (-) TimerEvent: {}
+[43.384713] (-) TimerEvent: {}
+[43.486186] (-) TimerEvent: {}
+[43.587263] (-) TimerEvent: {}
+[43.688342] (-) TimerEvent: {}
+[43.789461] (-) TimerEvent: {}
+[43.890535] (-) TimerEvent: {}
+[43.991586] (-) TimerEvent: {}
+[44.092538] (-) TimerEvent: {}
+[44.193858] (-) TimerEvent: {}
+[44.294940] (-) TimerEvent: {}
+[44.396009] (-) TimerEvent: {}
+[44.497050] (-) TimerEvent: {}
+[44.598096] (-) TimerEvent: {}
+[44.699126] (-) TimerEvent: {}
+[44.800145] (-) TimerEvent: {}
+[44.901174] (-) TimerEvent: {}
+[45.002252] (-) TimerEvent: {}
+[45.103304] (-) TimerEvent: {}
+[45.204378] (-) TimerEvent: {}
+[45.305471] (-) TimerEvent: {}
+[45.406553] (-) TimerEvent: {}
+[45.507665] (-) TimerEvent: {}
+[45.608829] (-) TimerEvent: {}
+[45.710010] (-) TimerEvent: {}
+[45.811118] (-) TimerEvent: {}
+[45.912227] (-) TimerEvent: {}
+[46.013357] (-) TimerEvent: {}
+[46.114524] (-) TimerEvent: {}
+[46.215642] (-) TimerEvent: {}
+[46.316812] (-) TimerEvent: {}
+[46.417972] (-) TimerEvent: {}
+[46.519066] (-) TimerEvent: {}
+[46.620149] (-) TimerEvent: {}
+[46.721243] (-) TimerEvent: {}
+[46.822334] (-) TimerEvent: {}
+[46.923400] (-) TimerEvent: {}
+[47.024453] (-) TimerEvent: {}
+[47.125553] (-) TimerEvent: {}
+[47.226576] (-) TimerEvent: {}
+[47.327527] (-) TimerEvent: {}
+[47.428615] (-) TimerEvent: {}
+[47.529749] (-) TimerEvent: {}
+[47.630767] (-) TimerEvent: {}
+[47.731779] (-) TimerEvent: {}
+[47.832754] (-) TimerEvent: {}
+[47.933803] (-) TimerEvent: {}
+[48.034840] (-) TimerEvent: {}
+[48.135870] (-) TimerEvent: {}
+[48.236887] (-) TimerEvent: {}
+[48.337955] (-) TimerEvent: {}
+[48.439018] (-) TimerEvent: {}
+[48.540041] (-) TimerEvent: {}
+[48.641089] (-) TimerEvent: {}
+[48.742223] (-) TimerEvent: {}
+[48.843267] (-) TimerEvent: {}
+[48.944315] (-) TimerEvent: {}
+[49.045399] (-) TimerEvent: {}
+[49.146425] (-) TimerEvent: {}
+[49.247453] (-) TimerEvent: {}
+[49.348490] (-) TimerEvent: {}
+[49.449635] (-) TimerEvent: {}
+[49.550744] (-) TimerEvent: {}
+[49.651870] (-) TimerEvent: {}
+[49.752873] (-) TimerEvent: {}
+[49.853932] (-) TimerEvent: {}
+[49.954831] (-) TimerEvent: {}
+[50.055651] (-) TimerEvent: {}
+[50.156637] (-) TimerEvent: {}
+[50.257563] (-) TimerEvent: {}
+[50.358654] (-) TimerEvent: {}
+[50.459666] (-) TimerEvent: {}
+[50.560642] (-) TimerEvent: {}
+[50.661705] (-) TimerEvent: {}
+[50.762751] (-) TimerEvent: {}
+[50.863767] (-) TimerEvent: {}
+[50.964782] (-) TimerEvent: {}
+[51.065870] (-) TimerEvent: {}
+[51.166902] (-) TimerEvent: {}
+[51.267940] (-) TimerEvent: {}
+[51.368980] (-) TimerEvent: {}
+[51.470255] (-) TimerEvent: {}
+[51.571294] (-) TimerEvent: {}
+[51.672318] (-) TimerEvent: {}
+[51.773327] (-) TimerEvent: {}
+[51.874331] (-) TimerEvent: {}
+[51.975274] (-) TimerEvent: {}
+[52.076090] (-) TimerEvent: {}
+[52.176907] (-) TimerEvent: {}
+[52.277800] (-) TimerEvent: {}
+[52.378739] (-) TimerEvent: {}
+[52.479850] (-) TimerEvent: {}
+[52.580892] (-) TimerEvent: {}
+[52.681899] (-) TimerEvent: {}
+[52.783006] (-) TimerEvent: {}
+[52.884041] (-) TimerEvent: {}
+[52.984943] (-) TimerEvent: {}
+[53.086096] (-) TimerEvent: {}
+[53.187169] (-) TimerEvent: {}
+[53.288058] (-) TimerEvent: {}
+[53.388990] (-) TimerEvent: {}
+[53.397655] (rasd_ransac_speedbump) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ransac_speedbump_node\x1b[0m\n'}
+[53.489194] (-) TimerEvent: {}
+[53.590218] (-) TimerEvent: {}
+[53.691237] (-) TimerEvent: {}
+[53.792359] (-) TimerEvent: {}
+[53.893590] (-) TimerEvent: {}
+[53.994775] (-) TimerEvent: {}
+[54.095959] (-) TimerEvent: {}
+[54.197062] (-) TimerEvent: {}
+[54.298331] (-) TimerEvent: {}
+[54.399507] (-) TimerEvent: {}
+[54.500728] (-) TimerEvent: {}
+[54.601934] (-) TimerEvent: {}
+[54.703158] (-) TimerEvent: {}
+[54.804356] (-) TimerEvent: {}
+[54.905573] (-) TimerEvent: {}
+[55.006724] (-) TimerEvent: {}
+[55.107846] (-) TimerEvent: {}
+[55.209032] (-) TimerEvent: {}
+[55.310232] (-) TimerEvent: {}
+[55.411399] (-) TimerEvent: {}
+[55.512580] (-) TimerEvent: {}
+[55.613788] (-) TimerEvent: {}
+[55.714990] (-) TimerEvent: {}
+[55.816178] (-) TimerEvent: {}
+[55.917411] (-) TimerEvent: {}
+[56.018612] (-) TimerEvent: {}
+[56.119792] (-) TimerEvent: {}
+[56.220989] (-) TimerEvent: {}
+[56.322215] (-) TimerEvent: {}
+[56.423446] (-) TimerEvent: {}
+[56.524702] (-) TimerEvent: {}
+[56.625946] (-) TimerEvent: {}
+[56.727200] (-) TimerEvent: {}
+[56.828345] (-) TimerEvent: {}
+[56.929550] (-) TimerEvent: {}
+[57.030602] (-) TimerEvent: {}
+[57.131720] (-) TimerEvent: {}
+[57.232766] (-) TimerEvent: {}
+[57.333696] (-) TimerEvent: {}
+[57.434735] (-) TimerEvent: {}
+[57.535888] (-) TimerEvent: {}
+[57.637057] (-) TimerEvent: {}
+[57.738295] (-) TimerEvent: {}
+[57.839401] (-) TimerEvent: {}
+[57.940527] (-) TimerEvent: {}
+[57.983919] (rasd_ransac_speedbump) StdoutLine: {'line': b'[100%] Built target ransac_speedbump_node\n'}
+[58.018020] (rasd_ransac_speedbump) CommandEnded: {'returncode': 0}
+[58.022345] (rasd_ransac_speedbump) JobProgress: {'identifier': 'rasd_ransac_speedbump', 'progress': 'install'}
+[58.040651] (-) TimerEvent: {}
+[58.047023] (rasd_ransac_speedbump) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rasd/ros2_ws/build/rasd_ransac_speedbump'], 'cwd': '/home/rasd/ros2_ws/build/rasd_ransac_speedbump', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rasd'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/home/rasd/ros2_ws/install/livox_ros2_driver/lib:/home/rasd/ros2_ws/install/livox_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rasd'), ('OLDPWD', '/home/rasd/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.4.7'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '2449'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rasd/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rasd'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1422725053860'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rasd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/opt/ros/humble/bin:/home/rasd/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rasd-desktop:@/tmp/.ICE-unix/2421,unix/rasd-desktop:/tmp/.ICE-unix/2421'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6b5b9b34_add3_4489_8096_72334fd1758e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_gps:/home/rasd/ros2_ws/install/rasd_fusion:/home/rasd/ros2_ws/install/rasd_camera:/home/rasd/ros2_ws/install/livox_ros2_driver:/home/rasd/ros2_ws/install/livox_sdk_vendor:/home/rasd/ros2_ws/install/livox_interfaces:/home/rasd/ros2_ws/install/grid_map_cmake_helpers:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/rasd/ros2_ws/build/rasd_ransac_speedbump'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rasd/ros2_ws/build/rasd_roi_filter/.:/usr/lib/python3.10/dist-packages:/home/rasd/ros2_ws/build/rasd_tf:/home/rasd/ros2_ws/install/rasd_tf/lib/python3.10/site-packages:/home/rasd/ros2_ws/install/rasd_roi_filter/lib/python3.10/site-packages:/home/rasd/ros2_ws/build/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_led_serial/lib/python3.10/site-packages:/home/rasd/ros2_ws/build/rasd_gps:/home/rasd/ros2_ws/install/rasd_gps/lib/python3.10/site-packages:/home/rasd/ros2_ws/build/rasd_fusion:/home/rasd/ros2_ws/install/rasd_fusion/lib/python3.10/site-packages:/home/rasd/ros2_ws/build/rasd_camera:/home/rasd/ros2_ws/install/rasd_camera/lib/python3.10/site-packages:/home/rasd/ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', ''), ('CMAKE_PREFIX_PATH', '/home/rasd/ros2_ws/install/livox_ros2_driver:/home/rasd/ros2_ws/install/livox_sdk_vendor:/home/rasd/ros2_ws/install/livox_interfaces:/home/rasd/ros2_ws/install/grid_map_cmake_helpers:/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_gps:/home/rasd/ros2_ws/install/rasd_fusion:/home/rasd/ros2_ws/install/rasd_camera:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0005')]), 'shell': False}
+[58.070343] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[58.072460] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[58.073691] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Symlinking: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/lib/rasd_ransac_speedbump/ransac_speedbump_node\n'}
+[58.099690] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Symlinking: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/ament_index/resource_index/package_run_dependencies/rasd_ransac_speedbump\n'}
+[58.123591] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Symlinking: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/ament_index/resource_index/parent_prefix_path/rasd_ransac_speedbump\n'}
+[58.140753] (-) TimerEvent: {}
+[58.146299] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Symlinking: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/environment/ament_prefix_path.sh\n'}
+[58.168208] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Symlinking: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/environment/ament_prefix_path.dsv\n'}
+[58.191656] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Symlinking: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/environment/path.sh\n'}
+[58.214681] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Symlinking: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/environment/path.dsv\n'}
+[58.236658] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Symlinking: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/local_setup.bash\n'}
+[58.240849] (-) TimerEvent: {}
+[58.258226] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Symlinking: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/local_setup.sh\n'}
+[58.281163] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Symlinking: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/local_setup.zsh\n'}
+[58.303033] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Symlinking: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/local_setup.dsv\n'}
+[58.324587] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Symlinking: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/package.dsv\n'}
+[58.340991] (-) TimerEvent: {}
+[58.346534] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Symlinking: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/ament_index/resource_index/packages/rasd_ransac_speedbump\n'}
+[58.368916] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Symlinking: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[58.391624] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Symlinking: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/cmake/rasd_ransac_speedbumpConfig.cmake\n'}
+[58.412922] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Symlinking: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/cmake/rasd_ransac_speedbumpConfig-version.cmake\n'}
+[58.434269] (rasd_ransac_speedbump) StdoutLine: {'line': b'-- Symlinking: /home/rasd/ros2_ws/install/rasd_ransac_speedbump/share/rasd_ransac_speedbump/package.xml\n'}
+[58.441095] (-) TimerEvent: {}
+[58.460734] (rasd_ransac_speedbump) CommandEnded: {'returncode': 0}
+[58.523433] (rasd_ransac_speedbump) JobEnded: {'identifier': 'rasd_ransac_speedbump', 'rc': 0}
+[58.525825] (-) EventReactorShutdown: {}

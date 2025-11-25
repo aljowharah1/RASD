@@ -1,0 +1,7 @@
+{
+  "package_name": "livox_interfaces",
+  "non_idl_tuples": [
+    "/home/rasd/ros2_ws/src/livox_ros2_driver/livox_interfaces:msg/CustomPoint.msg",
+    "/home/rasd/ros2_ws/src/livox_ros2_driver/livox_interfaces:msg/CustomMsg.msg"
+  ]
+}

@@ -1,0 +1,3 @@
+[console_scripts]
+rasd_camera_node = rasd_camera.camera_node:main
+

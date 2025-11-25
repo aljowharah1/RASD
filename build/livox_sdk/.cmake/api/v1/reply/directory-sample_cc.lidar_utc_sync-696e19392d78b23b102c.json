@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "sample_cc/lidar_utc_sync",
+		"source" : "sample_cc/lidar_utc_sync"
+	}
+}

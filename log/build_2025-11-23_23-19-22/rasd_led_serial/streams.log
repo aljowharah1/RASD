@@ -1,0 +1,36 @@
+[1.968s] Invoking command in '/home/rasd/ros2_ws/build/rasd_led_serial': PYTHONPATH=/home/rasd/ros2_ws/build/rasd_led_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasd/ros2_ws/install/rasd_led_serial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/rasd/ros2_ws/build/rasd_led_serial/build
+[2.701s] running develop
+[3.153s] Removing /home/rasd/ros2_ws/install/rasd_led_serial/lib/python3.10/site-packages/rasd-led-serial.egg-link (link to .)
+[3.294s] Invoked command in '/home/rasd/ros2_ws/build/rasd_led_serial' returned '0': PYTHONPATH=/home/rasd/ros2_ws/build/rasd_led_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasd/ros2_ws/install/rasd_led_serial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/rasd/ros2_ws/build/rasd_led_serial/build
+[3.300s] Invoking command in '/home/rasd/ros2_ws/src/rasd_led_serial': PYTHONPATH=/home/rasd/ros2_ws/build/rasd_led_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasd/ros2_ws/install/rasd_led_serial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rasd_led_serial build --build-base /home/rasd/ros2_ws/build/rasd_led_serial/build install --record /home/rasd/ros2_ws/build/rasd_led_serial/install.log --single-version-externally-managed install_data --force
+[3.973s] running egg_info
+[3.975s] writing ../../build/rasd_led_serial/rasd_led_serial.egg-info/PKG-INFO
+[3.976s] writing dependency_links to ../../build/rasd_led_serial/rasd_led_serial.egg-info/dependency_links.txt
+[3.977s] writing entry points to ../../build/rasd_led_serial/rasd_led_serial.egg-info/entry_points.txt
+[3.977s] writing requirements to ../../build/rasd_led_serial/rasd_led_serial.egg-info/requires.txt
+[3.977s] writing top-level names to ../../build/rasd_led_serial/rasd_led_serial.egg-info/top_level.txt
+[3.983s] reading manifest file '../../build/rasd_led_serial/rasd_led_serial.egg-info/SOURCES.txt'
+[3.986s] writing manifest file '../../build/rasd_led_serial/rasd_led_serial.egg-info/SOURCES.txt'
+[3.986s] running build
+[3.986s] running build_py
+[3.986s] creating /home/rasd/ros2_ws/build/rasd_led_serial/build
+[3.987s] creating /home/rasd/ros2_ws/build/rasd_led_serial/build/lib
+[3.987s] creating /home/rasd/ros2_ws/build/rasd_led_serial/build/lib/rasd_led_serial
+[3.987s] copying rasd_led_serial/__init__.py -> /home/rasd/ros2_ws/build/rasd_led_serial/build/lib/rasd_led_serial
+[3.987s] copying rasd_led_serial/led_serial_node.py -> /home/rasd/ros2_ws/build/rasd_led_serial/build/lib/rasd_led_serial
+[3.988s] running install
+[3.989s] running install_lib
+[3.996s] creating /home/rasd/ros2_ws/install/rasd_led_serial/lib/python3.10/site-packages/rasd_led_serial
+[3.996s] copying /home/rasd/ros2_ws/build/rasd_led_serial/build/lib/rasd_led_serial/__init__.py -> /home/rasd/ros2_ws/install/rasd_led_serial/lib/python3.10/site-packages/rasd_led_serial
+[3.996s] copying /home/rasd/ros2_ws/build/rasd_led_serial/build/lib/rasd_led_serial/led_serial_node.py -> /home/rasd/ros2_ws/install/rasd_led_serial/lib/python3.10/site-packages/rasd_led_serial
+[3.999s] byte-compiling /home/rasd/ros2_ws/install/rasd_led_serial/lib/python3.10/site-packages/rasd_led_serial/__init__.py to __init__.cpython-310.pyc
+[3.999s] byte-compiling /home/rasd/ros2_ws/install/rasd_led_serial/lib/python3.10/site-packages/rasd_led_serial/led_serial_node.py to led_serial_node.cpython-310.pyc
+[4.001s] running install_data
+[4.001s] copying resource/rasd_led_serial -> /home/rasd/ros2_ws/install/rasd_led_serial/share/ament_index/resource_index/packages
+[4.003s] copying package.xml -> /home/rasd/ros2_ws/install/rasd_led_serial/share/rasd_led_serial
+[4.003s] running install_egg_info
+[4.009s] Copying ../../build/rasd_led_serial/rasd_led_serial.egg-info to /home/rasd/ros2_ws/install/rasd_led_serial/lib/python3.10/site-packages/rasd_led_serial-0.0.0-py3.10.egg-info
+[4.012s] running install_scripts
+[4.073s] Installing led_serial_node script to /home/rasd/ros2_ws/install/rasd_led_serial/lib/rasd_led_serial
+[4.073s] writing list of installed files to '/home/rasd/ros2_ws/build/rasd_led_serial/install.log'
+[4.196s] Invoked command in '/home/rasd/ros2_ws/src/rasd_led_serial' returned '0': PYTHONPATH=/home/rasd/ros2_ws/build/rasd_led_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasd/ros2_ws/install/rasd_led_serial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rasd_led_serial build --build-base /home/rasd/ros2_ws/build/rasd_led_serial/build install --record /home/rasd/ros2_ws/build/rasd_led_serial/install.log --single-version-externally-managed install_data --force

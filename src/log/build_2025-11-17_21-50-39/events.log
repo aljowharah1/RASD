@@ -1,0 +1,473 @@
+[0.000000] (-) TimerEvent: {}
+[0.001126] (-) JobUnselected: {'identifier': 'grid_map'}
+[0.001287] (-) JobUnselected: {'identifier': 'grid_map_cmake_helpers'}
+[0.001343] (-) JobUnselected: {'identifier': 'grid_map_core'}
+[0.001389] (-) JobUnselected: {'identifier': 'grid_map_costmap_2d'}
+[0.001430] (-) JobUnselected: {'identifier': 'grid_map_cv'}
+[0.001472] (-) JobUnselected: {'identifier': 'grid_map_demos'}
+[0.002059] (-) JobUnselected: {'identifier': 'grid_map_filters'}
+[0.002420] (-) JobUnselected: {'identifier': 'grid_map_loader'}
+[0.002502] (-) JobUnselected: {'identifier': 'grid_map_msgs'}
+[0.002553] (-) JobUnselected: {'identifier': 'grid_map_octomap'}
+[0.002601] (-) JobUnselected: {'identifier': 'grid_map_pcl'}
+[0.002645] (-) JobUnselected: {'identifier': 'grid_map_ros'}
+[0.002687] (-) JobUnselected: {'identifier': 'grid_map_rviz_plugin'}
+[0.002729] (-) JobUnselected: {'identifier': 'grid_map_sdf'}
+[0.002770] (-) JobUnselected: {'identifier': 'grid_map_visualization'}
+[0.002811] (-) JobUnselected: {'identifier': 'livox_interfaces'}
+[0.002862] (-) JobUnselected: {'identifier': 'livox_ros2_driver'}
+[0.002905] (-) JobUnselected: {'identifier': 'livox_sdk'}
+[0.002946] (-) JobUnselected: {'identifier': 'livox_sdk_vendor'}
+[0.002990] (-) JobUnselected: {'identifier': 'rasd_camera'}
+[0.003032] (-) JobUnselected: {'identifier': 'rasd_gridmap'}
+[0.003072] (-) JobUnselected: {'identifier': 'rasd_roi_filter'}
+[0.003112] (-) JobUnselected: {'identifier': 'rasd_tf'}
+[0.003180] (rasd_elev_profile) JobQueued: {'identifier': 'rasd_elev_profile', 'dependencies': OrderedDict()}
+[0.007683] (rasd_elev_profile) JobStarted: {'identifier': 'rasd_elev_profile'}
+[0.044924] (rasd_elev_profile) JobProgress: {'identifier': 'rasd_elev_profile', 'progress': 'cmake'}
+[0.051193] (rasd_elev_profile) JobProgress: {'identifier': 'rasd_elev_profile', 'progress': 'build'}
+[0.051684] (rasd_elev_profile) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rasd/ros2_ws/src/build/rasd_elev_profile', '--', '-j6', '-l6'], 'cwd': '/home/rasd/ros2_ws/src/build/rasd_elev_profile', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rasd'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/home/rasd/ros2_ws/install/livox_ros2_driver/lib:/home/rasd/ros2_ws/install/livox_interfaces/lib:/home/rasd/ros2_ws/install/grid_map_sdf/lib:/home/rasd/ros2_ws/install/grid_map_ros/lib:/home/rasd/ros2_ws/install/grid_map_octomap/lib:/home/rasd/ros2_ws/install/grid_map_msgs/lib:/home/rasd/ros2_ws/install/grid_map_cv/lib:/home/rasd/ros2_ws/install/grid_map_costmap_2d/lib:/home/rasd/ros2_ws/install/grid_map_core/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rasd'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.4.7'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '8015'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rasd/ros2_ws/install:/home/rasd/ros2_ws/src/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rasd'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1422725053860'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rasd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/opt/ros/humble/bin:/home/rasd/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rasd-desktop:@/tmp/.ICE-unix/2484,unix/rasd-desktop:/tmp/.ICE-unix/2484'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4a16a05c_2152_4c77_bd88_bf52cb79ac4a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.140'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_elev_profile:/home/rasd/ros2_ws/install/rasd_camera:/home/rasd/ros2_ws/install/rasd_1d_profile:/home/rasd/ros2_ws/install/livox_ros2_driver:/home/rasd/ros2_ws/install/livox_sdk_vendor:/home/rasd/ros2_ws/install/livox_interfaces:/home/rasd/ros2_ws/install/grid_map_sdf:/home/rasd/ros2_ws/install/grid_map_ros:/home/rasd/ros2_ws/install/grid_map_octomap:/home/rasd/ros2_ws/install/grid_map_msgs:/home/rasd/ros2_ws/install/grid_map_cv:/home/rasd/ros2_ws/install/grid_map_costmap_2d:/home/rasd/ros2_ws/install/grid_map_core:/home/rasd/ros2_ws/install/grid_map_cmake_helpers:/home/rasd/ros2_ws/src/install/rasd_roi_filter:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/rasd/ros2_ws/src/build/rasd_elev_profile'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/usr/lib/python3.10/dist-packages:/home/rasd/ros2_ws/build/rasd_tf:/home/rasd/ros2_ws/install/rasd_tf/lib/python3.10/site-packages:/home/rasd/ros2_ws/build/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_roi_filter/lib/python3.10/site-packages:/home/rasd/ros2_ws/build/rasd_camera:/home/rasd/ros2_ws/install/rasd_camera/lib/python3.10/site-packages:/home/rasd/ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages:/home/rasd/ros2_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages:/home/rasd/ros2_ws/src/build/rasd_roi_filter:/home/rasd/ros2_ws/src/install/rasd_roi_filter/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', ''), ('CMAKE_PREFIX_PATH', '/home/rasd/ros2_ws/install/rasd_elev_profile:/home/rasd/ros2_ws/install/rasd_1d_profile:/home/rasd/ros2_ws/install/livox_ros2_driver:/home/rasd/ros2_ws/install/livox_sdk_vendor:/home/rasd/ros2_ws/install/livox_interfaces:/home/rasd/ros2_ws/install/grid_map_sdf:/home/rasd/ros2_ws/install/grid_map_ros:/home/rasd/ros2_ws/install/grid_map_octomap:/home/rasd/ros2_ws/install/grid_map_msgs:/home/rasd/ros2_ws/install/grid_map_cv:/home/rasd/ros2_ws/install/grid_map_costmap_2d:/home/rasd/ros2_ws/install/grid_map_core:/home/rasd/ros2_ws/install/grid_map_cmake_helpers:/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_camera:/home/rasd/ros2_ws/src/install/rasd_roi_filter:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0005')]), 'shell': False}
+[0.097511] (-) TimerEvent: {}
+[0.198663] (-) TimerEvent: {}
+[0.207786] (rasd_elev_profile) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target elevation_profile_node\x1b[0m\n'}
+[0.278914] (rasd_elev_profile) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/elevation_profile_node.dir/src/elevation_profile_node.cpp.o\x1b[0m\n'}
+[0.298943] (-) TimerEvent: {}
+[0.400774] (-) TimerEvent: {}
+[0.501881] (-) TimerEvent: {}
+[0.602947] (-) TimerEvent: {}
+[0.704078] (-) TimerEvent: {}
+[0.805201] (-) TimerEvent: {}
+[0.906333] (-) TimerEvent: {}
+[1.007569] (-) TimerEvent: {}
+[1.108711] (-) TimerEvent: {}
+[1.209930] (-) TimerEvent: {}
+[1.311146] (-) TimerEvent: {}
+[1.412404] (-) TimerEvent: {}
+[1.513667] (-) TimerEvent: {}
+[1.614924] (-) TimerEvent: {}
+[1.716108] (-) TimerEvent: {}
+[1.817213] (-) TimerEvent: {}
+[1.918295] (-) TimerEvent: {}
+[2.019484] (-) TimerEvent: {}
+[2.120624] (-) TimerEvent: {}
+[2.221788] (-) TimerEvent: {}
+[2.322894] (-) TimerEvent: {}
+[2.423986] (-) TimerEvent: {}
+[2.525150] (-) TimerEvent: {}
+[2.626482] (-) TimerEvent: {}
+[2.727808] (-) TimerEvent: {}
+[2.828990] (-) TimerEvent: {}
+[2.930288] (-) TimerEvent: {}
+[3.031580] (-) TimerEvent: {}
+[3.132851] (-) TimerEvent: {}
+[3.234074] (-) TimerEvent: {}
+[3.335485] (-) TimerEvent: {}
+[3.437655] (-) TimerEvent: {}
+[3.539186] (-) TimerEvent: {}
+[3.640635] (-) TimerEvent: {}
+[3.741906] (-) TimerEvent: {}
+[3.843721] (-) TimerEvent: {}
+[3.945003] (-) TimerEvent: {}
+[4.046152] (-) TimerEvent: {}
+[4.147445] (-) TimerEvent: {}
+[4.248649] (-) TimerEvent: {}
+[4.349825] (-) TimerEvent: {}
+[4.450999] (-) TimerEvent: {}
+[4.552115] (-) TimerEvent: {}
+[4.653272] (-) TimerEvent: {}
+[4.754709] (-) TimerEvent: {}
+[4.857462] (-) TimerEvent: {}
+[4.959246] (-) TimerEvent: {}
+[5.060668] (-) TimerEvent: {}
+[5.161977] (-) TimerEvent: {}
+[5.263174] (-) TimerEvent: {}
+[5.364398] (-) TimerEvent: {}
+[5.465637] (-) TimerEvent: {}
+[5.566857] (-) TimerEvent: {}
+[5.668110] (-) TimerEvent: {}
+[5.769311] (-) TimerEvent: {}
+[5.870511] (-) TimerEvent: {}
+[5.971809] (-) TimerEvent: {}
+[6.073025] (-) TimerEvent: {}
+[6.174208] (-) TimerEvent: {}
+[6.275437] (-) TimerEvent: {}
+[6.376725] (-) TimerEvent: {}
+[6.477954] (-) TimerEvent: {}
+[6.579176] (-) TimerEvent: {}
+[6.680460] (-) TimerEvent: {}
+[6.781692] (-) TimerEvent: {}
+[6.883020] (-) TimerEvent: {}
+[6.984627] (-) TimerEvent: {}
+[7.085888] (-) TimerEvent: {}
+[7.187584] (-) TimerEvent: {}
+[7.288834] (-) TimerEvent: {}
+[7.390129] (-) TimerEvent: {}
+[7.491569] (-) TimerEvent: {}
+[7.592914] (-) TimerEvent: {}
+[7.694109] (-) TimerEvent: {}
+[7.795308] (-) TimerEvent: {}
+[7.896575] (-) TimerEvent: {}
+[7.997818] (-) TimerEvent: {}
+[8.099219] (-) TimerEvent: {}
+[8.200598] (-) TimerEvent: {}
+[8.301841] (-) TimerEvent: {}
+[8.402988] (-) TimerEvent: {}
+[8.504229] (-) TimerEvent: {}
+[8.605664] (-) TimerEvent: {}
+[8.706962] (-) TimerEvent: {}
+[8.808679] (-) TimerEvent: {}
+[8.910155] (-) TimerEvent: {}
+[9.011444] (-) TimerEvent: {}
+[9.112550] (-) TimerEvent: {}
+[9.213665] (-) TimerEvent: {}
+[9.315584] (-) TimerEvent: {}
+[9.416791] (-) TimerEvent: {}
+[9.518108] (-) TimerEvent: {}
+[9.620596] (-) TimerEvent: {}
+[9.721746] (-) TimerEvent: {}
+[9.822869] (-) TimerEvent: {}
+[9.924028] (-) TimerEvent: {}
+[10.025235] (-) TimerEvent: {}
+[10.126390] (-) TimerEvent: {}
+[10.227561] (-) TimerEvent: {}
+[10.328690] (-) TimerEvent: {}
+[10.429863] (-) TimerEvent: {}
+[10.531002] (-) TimerEvent: {}
+[10.632154] (-) TimerEvent: {}
+[10.733637] (-) TimerEvent: {}
+[10.834820] (-) TimerEvent: {}
+[10.936304] (-) TimerEvent: {}
+[11.037914] (-) TimerEvent: {}
+[11.139116] (-) TimerEvent: {}
+[11.240312] (-) TimerEvent: {}
+[11.341446] (-) TimerEvent: {}
+[11.442578] (-) TimerEvent: {}
+[11.543742] (-) TimerEvent: {}
+[11.644859] (-) TimerEvent: {}
+[11.746176] (-) TimerEvent: {}
+[11.847350] (-) TimerEvent: {}
+[11.948539] (-) TimerEvent: {}
+[12.049680] (-) TimerEvent: {}
+[12.150819] (-) TimerEvent: {}
+[12.251997] (-) TimerEvent: {}
+[12.353261] (-) TimerEvent: {}
+[12.454491] (-) TimerEvent: {}
+[12.555782] (-) TimerEvent: {}
+[12.656922] (-) TimerEvent: {}
+[12.758072] (-) TimerEvent: {}
+[12.859261] (-) TimerEvent: {}
+[12.960413] (-) TimerEvent: {}
+[13.061555] (-) TimerEvent: {}
+[13.162683] (-) TimerEvent: {}
+[13.263857] (-) TimerEvent: {}
+[13.364997] (-) TimerEvent: {}
+[13.466124] (-) TimerEvent: {}
+[13.567271] (-) TimerEvent: {}
+[13.668451] (-) TimerEvent: {}
+[13.769586] (-) TimerEvent: {}
+[13.870718] (-) TimerEvent: {}
+[13.971897] (-) TimerEvent: {}
+[14.073394] (-) TimerEvent: {}
+[14.175165] (-) TimerEvent: {}
+[14.276323] (-) TimerEvent: {}
+[14.377643] (-) TimerEvent: {}
+[14.478778] (-) TimerEvent: {}
+[14.580026] (-) TimerEvent: {}
+[14.681200] (-) TimerEvent: {}
+[14.782349] (-) TimerEvent: {}
+[14.883480] (-) TimerEvent: {}
+[14.984667] (-) TimerEvent: {}
+[15.085857] (-) TimerEvent: {}
+[15.186985] (-) TimerEvent: {}
+[15.288146] (-) TimerEvent: {}
+[15.389283] (-) TimerEvent: {}
+[15.490401] (-) TimerEvent: {}
+[15.591565] (-) TimerEvent: {}
+[15.692747] (-) TimerEvent: {}
+[15.793988] (-) TimerEvent: {}
+[15.895156] (-) TimerEvent: {}
+[15.997127] (-) TimerEvent: {}
+[16.098984] (-) TimerEvent: {}
+[16.200504] (-) TimerEvent: {}
+[16.301658] (-) TimerEvent: {}
+[16.402896] (-) TimerEvent: {}
+[16.504135] (-) TimerEvent: {}
+[16.605787] (-) TimerEvent: {}
+[16.707184] (-) TimerEvent: {}
+[16.808589] (-) TimerEvent: {}
+[16.909901] (-) TimerEvent: {}
+[17.011386] (-) TimerEvent: {}
+[17.112897] (-) TimerEvent: {}
+[17.214110] (-) TimerEvent: {}
+[17.315255] (-) TimerEvent: {}
+[17.416468] (-) TimerEvent: {}
+[17.518026] (-) TimerEvent: {}
+[17.620055] (-) TimerEvent: {}
+[17.721398] (-) TimerEvent: {}
+[17.822746] (-) TimerEvent: {}
+[17.924163] (-) TimerEvent: {}
+[18.025639] (-) TimerEvent: {}
+[18.127294] (-) TimerEvent: {}
+[18.228743] (-) TimerEvent: {}
+[18.329970] (-) TimerEvent: {}
+[18.431140] (-) TimerEvent: {}
+[18.532838] (-) TimerEvent: {}
+[18.634158] (-) TimerEvent: {}
+[18.735309] (-) TimerEvent: {}
+[18.836616] (-) TimerEvent: {}
+[18.937975] (-) TimerEvent: {}
+[19.039295] (-) TimerEvent: {}
+[19.140750] (-) TimerEvent: {}
+[19.241985] (-) TimerEvent: {}
+[19.344009] (-) TimerEvent: {}
+[19.445340] (-) TimerEvent: {}
+[19.546731] (-) TimerEvent: {}
+[19.648084] (-) TimerEvent: {}
+[19.749473] (-) TimerEvent: {}
+[19.850733] (-) TimerEvent: {}
+[19.952016] (-) TimerEvent: {}
+[20.053361] (-) TimerEvent: {}
+[20.154559] (-) TimerEvent: {}
+[20.255813] (-) TimerEvent: {}
+[20.357048] (-) TimerEvent: {}
+[20.458303] (-) TimerEvent: {}
+[20.559573] (-) TimerEvent: {}
+[20.660850] (-) TimerEvent: {}
+[20.761971] (-) TimerEvent: {}
+[20.863198] (-) TimerEvent: {}
+[20.964511] (-) TimerEvent: {}
+[21.065751] (-) TimerEvent: {}
+[21.167036] (-) TimerEvent: {}
+[21.268283] (-) TimerEvent: {}
+[21.369477] (-) TimerEvent: {}
+[21.470595] (-) TimerEvent: {}
+[21.571904] (-) TimerEvent: {}
+[21.673126] (-) TimerEvent: {}
+[21.774405] (-) TimerEvent: {}
+[21.875665] (-) TimerEvent: {}
+[21.976888] (-) TimerEvent: {}
+[22.078196] (-) TimerEvent: {}
+[22.179421] (-) TimerEvent: {}
+[22.280696] (-) TimerEvent: {}
+[22.381952] (-) TimerEvent: {}
+[22.483195] (-) TimerEvent: {}
+[22.584473] (-) TimerEvent: {}
+[22.685600] (-) TimerEvent: {}
+[22.786762] (-) TimerEvent: {}
+[22.888069] (-) TimerEvent: {}
+[22.989420] (-) TimerEvent: {}
+[23.090687] (-) TimerEvent: {}
+[23.191952] (-) TimerEvent: {}
+[23.293626] (-) TimerEvent: {}
+[23.394879] (-) TimerEvent: {}
+[23.497023] (-) TimerEvent: {}
+[23.599277] (-) TimerEvent: {}
+[23.700527] (-) TimerEvent: {}
+[23.801678] (-) TimerEvent: {}
+[23.902964] (-) TimerEvent: {}
+[24.004257] (-) TimerEvent: {}
+[24.105581] (-) TimerEvent: {}
+[24.206751] (-) TimerEvent: {}
+[24.307880] (-) TimerEvent: {}
+[24.409098] (-) TimerEvent: {}
+[24.510344] (-) TimerEvent: {}
+[24.611636] (-) TimerEvent: {}
+[24.712805] (-) TimerEvent: {}
+[24.813923] (-) TimerEvent: {}
+[24.915030] (-) TimerEvent: {}
+[25.016205] (-) TimerEvent: {}
+[25.117320] (-) TimerEvent: {}
+[25.218411] (-) TimerEvent: {}
+[25.319731] (-) TimerEvent: {}
+[25.420951] (-) TimerEvent: {}
+[25.522082] (-) TimerEvent: {}
+[25.623240] (-) TimerEvent: {}
+[25.724398] (-) TimerEvent: {}
+[25.825579] (-) TimerEvent: {}
+[25.926745] (-) TimerEvent: {}
+[26.028005] (-) TimerEvent: {}
+[26.129197] (-) TimerEvent: {}
+[26.230478] (-) TimerEvent: {}
+[26.331710] (-) TimerEvent: {}
+[26.432937] (-) TimerEvent: {}
+[26.534128] (-) TimerEvent: {}
+[26.635317] (-) TimerEvent: {}
+[26.736639] (-) TimerEvent: {}
+[26.837849] (-) TimerEvent: {}
+[26.939008] (-) TimerEvent: {}
+[27.040231] (-) TimerEvent: {}
+[27.141530] (-) TimerEvent: {}
+[27.242897] (-) TimerEvent: {}
+[27.344127] (-) TimerEvent: {}
+[27.445407] (-) TimerEvent: {}
+[27.546552] (-) TimerEvent: {}
+[27.647745] (-) TimerEvent: {}
+[27.748866] (-) TimerEvent: {}
+[27.850021] (-) TimerEvent: {}
+[27.951216] (-) TimerEvent: {}
+[28.052365] (-) TimerEvent: {}
+[28.153519] (-) TimerEvent: {}
+[28.254680] (-) TimerEvent: {}
+[28.355926] (-) TimerEvent: {}
+[28.457721] (-) TimerEvent: {}
+[28.558901] (-) TimerEvent: {}
+[28.660073] (-) TimerEvent: {}
+[28.761221] (-) TimerEvent: {}
+[28.862427] (-) TimerEvent: {}
+[28.963635] (-) TimerEvent: {}
+[29.064791] (-) TimerEvent: {}
+[29.165896] (-) TimerEvent: {}
+[29.267061] (-) TimerEvent: {}
+[29.369125] (-) TimerEvent: {}
+[29.471300] (-) TimerEvent: {}
+[29.572526] (-) TimerEvent: {}
+[29.673757] (-) TimerEvent: {}
+[29.774915] (-) TimerEvent: {}
+[29.876103] (-) TimerEvent: {}
+[29.977190] (-) TimerEvent: {}
+[30.078452] (-) TimerEvent: {}
+[30.179707] (-) TimerEvent: {}
+[30.280947] (-) TimerEvent: {}
+[30.382054] (-) TimerEvent: {}
+[30.483195] (-) TimerEvent: {}
+[30.584429] (-) TimerEvent: {}
+[30.685594] (-) TimerEvent: {}
+[30.786793] (-) TimerEvent: {}
+[30.888333] (-) TimerEvent: {}
+[30.989525] (-) TimerEvent: {}
+[31.090760] (-) TimerEvent: {}
+[31.191966] (-) TimerEvent: {}
+[31.293130] (-) TimerEvent: {}
+[31.394309] (-) TimerEvent: {}
+[31.495629] (-) TimerEvent: {}
+[31.596724] (-) TimerEvent: {}
+[31.697911] (-) TimerEvent: {}
+[31.799155] (-) TimerEvent: {}
+[31.900451] (-) TimerEvent: {}
+[32.001656] (-) TimerEvent: {}
+[32.102777] (-) TimerEvent: {}
+[32.203946] (-) TimerEvent: {}
+[32.305129] (-) TimerEvent: {}
+[32.406326] (-) TimerEvent: {}
+[32.507726] (-) TimerEvent: {}
+[32.609052] (-) TimerEvent: {}
+[32.710155] (-) TimerEvent: {}
+[32.811314] (-) TimerEvent: {}
+[32.912523] (-) TimerEvent: {}
+[33.013892] (-) TimerEvent: {}
+[33.115142] (-) TimerEvent: {}
+[33.216425] (-) TimerEvent: {}
+[33.318335] (-) TimerEvent: {}
+[33.419709] (-) TimerEvent: {}
+[33.521015] (-) TimerEvent: {}
+[33.622274] (-) TimerEvent: {}
+[33.723619] (-) TimerEvent: {}
+[33.824843] (-) TimerEvent: {}
+[33.925984] (-) TimerEvent: {}
+[34.027160] (-) TimerEvent: {}
+[34.128361] (-) TimerEvent: {}
+[34.229536] (-) TimerEvent: {}
+[34.330716] (-) TimerEvent: {}
+[34.432049] (-) TimerEvent: {}
+[34.533983] (-) TimerEvent: {}
+[34.635230] (-) TimerEvent: {}
+[34.736640] (-) TimerEvent: {}
+[34.837954] (-) TimerEvent: {}
+[34.939428] (-) TimerEvent: {}
+[35.041901] (-) TimerEvent: {}
+[35.143198] (-) TimerEvent: {}
+[35.244339] (-) TimerEvent: {}
+[35.345520] (-) TimerEvent: {}
+[35.446686] (-) TimerEvent: {}
+[35.547901] (-) TimerEvent: {}
+[35.649084] (-) TimerEvent: {}
+[35.750266] (-) TimerEvent: {}
+[35.851385] (-) TimerEvent: {}
+[35.952636] (-) TimerEvent: {}
+[36.053791] (-) TimerEvent: {}
+[36.155021] (-) TimerEvent: {}
+[36.256297] (-) TimerEvent: {}
+[36.358319] (-) TimerEvent: {}
+[36.459801] (-) TimerEvent: {}
+[36.561026] (-) TimerEvent: {}
+[36.662419] (-) TimerEvent: {}
+[36.763685] (-) TimerEvent: {}
+[36.864893] (-) TimerEvent: {}
+[36.966218] (-) TimerEvent: {}
+[37.067379] (-) TimerEvent: {}
+[37.168609] (-) TimerEvent: {}
+[37.269809] (-) TimerEvent: {}
+[37.370929] (-) TimerEvent: {}
+[37.472149] (-) TimerEvent: {}
+[37.573357] (-) TimerEvent: {}
+[37.674503] (-) TimerEvent: {}
+[37.775630] (-) TimerEvent: {}
+[37.876833] (-) TimerEvent: {}
+[37.978000] (-) TimerEvent: {}
+[38.079159] (-) TimerEvent: {}
+[38.180471] (-) TimerEvent: {}
+[38.281791] (-) TimerEvent: {}
+[38.382978] (-) TimerEvent: {}
+[38.484205] (-) TimerEvent: {}
+[38.585378] (-) TimerEvent: {}
+[38.679058] (rasd_elev_profile) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable elevation_profile_node\x1b[0m\n'}
+[38.685560] (-) TimerEvent: {}
+[38.786649] (-) TimerEvent: {}
+[38.887878] (-) TimerEvent: {}
+[38.989045] (-) TimerEvent: {}
+[39.090297] (-) TimerEvent: {}
+[39.191671] (-) TimerEvent: {}
+[39.292806] (-) TimerEvent: {}
+[39.394043] (-) TimerEvent: {}
+[39.495250] (-) TimerEvent: {}
+[39.596621] (-) TimerEvent: {}
+[39.698416] (-) TimerEvent: {}
+[39.799691] (-) TimerEvent: {}
+[39.900776] (-) TimerEvent: {}
+[40.001914] (-) TimerEvent: {}
+[40.103197] (-) TimerEvent: {}
+[40.204387] (-) TimerEvent: {}
+[40.305547] (-) TimerEvent: {}
+[40.406766] (-) TimerEvent: {}
+[40.508116] (-) TimerEvent: {}
+[40.609249] (-) TimerEvent: {}
+[40.710474] (-) TimerEvent: {}
+[40.811669] (-) TimerEvent: {}
+[40.912803] (-) TimerEvent: {}
+[41.013946] (-) TimerEvent: {}
+[41.115067] (-) TimerEvent: {}
+[41.216272] (-) TimerEvent: {}
+[41.317424] (-) TimerEvent: {}
+[41.418513] (-) TimerEvent: {}
+[41.512673] (rasd_elev_profile) StdoutLine: {'line': b'[100%] Built target elevation_profile_node\n'}
+[41.518634] (-) TimerEvent: {}
+[41.552153] (rasd_elev_profile) CommandEnded: {'returncode': 0}
+[41.556609] (rasd_elev_profile) JobProgress: {'identifier': 'rasd_elev_profile', 'progress': 'install'}
+[41.584118] (rasd_elev_profile) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rasd/ros2_ws/src/build/rasd_elev_profile'], 'cwd': '/home/rasd/ros2_ws/src/build/rasd_elev_profile', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rasd'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/home/rasd/ros2_ws/install/livox_ros2_driver/lib:/home/rasd/ros2_ws/install/livox_interfaces/lib:/home/rasd/ros2_ws/install/grid_map_sdf/lib:/home/rasd/ros2_ws/install/grid_map_ros/lib:/home/rasd/ros2_ws/install/grid_map_octomap/lib:/home/rasd/ros2_ws/install/grid_map_msgs/lib:/home/rasd/ros2_ws/install/grid_map_cv/lib:/home/rasd/ros2_ws/install/grid_map_costmap_2d/lib:/home/rasd/ros2_ws/install/grid_map_core/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rasd'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.4.7'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '8015'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rasd/ros2_ws/install:/home/rasd/ros2_ws/src/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rasd'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1422725053860'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rasd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/opt/ros/humble/bin:/home/rasd/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rasd-desktop:@/tmp/.ICE-unix/2484,unix/rasd-desktop:/tmp/.ICE-unix/2484'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4a16a05c_2152_4c77_bd88_bf52cb79ac4a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.140'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_elev_profile:/home/rasd/ros2_ws/install/rasd_camera:/home/rasd/ros2_ws/install/rasd_1d_profile:/home/rasd/ros2_ws/install/livox_ros2_driver:/home/rasd/ros2_ws/install/livox_sdk_vendor:/home/rasd/ros2_ws/install/livox_interfaces:/home/rasd/ros2_ws/install/grid_map_sdf:/home/rasd/ros2_ws/install/grid_map_ros:/home/rasd/ros2_ws/install/grid_map_octomap:/home/rasd/ros2_ws/install/grid_map_msgs:/home/rasd/ros2_ws/install/grid_map_cv:/home/rasd/ros2_ws/install/grid_map_costmap_2d:/home/rasd/ros2_ws/install/grid_map_core:/home/rasd/ros2_ws/install/grid_map_cmake_helpers:/home/rasd/ros2_ws/src/install/rasd_roi_filter:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/rasd/ros2_ws/src/build/rasd_elev_profile'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/usr/lib/python3.10/dist-packages:/home/rasd/ros2_ws/build/rasd_tf:/home/rasd/ros2_ws/install/rasd_tf/lib/python3.10/site-packages:/home/rasd/ros2_ws/build/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_roi_filter/lib/python3.10/site-packages:/home/rasd/ros2_ws/build/rasd_camera:/home/rasd/ros2_ws/install/rasd_camera/lib/python3.10/site-packages:/home/rasd/ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages:/home/rasd/ros2_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages:/home/rasd/ros2_ws/src/build/rasd_roi_filter:/home/rasd/ros2_ws/src/install/rasd_roi_filter/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', ''), ('CMAKE_PREFIX_PATH', '/home/rasd/ros2_ws/install/rasd_elev_profile:/home/rasd/ros2_ws/install/rasd_1d_profile:/home/rasd/ros2_ws/install/livox_ros2_driver:/home/rasd/ros2_ws/install/livox_sdk_vendor:/home/rasd/ros2_ws/install/livox_interfaces:/home/rasd/ros2_ws/install/grid_map_sdf:/home/rasd/ros2_ws/install/grid_map_ros:/home/rasd/ros2_ws/install/grid_map_octomap:/home/rasd/ros2_ws/install/grid_map_msgs:/home/rasd/ros2_ws/install/grid_map_cv:/home/rasd/ros2_ws/install/grid_map_costmap_2d:/home/rasd/ros2_ws/install/grid_map_core:/home/rasd/ros2_ws/install/grid_map_cmake_helpers:/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_camera:/home/rasd/ros2_ws/src/install/rasd_roi_filter:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0005')]), 'shell': False}
+[41.618901] (-) TimerEvent: {}
+[41.619686] (rasd_elev_profile) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[41.621462] (rasd_elev_profile) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[41.636601] (rasd_elev_profile) StdoutLine: {'line': b'-- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/lib/rasd_elev_profile/elevation_profile_node\n'}
+[41.666147] (rasd_elev_profile) StdoutLine: {'line': b'-- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/share/ament_index/resource_index/package_run_dependencies/rasd_elev_profile\n'}
+[41.694583] (rasd_elev_profile) StdoutLine: {'line': b'-- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/share/ament_index/resource_index/parent_prefix_path/rasd_elev_profile\n'}
+[41.719171] (-) TimerEvent: {}
+[41.731235] (rasd_elev_profile) StdoutLine: {'line': b'-- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/environment/ament_prefix_path.sh\n'}
+[41.760575] (rasd_elev_profile) StdoutLine: {'line': b'-- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/environment/ament_prefix_path.dsv\n'}
+[41.790376] (rasd_elev_profile) StdoutLine: {'line': b'-- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/environment/path.sh\n'}
+[41.819428] (-) TimerEvent: {}
+[41.820447] (rasd_elev_profile) StdoutLine: {'line': b'-- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/environment/path.dsv\n'}
+[41.849741] (rasd_elev_profile) StdoutLine: {'line': b'-- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/local_setup.bash\n'}
+[41.879877] (rasd_elev_profile) StdoutLine: {'line': b'-- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/local_setup.sh\n'}
+[41.919768] (-) TimerEvent: {}
+[41.921870] (rasd_elev_profile) StdoutLine: {'line': b'-- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/local_setup.zsh\n'}
+[41.952109] (rasd_elev_profile) StdoutLine: {'line': b'-- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/local_setup.dsv\n'}
+[41.981025] (rasd_elev_profile) StdoutLine: {'line': b'-- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/package.dsv\n'}
+[42.010369] (rasd_elev_profile) StdoutLine: {'line': b'-- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/share/ament_index/resource_index/packages/rasd_elev_profile\n'}
+[42.020417] (-) TimerEvent: {}
+[42.040026] (rasd_elev_profile) StdoutLine: {'line': b'-- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/cmake/rasd_elev_profileConfig.cmake\n'}
+[42.068473] (rasd_elev_profile) StdoutLine: {'line': b'-- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/cmake/rasd_elev_profileConfig-version.cmake\n'}
+[42.098053] (rasd_elev_profile) StdoutLine: {'line': b'-- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/package.xml\n'}
+[42.120646] (-) TimerEvent: {}
+[42.134141] (rasd_elev_profile) CommandEnded: {'returncode': 0}
+[42.201317] (rasd_elev_profile) JobEnded: {'identifier': 'rasd_elev_profile', 'rc': 0}
+[42.204051] (-) EventReactorShutdown: {}

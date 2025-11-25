@@ -1,0 +1,65 @@
+[0.051s] Invoking command in '/home/rasd/ros2_ws/build/rasd_elev_profile': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_gps:/home/rasd/ros2_ws/install/rasd_fusion:/home/rasd/ros2_ws/install/rasd_camera:/home/rasd/install/rasd_tf:/home/rasd/install/rasd_roi_filter:/opt/ros/humble /usr/bin/cmake /home/rasd/ros2_ws/src/rasd_elev_profile -DCMAKE_INSTALL_PREFIX=/home/rasd/ros2_ws/install/rasd_elev_profile
+[0.108s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.542s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.572s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.650s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.655s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.669s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.694s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.722s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.798s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.803s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.048s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.154s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.215s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.256s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[1.332s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.409s] -- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)
+[2.276s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.293s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.666s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.682s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.695s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.055s] -- Found Qhull version 8.0.2
+[3.399s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.778s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.076s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.076s] -- Configured cppcheck include dirs: 
+[4.077s] -- Configured cppcheck exclude dirs and/or files: 
+[4.079s] -- Added test 'lint_cmake' to check CMake code style
+[4.082s] -- Added test 'uncrustify' to check C / C++ code style
+[4.083s] -- Configured uncrustify additional arguments: 
+[4.084s] -- Added test 'xmllint' to check XML markup files
+[4.089s] -- Configuring done
+[4.190s] -- Generating done
+[4.218s] -- Build files have been written to: /home/rasd/ros2_ws/build/rasd_elev_profile
+[4.292s] Invoked command in '/home/rasd/ros2_ws/build/rasd_elev_profile' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_gps:/home/rasd/ros2_ws/install/rasd_fusion:/home/rasd/ros2_ws/install/rasd_camera:/home/rasd/install/rasd_tf:/home/rasd/install/rasd_roi_filter:/opt/ros/humble /usr/bin/cmake /home/rasd/ros2_ws/src/rasd_elev_profile -DCMAKE_INSTALL_PREFIX=/home/rasd/ros2_ws/install/rasd_elev_profile
+[4.300s] Invoking command in '/home/rasd/ros2_ws/build/rasd_elev_profile': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_gps:/home/rasd/ros2_ws/install/rasd_fusion:/home/rasd/ros2_ws/install/rasd_camera:/home/rasd/install/rasd_tf:/home/rasd/install/rasd_roi_filter:/opt/ros/humble /usr/bin/cmake --build /home/rasd/ros2_ws/build/rasd_elev_profile -- -j6 -l6
+[4.458s] [ 50%] [32mBuilding CXX object CMakeFiles/elevation_profile_node.dir/src/elevation_profile_node.cpp.o[0m
+[21.195s] [01m[K/home/rasd/ros2_ws/src/rasd_elev_profile/src/elevation_profile_node.cpp:[m[K In member function ‘[01m[Kvoid GroundPlaneSpeedbumpNode::cloudCallback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[21.196s] [01m[K/home/rasd/ros2_ws/src/rasd_elev_profile/src/elevation_profile_node.cpp:273:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Khalf_w[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[21.196s]   273 |         const float [01;35m[Khalf_w[m[K = static_cast<float>(lane_width_ * 0.5f);
+[21.196s]       |                     [01;35m[K^~~~~~[m[K
+[59.006s] [100%] [32m[1mLinking CXX executable elevation_profile_node[0m
+[62.580s] [100%] Built target elevation_profile_node
+[62.638s] Invoked command in '/home/rasd/ros2_ws/build/rasd_elev_profile' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_gps:/home/rasd/ros2_ws/install/rasd_fusion:/home/rasd/ros2_ws/install/rasd_camera:/home/rasd/install/rasd_tf:/home/rasd/install/rasd_roi_filter:/opt/ros/humble /usr/bin/cmake --build /home/rasd/ros2_ws/build/rasd_elev_profile -- -j6 -l6
+[62.698s] Invoking command in '/home/rasd/ros2_ws/build/rasd_elev_profile': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_gps:/home/rasd/ros2_ws/install/rasd_fusion:/home/rasd/ros2_ws/install/rasd_camera:/home/rasd/install/rasd_tf:/home/rasd/install/rasd_roi_filter:/opt/ros/humble /usr/bin/cmake --install /home/rasd/ros2_ws/build/rasd_elev_profile
+[62.724s] -- Install configuration: ""
+[62.724s] -- Execute custom install script
+[62.725s] -- Symlinking: /home/rasd/ros2_ws/install/rasd_elev_profile/lib/rasd_elev_profile/elevation_profile_node
+[62.774s] -- Symlinking: /home/rasd/ros2_ws/install/rasd_elev_profile/share/ament_index/resource_index/package_run_dependencies/rasd_elev_profile
+[62.807s] -- Symlinking: /home/rasd/ros2_ws/install/rasd_elev_profile/share/ament_index/resource_index/parent_prefix_path/rasd_elev_profile
+[62.845s] -- Symlinking: /home/rasd/ros2_ws/install/rasd_elev_profile/share/rasd_elev_profile/environment/ament_prefix_path.sh
+[62.883s] -- Symlinking: /home/rasd/ros2_ws/install/rasd_elev_profile/share/rasd_elev_profile/environment/ament_prefix_path.dsv
+[62.942s] -- Symlinking: /home/rasd/ros2_ws/install/rasd_elev_profile/share/rasd_elev_profile/environment/path.sh
+[62.976s] -- Symlinking: /home/rasd/ros2_ws/install/rasd_elev_profile/share/rasd_elev_profile/environment/path.dsv
+[63.006s] -- Symlinking: /home/rasd/ros2_ws/install/rasd_elev_profile/share/rasd_elev_profile/local_setup.bash
+[63.043s] -- Symlinking: /home/rasd/ros2_ws/install/rasd_elev_profile/share/rasd_elev_profile/local_setup.sh
+[63.076s] -- Symlinking: /home/rasd/ros2_ws/install/rasd_elev_profile/share/rasd_elev_profile/local_setup.zsh
+[63.106s] -- Symlinking: /home/rasd/ros2_ws/install/rasd_elev_profile/share/rasd_elev_profile/local_setup.dsv
+[63.138s] -- Symlinking: /home/rasd/ros2_ws/install/rasd_elev_profile/share/rasd_elev_profile/package.dsv
+[63.175s] -- Symlinking: /home/rasd/ros2_ws/install/rasd_elev_profile/share/ament_index/resource_index/packages/rasd_elev_profile
+[63.208s] -- Symlinking: /home/rasd/ros2_ws/install/rasd_elev_profile/share/rasd_elev_profile/cmake/rasd_elev_profileConfig.cmake
+[63.237s] -- Symlinking: /home/rasd/ros2_ws/install/rasd_elev_profile/share/rasd_elev_profile/cmake/rasd_elev_profileConfig-version.cmake
+[63.269s] -- Symlinking: /home/rasd/ros2_ws/install/rasd_elev_profile/share/rasd_elev_profile/package.xml
+[63.315s] Invoked command in '/home/rasd/ros2_ws/build/rasd_elev_profile' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_gps:/home/rasd/ros2_ws/install/rasd_fusion:/home/rasd/ros2_ws/install/rasd_camera:/home/rasd/install/rasd_tf:/home/rasd/install/rasd_roi_filter:/opt/ros/humble /usr/bin/cmake --install /home/rasd/ros2_ws/build/rasd_elev_profile

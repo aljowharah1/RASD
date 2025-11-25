@@ -1,0 +1,43 @@
+rasd_ransac_speedbump:
+  ros__parameters:
+
+    cloud_topic: "/roi_point_cloud"
+    frame_id: "base_link"
+
+    # ROI Region
+    x_min: 0.0
+    x_max: 50.0
+    bin_size: 0.30
+    lane_width: 4.0
+
+    # Bump geometry thresholds
+    bump_min_height: 0.06
+    bump_max_height: 0.29
+    bump_min_width: 0.40
+    bump_max_width: 3.50
+
+    # Detection distance range
+    detect_min_x: 2.0
+    detect_max_x: 35.0
+
+    # Minimum points per bin
+    min_points_per_bin: 6
+
+    # Plane fit region
+    plane_fit_x_min: 1.5
+    plane_fit_x_max: 8.0
+    plane_fit_min_points: 250
+    plane_refine_cutoff_m: 0.05
+
+    # Smoothing
+    smooth_window: 1
+
+    # Temporal matching
+    temporal_history_frames: 3
+    temporal_match_tolerance: 1.5
+    temporal_min_matches: 2
+
+    # Intensity debug
+    intensity_min: 10.0
+    intensity_max: 80.0
+

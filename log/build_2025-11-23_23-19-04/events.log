@@ -1,0 +1,110 @@
+[0.000000] (-) TimerEvent: {}
+[0.001077] (-) JobUnselected: {'identifier': 'grid_map'}
+[0.001945] (-) JobUnselected: {'identifier': 'grid_map_cmake_helpers'}
+[0.002347] (-) JobUnselected: {'identifier': 'grid_map_core'}
+[0.002728] (-) JobUnselected: {'identifier': 'grid_map_costmap_2d'}
+[0.002788] (-) JobUnselected: {'identifier': 'grid_map_cv'}
+[0.002925] (-) JobUnselected: {'identifier': 'grid_map_demos'}
+[0.003028] (-) JobUnselected: {'identifier': 'grid_map_filters'}
+[0.003124] (-) JobUnselected: {'identifier': 'grid_map_loader'}
+[0.003217] (-) JobUnselected: {'identifier': 'grid_map_msgs'}
+[0.003340] (-) JobUnselected: {'identifier': 'grid_map_octomap'}
+[0.003432] (-) JobUnselected: {'identifier': 'grid_map_pcl'}
+[0.003523] (-) JobUnselected: {'identifier': 'grid_map_ros'}
+[0.003644] (-) JobUnselected: {'identifier': 'grid_map_rviz_plugin'}
+[0.003736] (-) JobUnselected: {'identifier': 'grid_map_sdf'}
+[0.003824] (-) JobUnselected: {'identifier': 'grid_map_visualization'}
+[0.003920] (-) JobUnselected: {'identifier': 'livox_interfaces'}
+[0.004010] (-) JobUnselected: {'identifier': 'livox_ros2_driver'}
+[0.004127] (-) JobUnselected: {'identifier': 'livox_sdk'}
+[0.004217] (-) JobUnselected: {'identifier': 'livox_sdk_vendor'}
+[0.004312] (-) JobUnselected: {'identifier': 'rasd_camera'}
+[0.004437] (-) JobUnselected: {'identifier': 'rasd_elev_profile'}
+[0.004533] (-) JobUnselected: {'identifier': 'rasd_fusion'}
+[0.004628] (-) JobUnselected: {'identifier': 'rasd_gridmap'}
+[0.004724] (-) JobUnselected: {'identifier': 'rasd_led_serial'}
+[0.004807] (-) JobUnselected: {'identifier': 'rasd_ransac_speedbump'}
+[0.004850] (-) JobUnselected: {'identifier': 'rasd_roi_filter'}
+[0.004950] (-) JobUnselected: {'identifier': 'rasd_tf'}
+[0.005042] (rasd_gps) JobQueued: {'identifier': 'rasd_gps', 'dependencies': OrderedDict()}
+[0.005139] (rasd_gps) JobStarted: {'identifier': 'rasd_gps'}
+[0.098919] (-) TimerEvent: {}
+[0.200477] (-) TimerEvent: {}
+[0.301590] (-) TimerEvent: {}
+[0.402569] (-) TimerEvent: {}
+[0.503566] (-) TimerEvent: {}
+[0.604552] (-) TimerEvent: {}
+[0.705544] (-) TimerEvent: {}
+[0.824612] (-) TimerEvent: {}
+[0.925662] (-) TimerEvent: {}
+[1.026714] (-) TimerEvent: {}
+[1.127690] (-) TimerEvent: {}
+[1.228624] (-) TimerEvent: {}
+[1.329594] (-) TimerEvent: {}
+[1.430508] (-) TimerEvent: {}
+[1.531403] (-) TimerEvent: {}
+[1.632285] (-) TimerEvent: {}
+[1.733241] (-) TimerEvent: {}
+[1.834178] (-) TimerEvent: {}
+[1.935165] (-) TimerEvent: {}
+[2.036256] (-) TimerEvent: {}
+[2.052037] (rasd_gps) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/rasd/ros2_ws/build/rasd_gps/build'], 'cwd': '/home/rasd/ros2_ws/build/rasd_gps', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rasd', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/cuda/lib64:/home/rasd/ros2_ws/install/livox_ros2_driver/lib:/home/rasd/ros2_ws/install/livox_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/rasd', 'OLDPWD': '/home/rasd/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '36.4.7', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super', 'LC_MONETARY': 'en_US.UTF-8', 'SYSTEMD_EXEC_PID': '4610', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/rasd/ros2_ws/install:/home/rasd/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'rasd', 'JETSON_MODULE': 'NVIDIA Jetson Orin Nano (Developer kit)', 'JETSON_SERIAL_NUMBER': '1422725053860', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rasd', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/usr/local/cuda/bin:/opt/ros/humble/bin:/home/rasd/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rasd-desktop:@/tmp/.ICE-unix/2481,unix/rasd-desktop:/tmp/.ICE-unix/2481', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d4a07459_ba6b_43fc_83a9_442483d97719', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra234', 'GNOME_TERMINAL_SERVICE': ':1.106', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_ransac_speedbump:/home/rasd/ros2_ws/install/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_gridmap:/home/rasd/ros2_ws/install/rasd_gps:/home/rasd/ros2_ws/install/rasd_fusion:/home/rasd/ros2_ws/install/rasd_elev_profile:/home/rasd/ros2_ws/install/rasd_camera:/home/rasd/ros2_ws/install/livox_ros2_driver:/home/rasd/ros2_ws/install/livox_sdk_vendor:/home/rasd/ros2_ws/install/livox_interfaces:/home/rasd/ros2_ws/install/grid_map_cmake_helpers:/home/rasd/install/rasd_tf:/home/rasd/install/rasd_roi_filter:/home/rasd/install/rasd_ransac_speedbump:/home/rasd/install/rasd_elev_profile:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/rasd/ros2_ws/build/rasd_gps', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rasd/ros2_ws/build/rasd_gps/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasd/ros2_ws/install/rasd_gps/lib/python3.10/site-packages:/usr/lib/python3.10/dist-packages:/home/rasd/ros2_ws/build/rasd_tf:/home/rasd/ros2_ws/install/rasd_tf/lib/python3.10/site-packages:/home/rasd/ros2_ws/install/rasd_roi_filter/lib/python3.10/site-packages:/home/rasd/ros2_ws/build/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_led_serial/lib/python3.10/site-packages:/home/rasd/ros2_ws/build/rasd_gps:/home/rasd/ros2_ws/install/rasd_gps/lib/python3.10/site-packages:/home/rasd/ros2_ws/build/rasd_fusion:/home/rasd/ros2_ws/install/rasd_fusion/lib/python3.10/site-packages:/home/rasd/ros2_ws/install/rasd_camera/lib/python3.10/site-packages:/home/rasd/ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages:/home/rasd/build/rasd_tf:/home/rasd/install/rasd_tf/lib/python3.10/site-packages:/home/rasd/build/rasd_roi_filter:/home/rasd/install/rasd_roi_filter/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'JETSON_JETPACK': '', 'CMAKE_PREFIX_PATH': '/home/rasd/ros2_ws/install/rasd_ransac_speedbump:/home/rasd/ros2_ws/install/rasd_gridmap:/home/rasd/ros2_ws/install/rasd_elev_profile:/home/rasd/ros2_ws/install/livox_ros2_driver:/home/rasd/ros2_ws/install/livox_sdk_vendor:/home/rasd/ros2_ws/install/livox_interfaces:/home/rasd/ros2_ws/install/grid_map_cmake_helpers:/home/rasd/install/rasd_ransac_speedbump:/home/rasd/install/rasd_elev_profile', 'JETSON_P_NUMBER': 'p3767-0005'}, 'shell': False}
+[2.136463] (-) TimerEvent: {}
+[2.237424] (-) TimerEvent: {}
+[2.338455] (-) TimerEvent: {}
+[2.439368] (-) TimerEvent: {}
+[2.540279] (-) TimerEvent: {}
+[2.641187] (-) TimerEvent: {}
+[2.742101] (-) TimerEvent: {}
+[2.754223] (rasd_gps) StdoutLine: {'line': b'running develop\n'}
+[2.842306] (-) TimerEvent: {}
+[2.943220] (-) TimerEvent: {}
+[3.044269] (-) TimerEvent: {}
+[3.145260] (-) TimerEvent: {}
+[3.211683] (rasd_gps) StdoutLine: {'line': b'Removing /home/rasd/ros2_ws/install/rasd_gps/lib/python3.10/site-packages/rasd-gps.egg-link (link to .)\n'}
+[3.245503] (-) TimerEvent: {}
+[3.346695] (-) TimerEvent: {}
+[3.364798] (rasd_gps) CommandEnded: {'returncode': 0}
+[3.369449] (rasd_gps) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/rasd_gps', 'build', '--build-base', '/home/rasd/ros2_ws/build/rasd_gps/build', 'install', '--record', '/home/rasd/ros2_ws/build/rasd_gps/install.log', '--single-version-externally-managed', 'install_data', '--force'], 'cwd': '/home/rasd/ros2_ws/src/rasd_gps', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rasd', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/cuda/lib64:/home/rasd/ros2_ws/install/livox_ros2_driver/lib:/home/rasd/ros2_ws/install/livox_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/rasd', 'OLDPWD': '/home/rasd/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '36.4.7', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super', 'LC_MONETARY': 'en_US.UTF-8', 'SYSTEMD_EXEC_PID': '4610', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/rasd/ros2_ws/install:/home/rasd/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'rasd', 'JETSON_MODULE': 'NVIDIA Jetson Orin Nano (Developer kit)', 'JETSON_SERIAL_NUMBER': '1422725053860', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rasd', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/usr/local/cuda/bin:/opt/ros/humble/bin:/home/rasd/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rasd-desktop:@/tmp/.ICE-unix/2481,unix/rasd-desktop:/tmp/.ICE-unix/2481', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d4a07459_ba6b_43fc_83a9_442483d97719', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra234', 'GNOME_TERMINAL_SERVICE': ':1.106', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_ransac_speedbump:/home/rasd/ros2_ws/install/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_gridmap:/home/rasd/ros2_ws/install/rasd_gps:/home/rasd/ros2_ws/install/rasd_fusion:/home/rasd/ros2_ws/install/rasd_elev_profile:/home/rasd/ros2_ws/install/rasd_camera:/home/rasd/ros2_ws/install/livox_ros2_driver:/home/rasd/ros2_ws/install/livox_sdk_vendor:/home/rasd/ros2_ws/install/livox_interfaces:/home/rasd/ros2_ws/install/grid_map_cmake_helpers:/home/rasd/install/rasd_tf:/home/rasd/install/rasd_roi_filter:/home/rasd/install/rasd_ransac_speedbump:/home/rasd/install/rasd_elev_profile:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/rasd/ros2_ws/build/rasd_gps', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rasd/ros2_ws/build/rasd_gps/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasd/ros2_ws/install/rasd_gps/lib/python3.10/site-packages:/usr/lib/python3.10/dist-packages:/home/rasd/ros2_ws/build/rasd_tf:/home/rasd/ros2_ws/install/rasd_tf/lib/python3.10/site-packages:/home/rasd/ros2_ws/install/rasd_roi_filter/lib/python3.10/site-packages:/home/rasd/ros2_ws/build/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_led_serial/lib/python3.10/site-packages:/home/rasd/ros2_ws/build/rasd_gps:/home/rasd/ros2_ws/install/rasd_gps/lib/python3.10/site-packages:/home/rasd/ros2_ws/build/rasd_fusion:/home/rasd/ros2_ws/install/rasd_fusion/lib/python3.10/site-packages:/home/rasd/ros2_ws/install/rasd_camera/lib/python3.10/site-packages:/home/rasd/ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages:/home/rasd/build/rasd_tf:/home/rasd/install/rasd_tf/lib/python3.10/site-packages:/home/rasd/build/rasd_roi_filter:/home/rasd/install/rasd_roi_filter/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'JETSON_JETPACK': '', 'CMAKE_PREFIX_PATH': '/home/rasd/ros2_ws/install/rasd_ransac_speedbump:/home/rasd/ros2_ws/install/rasd_gridmap:/home/rasd/ros2_ws/install/rasd_elev_profile:/home/rasd/ros2_ws/install/livox_ros2_driver:/home/rasd/ros2_ws/install/livox_sdk_vendor:/home/rasd/ros2_ws/install/livox_interfaces:/home/rasd/ros2_ws/install/grid_map_cmake_helpers:/home/rasd/install/rasd_ransac_speedbump:/home/rasd/install/rasd_elev_profile', 'JETSON_P_NUMBER': 'p3767-0005'}, 'shell': False}
+[3.447194] (-) TimerEvent: {}
+[3.548150] (-) TimerEvent: {}
+[3.649114] (-) TimerEvent: {}
+[3.750053] (-) TimerEvent: {}
+[3.850976] (-) TimerEvent: {}
+[3.951925] (-) TimerEvent: {}
+[4.042415] (rasd_gps) StdoutLine: {'line': b'running egg_info\n'}
+[4.044407] (rasd_gps) StdoutLine: {'line': b'writing ../../build/rasd_gps/rasd_gps.egg-info/PKG-INFO\n'}
+[4.045518] (rasd_gps) StdoutLine: {'line': b'writing dependency_links to ../../build/rasd_gps/rasd_gps.egg-info/dependency_links.txt\n'}
+[4.046051] (rasd_gps) StdoutLine: {'line': b'writing entry points to ../../build/rasd_gps/rasd_gps.egg-info/entry_points.txt\n'}
+[4.046522] (rasd_gps) StdoutLine: {'line': b'writing requirements to ../../build/rasd_gps/rasd_gps.egg-info/requires.txt\n'}
+[4.046792] (rasd_gps) StdoutLine: {'line': b'writing top-level names to ../../build/rasd_gps/rasd_gps.egg-info/top_level.txt\n'}
+[4.051979] (-) TimerEvent: {}
+[4.053253] (rasd_gps) StdoutLine: {'line': b"reading manifest file '../../build/rasd_gps/rasd_gps.egg-info/SOURCES.txt'\n"}
+[4.055889] (rasd_gps) StdoutLine: {'line': b"writing manifest file '../../build/rasd_gps/rasd_gps.egg-info/SOURCES.txt'\n"}
+[4.056209] (rasd_gps) StdoutLine: {'line': b'running build\n'}
+[4.056412] (rasd_gps) StdoutLine: {'line': b'running build_py\n'}
+[4.056613] (rasd_gps) StdoutLine: {'line': b'creating /home/rasd/ros2_ws/build/rasd_gps/build\n'}
+[4.056820] (rasd_gps) StdoutLine: {'line': b'creating /home/rasd/ros2_ws/build/rasd_gps/build/lib\n'}
+[4.057090] (rasd_gps) StdoutLine: {'line': b'creating /home/rasd/ros2_ws/build/rasd_gps/build/lib/rasd_gps\n'}
+[4.057338] (rasd_gps) StdoutLine: {'line': b'copying rasd_gps/rasd_gps_node.py -> /home/rasd/ros2_ws/build/rasd_gps/build/lib/rasd_gps\n'}
+[4.057547] (rasd_gps) StdoutLine: {'line': b'copying rasd_gps/__init__.py -> /home/rasd/ros2_ws/build/rasd_gps/build/lib/rasd_gps\n'}
+[4.058006] (rasd_gps) StdoutLine: {'line': b'running install\n'}
+[4.058871] (rasd_gps) StdoutLine: {'line': b'running install_lib\n'}
+[4.060700] (rasd_gps) StdoutLine: {'line': b'creating /home/rasd/ros2_ws/install/rasd_gps/lib/python3.10/site-packages/rasd_gps\n'}
+[4.060920] (rasd_gps) StdoutLine: {'line': b'copying /home/rasd/ros2_ws/build/rasd_gps/build/lib/rasd_gps/rasd_gps_node.py -> /home/rasd/ros2_ws/install/rasd_gps/lib/python3.10/site-packages/rasd_gps\n'}
+[4.065141] (rasd_gps) StdoutLine: {'line': b'copying /home/rasd/ros2_ws/build/rasd_gps/build/lib/rasd_gps/__init__.py -> /home/rasd/ros2_ws/install/rasd_gps/lib/python3.10/site-packages/rasd_gps\n'}
+[4.067417] (rasd_gps) StdoutLine: {'line': b'byte-compiling /home/rasd/ros2_ws/install/rasd_gps/lib/python3.10/site-packages/rasd_gps/rasd_gps_node.py to rasd_gps_node.cpython-310.pyc\n'}
+[4.070772] (rasd_gps) StdoutLine: {'line': b'byte-compiling /home/rasd/ros2_ws/install/rasd_gps/lib/python3.10/site-packages/rasd_gps/__init__.py to __init__.cpython-310.pyc\n'}
+[4.071152] (rasd_gps) StdoutLine: {'line': b'running install_data\n'}
+[4.071438] (rasd_gps) StdoutLine: {'line': b'copying resource/rasd_gps -> /home/rasd/ros2_ws/install/rasd_gps/share/ament_index/resource_index/packages\n'}
+[4.071894] (rasd_gps) StdoutLine: {'line': b'copying package.xml -> /home/rasd/ros2_ws/install/rasd_gps/share/rasd_gps\n'}
+[4.072180] (rasd_gps) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.077724] (rasd_gps) StdoutLine: {'line': b'Copying ../../build/rasd_gps/rasd_gps.egg-info to /home/rasd/ros2_ws/install/rasd_gps/lib/python3.10/site-packages/rasd_gps-0.0.0-py3.10.egg-info\n'}
+[4.080842] (rasd_gps) StdoutLine: {'line': b'running install_scripts\n'}
+[4.138762] (rasd_gps) StdoutLine: {'line': b'Installing rasd_gps_node script to /home/rasd/ros2_ws/install/rasd_gps/lib/rasd_gps\n'}
+[4.140062] (rasd_gps) StdoutLine: {'line': b"writing list of installed files to '/home/rasd/ros2_ws/build/rasd_gps/install.log'\n"}
+[4.152136] (-) TimerEvent: {}
+[4.253113] (-) TimerEvent: {}
+[4.256398] (rasd_gps) CommandEnded: {'returncode': 0}
+[4.299495] (rasd_gps) JobEnded: {'identifier': 'rasd_gps', 'rc': 0}
+[4.302319] (-) EventReactorShutdown: {}

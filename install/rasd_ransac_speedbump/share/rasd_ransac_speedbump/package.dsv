@@ -1,0 +1,8 @@
+source;share/rasd_ransac_speedbump/hook/cmake_prefix_path.ps1
+source;share/rasd_ransac_speedbump/hook/cmake_prefix_path.dsv
+source;share/rasd_ransac_speedbump/hook/cmake_prefix_path.sh
+source;share/rasd_ransac_speedbump/local_setup.bash
+source;share/rasd_ransac_speedbump/local_setup.dsv
+source;share/rasd_ransac_speedbump/local_setup.ps1
+source;share/rasd_ransac_speedbump/local_setup.sh
+source;share/rasd_ransac_speedbump/local_setup.zsh

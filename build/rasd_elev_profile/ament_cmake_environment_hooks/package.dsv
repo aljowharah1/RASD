@@ -1,0 +1,4 @@
+source;share/rasd_elev_profile/local_setup.bash
+source;share/rasd_elev_profile/local_setup.dsv
+source;share/rasd_elev_profile/local_setup.sh
+source;share/rasd_elev_profile/local_setup.zsh

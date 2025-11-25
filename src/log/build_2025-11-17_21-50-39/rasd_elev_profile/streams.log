@@ -1,0 +1,26 @@
+[0.047s] Invoking command in '/home/rasd/ros2_ws/src/build/rasd_elev_profile': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_camera:/home/rasd/ros2_ws/src/install/rasd_roi_filter:/opt/ros/humble /usr/bin/cmake --build /home/rasd/ros2_ws/src/build/rasd_elev_profile -- -j6 -l6
+[0.201s] [35m[1mConsolidate compiler generated dependencies of target elevation_profile_node[0m
+[0.272s] [ 50%] [32mBuilding CXX object CMakeFiles/elevation_profile_node.dir/src/elevation_profile_node.cpp.o[0m
+[38.673s] [100%] [32m[1mLinking CXX executable elevation_profile_node[0m
+[41.506s] [100%] Built target elevation_profile_node
+[41.547s] Invoked command in '/home/rasd/ros2_ws/src/build/rasd_elev_profile' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_camera:/home/rasd/ros2_ws/src/install/rasd_roi_filter:/opt/ros/humble /usr/bin/cmake --build /home/rasd/ros2_ws/src/build/rasd_elev_profile -- -j6 -l6
+[41.580s] Invoking command in '/home/rasd/ros2_ws/src/build/rasd_elev_profile': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_camera:/home/rasd/ros2_ws/src/install/rasd_roi_filter:/opt/ros/humble /usr/bin/cmake --install /home/rasd/ros2_ws/src/build/rasd_elev_profile
+[41.612s] -- Install configuration: ""
+[41.614s] -- Execute custom install script
+[41.630s] -- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/lib/rasd_elev_profile/elevation_profile_node
+[41.659s] -- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/share/ament_index/resource_index/package_run_dependencies/rasd_elev_profile
+[41.687s] -- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/share/ament_index/resource_index/parent_prefix_path/rasd_elev_profile
+[41.724s] -- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/environment/ament_prefix_path.sh
+[41.753s] -- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/environment/ament_prefix_path.dsv
+[41.783s] -- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/environment/path.sh
+[41.813s] -- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/environment/path.dsv
+[41.842s] -- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/local_setup.bash
+[41.873s] -- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/local_setup.sh
+[41.915s] -- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/local_setup.zsh
+[41.945s] -- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/local_setup.dsv
+[41.974s] -- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/package.dsv
+[42.003s] -- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/share/ament_index/resource_index/packages/rasd_elev_profile
+[42.033s] -- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/cmake/rasd_elev_profileConfig.cmake
+[42.062s] -- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/cmake/rasd_elev_profileConfig-version.cmake
+[42.091s] -- Symlinking: /home/rasd/ros2_ws/src/install/rasd_elev_profile/share/rasd_elev_profile/package.xml
+[42.128s] Invoked command in '/home/rasd/ros2_ws/src/build/rasd_elev_profile' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_camera:/home/rasd/ros2_ws/src/install/rasd_roi_filter:/opt/ros/humble /usr/bin/cmake --install /home/rasd/ros2_ws/src/build/rasd_elev_profile

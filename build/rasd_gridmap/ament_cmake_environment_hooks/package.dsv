@@ -1,0 +1,4 @@
+source;share/rasd_gridmap/local_setup.bash
+source;share/rasd_gridmap/local_setup.dsv
+source;share/rasd_gridmap/local_setup.sh
+source;share/rasd_gridmap/local_setup.zsh

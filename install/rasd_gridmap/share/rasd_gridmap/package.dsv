@@ -1,0 +1,8 @@
+source;share/rasd_gridmap/hook/cmake_prefix_path.ps1
+source;share/rasd_gridmap/hook/cmake_prefix_path.dsv
+source;share/rasd_gridmap/hook/cmake_prefix_path.sh
+source;share/rasd_gridmap/local_setup.bash
+source;share/rasd_gridmap/local_setup.dsv
+source;share/rasd_gridmap/local_setup.ps1
+source;share/rasd_gridmap/local_setup.sh
+source;share/rasd_gridmap/local_setup.zsh

@@ -1,0 +1,16 @@
+[1.846s] Invoking command in '/home/rasd/ros2_ws/src/build/rasd_roi_filter': PYTHONPATH=/home/rasd/ros2_ws/src/build/rasd_roi_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasd/ros2_ws/src/install/rasd_roi_filter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rasd/ros2_ws/src/build/rasd_roi_filter/build --no-deps
+[2.531s] running develop
+[2.965s] running egg_info
+[2.966s] writing rasd_roi_filter.egg-info/PKG-INFO
+[2.967s] writing dependency_links to rasd_roi_filter.egg-info/dependency_links.txt
+[2.967s] writing entry points to rasd_roi_filter.egg-info/entry_points.txt
+[2.968s] writing requirements to rasd_roi_filter.egg-info/requires.txt
+[2.968s] writing top-level names to rasd_roi_filter.egg-info/top_level.txt
+[2.975s] reading manifest file 'rasd_roi_filter.egg-info/SOURCES.txt'
+[2.976s] writing manifest file 'rasd_roi_filter.egg-info/SOURCES.txt'
+[2.981s] running build_ext
+[2.981s] Creating /home/rasd/ros2_ws/src/install/rasd_roi_filter/lib/python3.10/site-packages/rasd-roi-filter.egg-link (link to .)
+[2.984s] Installing roi_node script to /home/rasd/ros2_ws/src/install/rasd_roi_filter/lib/rasd_roi_filter
+[2.985s] 
+[2.985s] Installed /home/rasd/ros2_ws/src/build/rasd_roi_filter
+[3.126s] Invoked command in '/home/rasd/ros2_ws/src/build/rasd_roi_filter' returned '0': PYTHONPATH=/home/rasd/ros2_ws/src/build/rasd_roi_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasd/ros2_ws/src/install/rasd_roi_filter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rasd/ros2_ws/src/build/rasd_roi_filter/build --no-deps

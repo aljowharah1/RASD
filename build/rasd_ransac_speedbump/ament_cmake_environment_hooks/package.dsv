@@ -1,0 +1,4 @@
+source;share/rasd_ransac_speedbump/local_setup.bash
+source;share/rasd_ransac_speedbump/local_setup.dsv
+source;share/rasd_ransac_speedbump/local_setup.sh
+source;share/rasd_ransac_speedbump/local_setup.zsh

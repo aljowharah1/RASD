@@ -1,0 +1,1 @@
+/home/rasd/ros2_ws/build/livox_interfaces/rosidl_generator_py/livox_interfaces/_livox_interfaces_s.ep.rosidl_typesupport_c.c

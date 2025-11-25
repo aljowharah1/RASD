@@ -1,0 +1,8 @@
+source;share/rasd_elev_profile/hook/cmake_prefix_path.ps1
+source;share/rasd_elev_profile/hook/cmake_prefix_path.dsv
+source;share/rasd_elev_profile/hook/cmake_prefix_path.sh
+source;share/rasd_elev_profile/local_setup.bash
+source;share/rasd_elev_profile/local_setup.dsv
+source;share/rasd_elev_profile/local_setup.ps1
+source;share/rasd_elev_profile/local_setup.sh
+source;share/rasd_elev_profile/local_setup.zsh

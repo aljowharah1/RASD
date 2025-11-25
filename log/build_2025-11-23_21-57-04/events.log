@@ -1,0 +1,739 @@
+[0.000000] (-) TimerEvent: {}
+[0.000878] (-) JobUnselected: {'identifier': 'grid_map'}
+[0.001586] (-) JobUnselected: {'identifier': 'grid_map_cmake_helpers'}
+[0.001939] (-) JobUnselected: {'identifier': 'grid_map_core'}
+[0.002355] (-) JobUnselected: {'identifier': 'grid_map_costmap_2d'}
+[0.002477] (-) JobUnselected: {'identifier': 'grid_map_cv'}
+[0.002563] (-) JobUnselected: {'identifier': 'grid_map_demos'}
+[0.002641] (-) JobUnselected: {'identifier': 'grid_map_filters'}
+[0.002719] (-) JobUnselected: {'identifier': 'grid_map_loader'}
+[0.002791] (-) JobUnselected: {'identifier': 'grid_map_msgs'}
+[0.002864] (-) JobUnselected: {'identifier': 'grid_map_octomap'}
+[0.002935] (-) JobUnselected: {'identifier': 'grid_map_pcl'}
+[0.003008] (-) JobUnselected: {'identifier': 'grid_map_ros'}
+[0.003082] (-) JobUnselected: {'identifier': 'grid_map_rviz_plugin'}
+[0.003155] (-) JobUnselected: {'identifier': 'grid_map_sdf'}
+[0.003227] (-) JobUnselected: {'identifier': 'grid_map_visualization'}
+[0.003297] (-) JobUnselected: {'identifier': 'livox_interfaces'}
+[0.003369] (-) JobUnselected: {'identifier': 'livox_ros2_driver'}
+[0.003443] (-) JobUnselected: {'identifier': 'livox_sdk'}
+[0.003513] (-) JobUnselected: {'identifier': 'livox_sdk_vendor'}
+[0.003588] (-) JobUnselected: {'identifier': 'rasd_camera'}
+[0.003660] (-) JobUnselected: {'identifier': 'rasd_elev_profile'}
+[0.003735] (-) JobUnselected: {'identifier': 'rasd_fusion'}
+[0.003839] (-) JobUnselected: {'identifier': 'rasd_gps'}
+[0.003916] (-) JobUnselected: {'identifier': 'rasd_led_serial'}
+[0.003992] (-) JobUnselected: {'identifier': 'rasd_ransac_speedbump'}
+[0.004072] (-) JobUnselected: {'identifier': 'rasd_roi_filter'}
+[0.004142] (-) JobUnselected: {'identifier': 'rasd_tf'}
+[0.004188] (rasd_gridmap) JobQueued: {'identifier': 'rasd_gridmap', 'dependencies': OrderedDict([('grid_map_cmake_helpers', '/home/rasd/ros2_ws/install/grid_map_cmake_helpers'), ('grid_map_core', '/home/rasd/ros2_ws/install/grid_map_core'), ('grid_map_msgs', '/home/rasd/ros2_ws/install/grid_map_msgs'), ('grid_map_cv', '/home/rasd/ros2_ws/install/grid_map_cv'), ('grid_map_ros', '/home/rasd/ros2_ws/install/grid_map_ros')])}
+[0.004271] (rasd_gridmap) JobStarted: {'identifier': 'rasd_gridmap'}
+[0.051921] (rasd_gridmap) JobProgress: {'identifier': 'rasd_gridmap', 'progress': 'cmake'}
+[0.053349] (rasd_gridmap) Command: {'cmd': ['/usr/bin/cmake', '/home/rasd/ros2_ws/src/rasd_gridmap', '-DCMAKE_INSTALL_PREFIX=/home/rasd/ros2_ws/install/rasd_gridmap'], 'cwd': '/home/rasd/ros2_ws/build/rasd_gridmap', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rasd'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/home/rasd/ros2_ws/install/livox_ros2_driver/lib:/home/rasd/ros2_ws/install/livox_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rasd'), ('OLDPWD', '/home/rasd/ros2_ws/src/rasd_gridmap'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.4.7'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '4610'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rasd/install:/home/rasd/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rasd'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1422725053860'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rasd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/opt/ros/humble/bin:/home/rasd/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rasd-desktop:@/tmp/.ICE-unix/2481,unix/rasd-desktop:/tmp/.ICE-unix/2481'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7f4b0686_913c_4a69_b3dd_1f0e70c1d2d6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_ransac_speedbump:/home/rasd/ros2_ws/install/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_gps:/home/rasd/ros2_ws/install/rasd_fusion:/home/rasd/ros2_ws/install/rasd_camera:/home/rasd/ros2_ws/install/livox_ros2_driver:/home/rasd/ros2_ws/install/livox_sdk_vendor:/home/rasd/ros2_ws/install/livox_interfaces:/home/rasd/ros2_ws/install/grid_map_cmake_helpers:/home/rasd/install/rasd_tf:/home/rasd/install/rasd_roi_filter:/home/rasd/install/rasd_ransac_speedbump:/home/rasd/install/rasd_elev_profile:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/rasd/ros2_ws/build/rasd_gridmap'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/usr/lib/python3.10/dist-packages:/home/rasd/ros2_ws/build/rasd_tf:/home/rasd/ros2_ws/install/rasd_tf/lib/python3.10/site-packages:/home/rasd/ros2_ws/install/rasd_roi_filter/lib/python3.10/site-packages:/home/rasd/ros2_ws/build/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_led_serial/lib/python3.10/site-packages:/home/rasd/ros2_ws/build/rasd_gps:/home/rasd/ros2_ws/install/rasd_gps/lib/python3.10/site-packages:/home/rasd/ros2_ws/build/rasd_fusion:/home/rasd/ros2_ws/install/rasd_fusion/lib/python3.10/site-packages:/home/rasd/ros2_ws/install/rasd_camera/lib/python3.10/site-packages:/home/rasd/ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages:/home/rasd/build/rasd_tf:/home/rasd/install/rasd_tf/lib/python3.10/site-packages:/home/rasd/build/rasd_roi_filter:/home/rasd/install/rasd_roi_filter/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', ''), ('CMAKE_PREFIX_PATH', '/home/rasd/ros2_ws/install/grid_map_cmake_helpers:/home/rasd/ros2_ws/install/rasd_ransac_speedbump:/home/rasd/ros2_ws/install/livox_ros2_driver:/home/rasd/ros2_ws/install/livox_sdk_vendor:/home/rasd/ros2_ws/install/livox_interfaces:/home/rasd/install/rasd_ransac_speedbump:/home/rasd/install/rasd_elev_profile:/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_gps:/home/rasd/ros2_ws/install/rasd_fusion:/home/rasd/ros2_ws/install/rasd_camera:/home/rasd/install/rasd_tf:/home/rasd/install/rasd_roi_filter:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0005')]), 'shell': False}
+[0.099089] (-) TimerEvent: {}
+[0.200292] (-) TimerEvent: {}
+[0.301519] (-) TimerEvent: {}
+[0.402692] (-) TimerEvent: {}
+[0.503932] (-) TimerEvent: {}
+[0.605132] (-) TimerEvent: {}
+[0.706219] (-) TimerEvent: {}
+[0.788801] (rasd_gridmap) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.806543] (-) TimerEvent: {}
+[0.907761] (-) TimerEvent: {}
+[1.009084] (-) TimerEvent: {}
+[1.110533] (-) TimerEvent: {}
+[1.211843] (-) TimerEvent: {}
+[1.309402] (rasd_gridmap) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.311959] (-) TimerEvent: {}
+[1.354100] (rasd_gridmap) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.412320] (-) TimerEvent: {}
+[1.513376] (-) TimerEvent: {}
+[1.554500] (rasd_gridmap) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.575958] (rasd_gridmap) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.578724] (rasd_gridmap) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.581636] (rasd_gridmap) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.594490] (rasd_gridmap) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.613578] (-) TimerEvent: {}
+[1.714482] (-) TimerEvent: {}
+[1.813402] (rasd_gridmap) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.814527] (-) TimerEvent: {}
+[1.829757] (rasd_gridmap) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.830649] (rasd_gridmap) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.832003] (rasd_gridmap) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.852082] (rasd_gridmap) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.914840] (-) TimerEvent: {}
+[2.016112] (-) TimerEvent: {}
+[2.117251] (-) TimerEvent: {}
+[2.218290] (-) TimerEvent: {}
+[2.319298] (-) TimerEvent: {}
+[2.397178] (rasd_gridmap) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.419490] (-) TimerEvent: {}
+[2.520431] (-) TimerEvent: {}
+[2.621487] (-) TimerEvent: {}
+[2.722583] (-) TimerEvent: {}
+[2.823744] (-) TimerEvent: {}
+[2.851966] (rasd_gridmap) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.924046] (-) TimerEvent: {}
+[3.025202] (-) TimerEvent: {}
+[3.110144] (rasd_gridmap) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.125409] (-) TimerEvent: {}
+[3.138166] (rasd_gridmap) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.184707] (rasd_gridmap) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.225618] (-) TimerEvent: {}
+[3.249436] (rasd_gridmap) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.321911] (rasd_gridmap) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.325707] (-) TimerEvent: {}
+[3.426585] (-) TimerEvent: {}
+[3.527761] (-) TimerEvent: {}
+[3.549837] (rasd_gridmap) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.568615] (rasd_gridmap) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.627989] (-) TimerEvent: {}
+[3.729131] (-) TimerEvent: {}
+[3.830320] (-) TimerEvent: {}
+[3.883619] (rasd_gridmap) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.930583] (-) TimerEvent: {}
+[3.967910] (rasd_gridmap) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.030814] (-) TimerEvent: {}
+[4.069490] (rasd_gridmap) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.111279] (rasd_gridmap) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.131062] (-) TimerEvent: {}
+[4.232068] (-) TimerEvent: {}
+[4.333228] (-) TimerEvent: {}
+[4.349451] (rasd_gridmap) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.351284] (rasd_gridmap) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.433473] (-) TimerEvent: {}
+[4.534577] (-) TimerEvent: {}
+[4.552738] (rasd_gridmap) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.556429] (rasd_gridmap) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.634846] (-) TimerEvent: {}
+[4.735909] (-) TimerEvent: {}
+[4.795184] (rasd_gridmap) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[4.836093] (-) TimerEvent: {}
+[4.922535] (rasd_gridmap) StdoutLine: {'line': b'-- Found grid_map_ros: 2.0.1 (/opt/ros/humble/share/grid_map_ros/cmake)\n'}
+[4.936213] (-) TimerEvent: {}
+[5.037056] (-) TimerEvent: {}
+[5.138064] (-) TimerEvent: {}
+[5.239172] (-) TimerEvent: {}
+[5.340233] (-) TimerEvent: {}
+[5.441319] (-) TimerEvent: {}
+[5.542372] (-) TimerEvent: {}
+[5.643428] (-) TimerEvent: {}
+[5.693908] (rasd_gridmap) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[5.743645] (-) TimerEvent: {}
+[5.844721] (-) TimerEvent: {}
+[5.945873] (-) TimerEvent: {}
+[5.949103] (rasd_gridmap) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[6.046415] (-) TimerEvent: {}
+[6.083185] (rasd_gridmap) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[6.126225] (rasd_gridmap) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[6.154672] (-) TimerEvent: {}
+[6.208465] (rasd_gridmap) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[6.209498] (rasd_gridmap) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[6.254971] (-) TimerEvent: {}
+[6.323156] (rasd_gridmap) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[6.355238] (-) TimerEvent: {}
+[6.356567] (rasd_gridmap) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[6.455521] (-) TimerEvent: {}
+[6.457749] (rasd_gridmap) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/aarch64-linux-gnu/libflann_cpp.so  \n'}
+[6.458462] (rasd_gridmap) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)\n'}
+[6.555774] (-) TimerEvent: {}
+[6.657576] (-) TimerEvent: {}
+[6.758731] (-) TimerEvent: {}
+[6.859896] (-) TimerEvent: {}
+[6.961095] (-) TimerEvent: {}
+[7.062248] (-) TimerEvent: {}
+[7.163353] (-) TimerEvent: {}
+[7.264536] (-) TimerEvent: {}
+[7.365742] (-) TimerEvent: {}
+[7.466839] (-) TimerEvent: {}
+[7.567989] (-) TimerEvent: {}
+[7.669222] (-) TimerEvent: {}
+[7.770343] (-) TimerEvent: {}
+[7.871499] (-) TimerEvent: {}
+[7.972628] (-) TimerEvent: {}
+[8.073983] (-) TimerEvent: {}
+[8.175148] (-) TimerEvent: {}
+[8.276216] (-) TimerEvent: {}
+[8.377340] (-) TimerEvent: {}
+[8.478430] (-) TimerEvent: {}
+[8.579500] (-) TimerEvent: {}
+[8.680594] (-) TimerEvent: {}
+[8.781756] (-) TimerEvent: {}
+[8.882895] (-) TimerEvent: {}
+[8.984074] (-) TimerEvent: {}
+[9.085161] (-) TimerEvent: {}
+[9.186211] (-) TimerEvent: {}
+[9.287317] (-) TimerEvent: {}
+[9.387594] (rasd_gridmap) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[9.388513] (-) TimerEvent: {}
+[9.425831] (rasd_gridmap) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[9.488859] (-) TimerEvent: {}
+[9.512356] (rasd_gridmap) StdoutLine: {'line': b'-- Found libusb: /usr/lib/aarch64-linux-gnu/libusb-1.0.so  \n'}
+[9.518456] (rasd_gridmap) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[9.589165] (-) TimerEvent: {}
+[9.661038] (rasd_gridmap) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[9.689384] (-) TimerEvent: {}
+[9.790431] (-) TimerEvent: {}
+[9.891565] (-) TimerEvent: {}
+[9.992644] (-) TimerEvent: {}
+[10.019811] (rasd_gridmap) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[10.037259] (rasd_gridmap) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[10.053051] (rasd_gridmap) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[10.092848] (-) TimerEvent: {}
+[10.193846] (-) TimerEvent: {}
+[10.294933] (-) TimerEvent: {}
+[10.389555] (rasd_gridmap) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[10.395030] (-) TimerEvent: {}
+[10.495845] (-) TimerEvent: {}
+[10.596889] (-) TimerEvent: {}
+[10.697804] (-) TimerEvent: {}
+[10.734059] (rasd_gridmap) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[10.798014] (-) TimerEvent: {}
+[10.898983] (-) TimerEvent: {}
+[11.000047] (-) TimerEvent: {}
+[11.084869] (rasd_gridmap) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  \n'}
+[11.087104] (rasd_gridmap) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  \n'}
+[11.089062] (rasd_gridmap) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  \n'}
+[11.094940] (rasd_gridmap) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  \n'}
+[11.097180] (rasd_gridmap) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[11.099384] (rasd_gridmap) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  \n'}
+[11.100096] (-) TimerEvent: {}
+[11.100609] (rasd_gridmap) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[11.101162] (rasd_gridmap) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[11.103436] (rasd_gridmap) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  \n'}
+[11.105511] (rasd_gridmap) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  \n'}
+[11.107507] (rasd_gridmap) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  \n'}
+[11.109372] (rasd_gridmap) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  \n'}
+[11.111586] (rasd_gridmap) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/aarch64-linux-gnu/libpcl_visualization.so  \n'}
+[11.113748] (rasd_gridmap) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  \n'}
+[11.115655] (rasd_gridmap) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/aarch64-linux-gnu/libpcl_registration.so  \n'}
+[11.117701] (rasd_gridmap) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/aarch64-linux-gnu/libpcl_keypoints.so  \n'}
+[11.119693] (rasd_gridmap) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/aarch64-linux-gnu/libpcl_tracking.so  \n'}
+[11.121622] (rasd_gridmap) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/aarch64-linux-gnu/libpcl_recognition.so  \n'}
+[11.123753] (rasd_gridmap) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/aarch64-linux-gnu/libpcl_stereo.so  \n'}
+[11.125611] (rasd_gridmap) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/aarch64-linux-gnu/libpcl_apps.so  \n'}
+[11.127416] (rasd_gridmap) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[11.130615] (rasd_gridmap) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[11.131150] (rasd_gridmap) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[11.133865] (rasd_gridmap) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/aarch64-linux-gnu/libpcl_outofcore.so  \n'}
+[11.136498] (rasd_gridmap) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/aarch64-linux-gnu/libpcl_people.so  \n'}
+[11.140650] (rasd_gridmap) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:16 (find_package):\n'}
+[11.141129] (rasd_gridmap) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[11.141309] (rasd_gridmap) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[11.141458] (rasd_gridmap) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[11.141599] (rasd_gridmap) StderrLine: {'line': b'\n'}
+[11.141732] (rasd_gridmap) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[11.141867] (rasd_gridmap) StderrLine: {'line': b'\n'}
+[11.141992] (rasd_gridmap) StderrLine: {'line': b'    /usr\n'}
+[11.142119] (rasd_gridmap) StderrLine: {'line': b'\n'}
+[11.142242] (rasd_gridmap) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[11.142367] (rasd_gridmap) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[11.142492] (rasd_gridmap) StderrLine: {'line': b'\x1b[0m\n'}
+[11.200307] (-) TimerEvent: {}
+[11.301197] (-) TimerEvent: {}
+[11.402132] (-) TimerEvent: {}
+[11.486888] (rasd_gridmap) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.502264] (-) TimerEvent: {}
+[11.603149] (-) TimerEvent: {}
+[11.704175] (-) TimerEvent: {}
+[11.785194] (rasd_gridmap) StdoutLine: {'line': b'-- Generating done\n'}
+[11.804356] (-) TimerEvent: {}
+[11.828822] (rasd_gridmap) StdoutLine: {'line': b'-- Build files have been written to: /home/rasd/ros2_ws/build/rasd_gridmap\n'}
+[11.904632] (-) TimerEvent: {}
+[11.914152] (rasd_gridmap) CommandEnded: {'returncode': 0}
+[11.917150] (rasd_gridmap) JobProgress: {'identifier': 'rasd_gridmap', 'progress': 'build'}
+[11.920352] (rasd_gridmap) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rasd/ros2_ws/build/rasd_gridmap', '--', '-j6', '-l6'], 'cwd': '/home/rasd/ros2_ws/build/rasd_gridmap', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rasd'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/home/rasd/ros2_ws/install/livox_ros2_driver/lib:/home/rasd/ros2_ws/install/livox_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rasd'), ('OLDPWD', '/home/rasd/ros2_ws/src/rasd_gridmap'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.4.7'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '4610'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rasd/install:/home/rasd/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rasd'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1422725053860'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rasd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/opt/ros/humble/bin:/home/rasd/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rasd-desktop:@/tmp/.ICE-unix/2481,unix/rasd-desktop:/tmp/.ICE-unix/2481'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7f4b0686_913c_4a69_b3dd_1f0e70c1d2d6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_ransac_speedbump:/home/rasd/ros2_ws/install/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_gps:/home/rasd/ros2_ws/install/rasd_fusion:/home/rasd/ros2_ws/install/rasd_camera:/home/rasd/ros2_ws/install/livox_ros2_driver:/home/rasd/ros2_ws/install/livox_sdk_vendor:/home/rasd/ros2_ws/install/livox_interfaces:/home/rasd/ros2_ws/install/grid_map_cmake_helpers:/home/rasd/install/rasd_tf:/home/rasd/install/rasd_roi_filter:/home/rasd/install/rasd_ransac_speedbump:/home/rasd/install/rasd_elev_profile:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/rasd/ros2_ws/build/rasd_gridmap'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/usr/lib/python3.10/dist-packages:/home/rasd/ros2_ws/build/rasd_tf:/home/rasd/ros2_ws/install/rasd_tf/lib/python3.10/site-packages:/home/rasd/ros2_ws/install/rasd_roi_filter/lib/python3.10/site-packages:/home/rasd/ros2_ws/build/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_led_serial/lib/python3.10/site-packages:/home/rasd/ros2_ws/build/rasd_gps:/home/rasd/ros2_ws/install/rasd_gps/lib/python3.10/site-packages:/home/rasd/ros2_ws/build/rasd_fusion:/home/rasd/ros2_ws/install/rasd_fusion/lib/python3.10/site-packages:/home/rasd/ros2_ws/install/rasd_camera/lib/python3.10/site-packages:/home/rasd/ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages:/home/rasd/build/rasd_tf:/home/rasd/install/rasd_tf/lib/python3.10/site-packages:/home/rasd/build/rasd_roi_filter:/home/rasd/install/rasd_roi_filter/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', ''), ('CMAKE_PREFIX_PATH', '/home/rasd/ros2_ws/install/grid_map_cmake_helpers:/home/rasd/ros2_ws/install/rasd_ransac_speedbump:/home/rasd/ros2_ws/install/livox_ros2_driver:/home/rasd/ros2_ws/install/livox_sdk_vendor:/home/rasd/ros2_ws/install/livox_interfaces:/home/rasd/install/rasd_ransac_speedbump:/home/rasd/install/rasd_elev_profile:/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_gps:/home/rasd/ros2_ws/install/rasd_fusion:/home/rasd/ros2_ws/install/rasd_camera:/home/rasd/install/rasd_tf:/home/rasd/install/rasd_roi_filter:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0005')]), 'shell': False}
+[12.004872] (-) TimerEvent: {}
+[12.072875] (rasd_gridmap) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cloud_to_grid_node.dir/src/cloud_to_grid_node.cpp.o\x1b[0m\n'}
+[12.105209] (-) TimerEvent: {}
+[12.206356] (-) TimerEvent: {}
+[12.307547] (-) TimerEvent: {}
+[12.408621] (-) TimerEvent: {}
+[12.509744] (-) TimerEvent: {}
+[12.610824] (-) TimerEvent: {}
+[12.711906] (-) TimerEvent: {}
+[12.813159] (-) TimerEvent: {}
+[12.914335] (-) TimerEvent: {}
+[13.015464] (-) TimerEvent: {}
+[13.116561] (-) TimerEvent: {}
+[13.217719] (-) TimerEvent: {}
+[13.318781] (-) TimerEvent: {}
+[13.419804] (-) TimerEvent: {}
+[13.520866] (-) TimerEvent: {}
+[13.621974] (-) TimerEvent: {}
+[13.723059] (-) TimerEvent: {}
+[13.824173] (-) TimerEvent: {}
+[13.925411] (-) TimerEvent: {}
+[14.026611] (-) TimerEvent: {}
+[14.127812] (-) TimerEvent: {}
+[14.229113] (-) TimerEvent: {}
+[14.330319] (-) TimerEvent: {}
+[14.431546] (-) TimerEvent: {}
+[14.532801] (-) TimerEvent: {}
+[14.634107] (-) TimerEvent: {}
+[14.735224] (-) TimerEvent: {}
+[14.836366] (-) TimerEvent: {}
+[14.937613] (-) TimerEvent: {}
+[15.038848] (-) TimerEvent: {}
+[15.140058] (-) TimerEvent: {}
+[15.241257] (-) TimerEvent: {}
+[15.342515] (-) TimerEvent: {}
+[15.443707] (-) TimerEvent: {}
+[15.544889] (-) TimerEvent: {}
+[15.646111] (-) TimerEvent: {}
+[15.747338] (-) TimerEvent: {}
+[15.848436] (-) TimerEvent: {}
+[15.949664] (-) TimerEvent: {}
+[16.050726] (-) TimerEvent: {}
+[16.151759] (-) TimerEvent: {}
+[16.253107] (-) TimerEvent: {}
+[16.354314] (-) TimerEvent: {}
+[16.455465] (-) TimerEvent: {}
+[16.556574] (-) TimerEvent: {}
+[16.657696] (-) TimerEvent: {}
+[16.759198] (-) TimerEvent: {}
+[16.860546] (-) TimerEvent: {}
+[16.961819] (-) TimerEvent: {}
+[17.062898] (-) TimerEvent: {}
+[17.164424] (-) TimerEvent: {}
+[17.265625] (-) TimerEvent: {}
+[17.366798] (-) TimerEvent: {}
+[17.468055] (-) TimerEvent: {}
+[17.569470] (-) TimerEvent: {}
+[17.670624] (-) TimerEvent: {}
+[17.771662] (-) TimerEvent: {}
+[17.872779] (-) TimerEvent: {}
+[17.973966] (-) TimerEvent: {}
+[18.075200] (-) TimerEvent: {}
+[18.176815] (-) TimerEvent: {}
+[18.278072] (-) TimerEvent: {}
+[18.379342] (-) TimerEvent: {}
+[18.480729] (-) TimerEvent: {}
+[18.581978] (-) TimerEvent: {}
+[18.683175] (-) TimerEvent: {}
+[18.784540] (-) TimerEvent: {}
+[18.885761] (-) TimerEvent: {}
+[18.986972] (-) TimerEvent: {}
+[19.088188] (-) TimerEvent: {}
+[19.189409] (-) TimerEvent: {}
+[19.290699] (-) TimerEvent: {}
+[19.392113] (-) TimerEvent: {}
+[19.493338] (-) TimerEvent: {}
+[19.594542] (-) TimerEvent: {}
+[19.695755] (-) TimerEvent: {}
+[19.797001] (-) TimerEvent: {}
+[19.898192] (-) TimerEvent: {}
+[19.999474] (-) TimerEvent: {}
+[20.100723] (-) TimerEvent: {}
+[20.202659] (-) TimerEvent: {}
+[20.303854] (-) TimerEvent: {}
+[20.405135] (-) TimerEvent: {}
+[20.506341] (-) TimerEvent: {}
+[20.607937] (-) TimerEvent: {}
+[20.709196] (-) TimerEvent: {}
+[20.810438] (-) TimerEvent: {}
+[20.911716] (-) TimerEvent: {}
+[21.012995] (-) TimerEvent: {}
+[21.114201] (-) TimerEvent: {}
+[21.215700] (-) TimerEvent: {}
+[21.316915] (-) TimerEvent: {}
+[21.418166] (-) TimerEvent: {}
+[21.519375] (-) TimerEvent: {}
+[21.620631] (-) TimerEvent: {}
+[21.721980] (-) TimerEvent: {}
+[21.823630] (-) TimerEvent: {}
+[21.924867] (-) TimerEvent: {}
+[22.026185] (-) TimerEvent: {}
+[22.127429] (-) TimerEvent: {}
+[22.228656] (-) TimerEvent: {}
+[22.329904] (-) TimerEvent: {}
+[22.431134] (-) TimerEvent: {}
+[22.532360] (-) TimerEvent: {}
+[22.633611] (-) TimerEvent: {}
+[22.734791] (-) TimerEvent: {}
+[22.835946] (-) TimerEvent: {}
+[22.937177] (-) TimerEvent: {}
+[23.038407] (-) TimerEvent: {}
+[23.139623] (-) TimerEvent: {}
+[23.240831] (-) TimerEvent: {}
+[23.342021] (-) TimerEvent: {}
+[23.443215] (-) TimerEvent: {}
+[23.544658] (-) TimerEvent: {}
+[23.645897] (-) TimerEvent: {}
+[23.746965] (-) TimerEvent: {}
+[23.848161] (-) TimerEvent: {}
+[23.949381] (-) TimerEvent: {}
+[24.050586] (-) TimerEvent: {}
+[24.151775] (-) TimerEvent: {}
+[24.253225] (-) TimerEvent: {}
+[24.354433] (-) TimerEvent: {}
+[24.455625] (-) TimerEvent: {}
+[24.556860] (-) TimerEvent: {}
+[24.658162] (-) TimerEvent: {}
+[24.759370] (-) TimerEvent: {}
+[24.860873] (-) TimerEvent: {}
+[24.962155] (-) TimerEvent: {}
+[25.063363] (-) TimerEvent: {}
+[25.164554] (-) TimerEvent: {}
+[25.265784] (-) TimerEvent: {}
+[25.366966] (-) TimerEvent: {}
+[25.468140] (-) TimerEvent: {}
+[25.569734] (-) TimerEvent: {}
+[25.670970] (-) TimerEvent: {}
+[25.772180] (-) TimerEvent: {}
+[25.873423] (-) TimerEvent: {}
+[25.974668] (-) TimerEvent: {}
+[26.075868] (-) TimerEvent: {}
+[26.177079] (-) TimerEvent: {}
+[26.278285] (-) TimerEvent: {}
+[26.379510] (-) TimerEvent: {}
+[26.480732] (-) TimerEvent: {}
+[26.582002] (-) TimerEvent: {}
+[26.683215] (-) TimerEvent: {}
+[26.784392] (-) TimerEvent: {}
+[26.885655] (-) TimerEvent: {}
+[26.986893] (-) TimerEvent: {}
+[27.088089] (-) TimerEvent: {}
+[27.189209] (-) TimerEvent: {}
+[27.290468] (-) TimerEvent: {}
+[27.392229] (-) TimerEvent: {}
+[27.493538] (-) TimerEvent: {}
+[27.594766] (-) TimerEvent: {}
+[27.695981] (-) TimerEvent: {}
+[27.797264] (-) TimerEvent: {}
+[27.898433] (-) TimerEvent: {}
+[27.999874] (-) TimerEvent: {}
+[28.101144] (-) TimerEvent: {}
+[28.202354] (-) TimerEvent: {}
+[28.303595] (-) TimerEvent: {}
+[28.404806] (-) TimerEvent: {}
+[28.506069] (-) TimerEvent: {}
+[28.607713] (-) TimerEvent: {}
+[28.708787] (-) TimerEvent: {}
+[28.810040] (-) TimerEvent: {}
+[28.911276] (-) TimerEvent: {}
+[29.012509] (-) TimerEvent: {}
+[29.113895] (-) TimerEvent: {}
+[29.215165] (-) TimerEvent: {}
+[29.316386] (-) TimerEvent: {}
+[29.417647] (-) TimerEvent: {}
+[29.518869] (-) TimerEvent: {}
+[29.620081] (-) TimerEvent: {}
+[29.721306] (-) TimerEvent: {}
+[29.822540] (-) TimerEvent: {}
+[29.923790] (-) TimerEvent: {}
+[30.024891] (-) TimerEvent: {}
+[30.125969] (-) TimerEvent: {}
+[30.227188] (-) TimerEvent: {}
+[30.328452] (-) TimerEvent: {}
+[30.429746] (-) TimerEvent: {}
+[30.530993] (-) TimerEvent: {}
+[30.632244] (-) TimerEvent: {}
+[30.733524] (-) TimerEvent: {}
+[30.834785] (-) TimerEvent: {}
+[30.936026] (-) TimerEvent: {}
+[31.037404] (-) TimerEvent: {}
+[31.138637] (-) TimerEvent: {}
+[31.239900] (-) TimerEvent: {}
+[31.341098] (-) TimerEvent: {}
+[31.442161] (-) TimerEvent: {}
+[31.543380] (-) TimerEvent: {}
+[31.644703] (-) TimerEvent: {}
+[31.745974] (-) TimerEvent: {}
+[31.847207] (-) TimerEvent: {}
+[31.948444] (-) TimerEvent: {}
+[32.049683] (-) TimerEvent: {}
+[32.150875] (-) TimerEvent: {}
+[32.252164] (-) TimerEvent: {}
+[32.353364] (-) TimerEvent: {}
+[32.454569] (-) TimerEvent: {}
+[32.555931] (-) TimerEvent: {}
+[32.657279] (-) TimerEvent: {}
+[32.758465] (-) TimerEvent: {}
+[32.859733] (-) TimerEvent: {}
+[32.960869] (-) TimerEvent: {}
+[33.062118] (-) TimerEvent: {}
+[33.163321] (-) TimerEvent: {}
+[33.264439] (-) TimerEvent: {}
+[33.365745] (-) TimerEvent: {}
+[33.467277] (-) TimerEvent: {}
+[33.568493] (-) TimerEvent: {}
+[33.670192] (-) TimerEvent: {}
+[33.771387] (-) TimerEvent: {}
+[33.872553] (-) TimerEvent: {}
+[33.973784] (-) TimerEvent: {}
+[34.075333] (-) TimerEvent: {}
+[34.176539] (-) TimerEvent: {}
+[34.277783] (-) TimerEvent: {}
+[34.379008] (-) TimerEvent: {}
+[34.480241] (-) TimerEvent: {}
+[34.581473] (-) TimerEvent: {}
+[34.682750] (-) TimerEvent: {}
+[34.783938] (-) TimerEvent: {}
+[34.885155] (-) TimerEvent: {}
+[34.986347] (-) TimerEvent: {}
+[35.087556] (-) TimerEvent: {}
+[35.188738] (-) TimerEvent: {}
+[35.289993] (-) TimerEvent: {}
+[35.391213] (-) TimerEvent: {}
+[35.492440] (-) TimerEvent: {}
+[35.593688] (-) TimerEvent: {}
+[35.694928] (-) TimerEvent: {}
+[35.796140] (-) TimerEvent: {}
+[35.897404] (-) TimerEvent: {}
+[35.998669] (-) TimerEvent: {}
+[36.099834] (-) TimerEvent: {}
+[36.201022] (-) TimerEvent: {}
+[36.302235] (-) TimerEvent: {}
+[36.403446] (-) TimerEvent: {}
+[36.504681] (-) TimerEvent: {}
+[36.605944] (-) TimerEvent: {}
+[36.707177] (-) TimerEvent: {}
+[36.808402] (-) TimerEvent: {}
+[36.909658] (-) TimerEvent: {}
+[37.010877] (-) TimerEvent: {}
+[37.112072] (-) TimerEvent: {}
+[37.213247] (-) TimerEvent: {}
+[37.314452] (-) TimerEvent: {}
+[37.415669] (-) TimerEvent: {}
+[37.516895] (-) TimerEvent: {}
+[37.618177] (-) TimerEvent: {}
+[37.719403] (-) TimerEvent: {}
+[37.820634] (-) TimerEvent: {}
+[37.921854] (-) TimerEvent: {}
+[38.023174] (-) TimerEvent: {}
+[38.124396] (-) TimerEvent: {}
+[38.225664] (-) TimerEvent: {}
+[38.326882] (-) TimerEvent: {}
+[38.428131] (-) TimerEvent: {}
+[38.529649] (-) TimerEvent: {}
+[38.630869] (-) TimerEvent: {}
+[38.732210] (-) TimerEvent: {}
+[38.833407] (-) TimerEvent: {}
+[38.934622] (-) TimerEvent: {}
+[39.035844] (-) TimerEvent: {}
+[39.137417] (-) TimerEvent: {}
+[39.238660] (-) TimerEvent: {}
+[39.339897] (-) TimerEvent: {}
+[39.441183] (-) TimerEvent: {}
+[39.542413] (-) TimerEvent: {}
+[39.643652] (-) TimerEvent: {}
+[39.745260] (-) TimerEvent: {}
+[39.846489] (-) TimerEvent: {}
+[39.947748] (-) TimerEvent: {}
+[40.049044] (-) TimerEvent: {}
+[40.150273] (-) TimerEvent: {}
+[40.251599] (-) TimerEvent: {}
+[40.352803] (-) TimerEvent: {}
+[40.454090] (-) TimerEvent: {}
+[40.555299] (-) TimerEvent: {}
+[40.656502] (-) TimerEvent: {}
+[40.757770] (-) TimerEvent: {}
+[40.859002] (-) TimerEvent: {}
+[40.960197] (-) TimerEvent: {}
+[41.061502] (-) TimerEvent: {}
+[41.162760] (-) TimerEvent: {}
+[41.263996] (-) TimerEvent: {}
+[41.365246] (-) TimerEvent: {}
+[41.466482] (-) TimerEvent: {}
+[41.567692] (-) TimerEvent: {}
+[41.668861] (-) TimerEvent: {}
+[41.770108] (-) TimerEvent: {}
+[41.871261] (-) TimerEvent: {}
+[41.972461] (-) TimerEvent: {}
+[42.073759] (-) TimerEvent: {}
+[42.175027] (-) TimerEvent: {}
+[42.276192] (-) TimerEvent: {}
+[42.377370] (-) TimerEvent: {}
+[42.478518] (-) TimerEvent: {}
+[42.579675] (-) TimerEvent: {}
+[42.680823] (-) TimerEvent: {}
+[42.782043] (-) TimerEvent: {}
+[42.883231] (-) TimerEvent: {}
+[42.984414] (-) TimerEvent: {}
+[43.085660] (-) TimerEvent: {}
+[43.186801] (-) TimerEvent: {}
+[43.287988] (-) TimerEvent: {}
+[43.389416] (-) TimerEvent: {}
+[43.490661] (-) TimerEvent: {}
+[43.591859] (-) TimerEvent: {}
+[43.693093] (-) TimerEvent: {}
+[43.794276] (-) TimerEvent: {}
+[43.895490] (-) TimerEvent: {}
+[43.996704] (-) TimerEvent: {}
+[44.098147] (-) TimerEvent: {}
+[44.199321] (-) TimerEvent: {}
+[44.300501] (-) TimerEvent: {}
+[44.401740] (-) TimerEvent: {}
+[44.502937] (-) TimerEvent: {}
+[44.604102] (-) TimerEvent: {}
+[44.705988] (-) TimerEvent: {}
+[44.807176] (-) TimerEvent: {}
+[44.908387] (-) TimerEvent: {}
+[45.009600] (-) TimerEvent: {}
+[45.110773] (-) TimerEvent: {}
+[45.211980] (-) TimerEvent: {}
+[45.313115] (-) TimerEvent: {}
+[45.414291] (-) TimerEvent: {}
+[45.515465] (-) TimerEvent: {}
+[45.616647] (-) TimerEvent: {}
+[45.717878] (-) TimerEvent: {}
+[45.819130] (-) TimerEvent: {}
+[45.920436] (-) TimerEvent: {}
+[46.021717] (-) TimerEvent: {}
+[46.122856] (-) TimerEvent: {}
+[46.224005] (-) TimerEvent: {}
+[46.325229] (-) TimerEvent: {}
+[46.426453] (-) TimerEvent: {}
+[46.527932] (-) TimerEvent: {}
+[46.629149] (-) TimerEvent: {}
+[46.730354] (-) TimerEvent: {}
+[46.831563] (-) TimerEvent: {}
+[46.932761] (-) TimerEvent: {}
+[47.034018] (-) TimerEvent: {}
+[47.135409] (-) TimerEvent: {}
+[47.236578] (-) TimerEvent: {}
+[47.337819] (-) TimerEvent: {}
+[47.438997] (-) TimerEvent: {}
+[47.540198] (-) TimerEvent: {}
+[47.641422] (-) TimerEvent: {}
+[47.742624] (-) TimerEvent: {}
+[47.843791] (-) TimerEvent: {}
+[47.945010] (-) TimerEvent: {}
+[48.046184] (-) TimerEvent: {}
+[48.147328] (-) TimerEvent: {}
+[48.248464] (-) TimerEvent: {}
+[48.349670] (-) TimerEvent: {}
+[48.450834] (-) TimerEvent: {}
+[48.552029] (-) TimerEvent: {}
+[48.653235] (-) TimerEvent: {}
+[48.754437] (-) TimerEvent: {}
+[48.855637] (-) TimerEvent: {}
+[48.956886] (-) TimerEvent: {}
+[49.058085] (-) TimerEvent: {}
+[49.159314] (-) TimerEvent: {}
+[49.260496] (-) TimerEvent: {}
+[49.361733] (-) TimerEvent: {}
+[49.462912] (-) TimerEvent: {}
+[49.564156] (-) TimerEvent: {}
+[49.665763] (-) TimerEvent: {}
+[49.766945] (-) TimerEvent: {}
+[49.868122] (-) TimerEvent: {}
+[49.969372] (-) TimerEvent: {}
+[50.070577] (-) TimerEvent: {}
+[50.171794] (-) TimerEvent: {}
+[50.273071] (-) TimerEvent: {}
+[50.374286] (-) TimerEvent: {}
+[50.475524] (-) TimerEvent: {}
+[50.576734] (-) TimerEvent: {}
+[50.677892] (-) TimerEvent: {}
+[50.779077] (-) TimerEvent: {}
+[50.880198] (-) TimerEvent: {}
+[50.981425] (-) TimerEvent: {}
+[51.082646] (-) TimerEvent: {}
+[51.183874] (-) TimerEvent: {}
+[51.285133] (-) TimerEvent: {}
+[51.386346] (-) TimerEvent: {}
+[51.487531] (-) TimerEvent: {}
+[51.588784] (-) TimerEvent: {}
+[51.690038] (-) TimerEvent: {}
+[51.791232] (-) TimerEvent: {}
+[51.892409] (-) TimerEvent: {}
+[51.902956] (rasd_gridmap) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cloud_to_grid_node\x1b[0m\n'}
+[51.992688] (-) TimerEvent: {}
+[52.093842] (-) TimerEvent: {}
+[52.195108] (-) TimerEvent: {}
+[52.296438] (-) TimerEvent: {}
+[52.397682] (-) TimerEvent: {}
+[52.498832] (-) TimerEvent: {}
+[52.600101] (-) TimerEvent: {}
+[52.701378] (-) TimerEvent: {}
+[52.802566] (-) TimerEvent: {}
+[52.903798] (-) TimerEvent: {}
+[53.005101] (-) TimerEvent: {}
+[53.106310] (-) TimerEvent: {}
+[53.207522] (-) TimerEvent: {}
+[53.308684] (-) TimerEvent: {}
+[53.410046] (-) TimerEvent: {}
+[53.511263] (-) TimerEvent: {}
+[53.612502] (-) TimerEvent: {}
+[53.713867] (-) TimerEvent: {}
+[53.815230] (-) TimerEvent: {}
+[53.916417] (-) TimerEvent: {}
+[54.017595] (-) TimerEvent: {}
+[54.118827] (-) TimerEvent: {}
+[54.220037] (-) TimerEvent: {}
+[54.321262] (-) TimerEvent: {}
+[54.422506] (-) TimerEvent: {}
+[54.523720] (-) TimerEvent: {}
+[54.624992] (-) TimerEvent: {}
+[54.726231] (-) TimerEvent: {}
+[54.827487] (-) TimerEvent: {}
+[54.928715] (-) TimerEvent: {}
+[55.029959] (-) TimerEvent: {}
+[55.131194] (-) TimerEvent: {}
+[55.232460] (-) TimerEvent: {}
+[55.333740] (-) TimerEvent: {}
+[55.434990] (-) TimerEvent: {}
+[55.536234] (-) TimerEvent: {}
+[55.637516] (-) TimerEvent: {}
+[55.738773] (-) TimerEvent: {}
+[55.840006] (-) TimerEvent: {}
+[55.941246] (-) TimerEvent: {}
+[56.042436] (-) TimerEvent: {}
+[56.143557] (-) TimerEvent: {}
+[56.244689] (-) TimerEvent: {}
+[56.345938] (-) TimerEvent: {}
+[56.447154] (-) TimerEvent: {}
+[56.548294] (-) TimerEvent: {}
+[56.649514] (-) TimerEvent: {}
+[56.673096] (rasd_gridmap) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_photo.so.4.5d, needed by /opt/ros/humble/lib/libgrid_map_cv.so, may conflict with libopencv_photo.so.408\n'}
+[56.749757] (-) TimerEvent: {}
+[56.850851] (-) TimerEvent: {}
+[56.951944] (-) TimerEvent: {}
+[57.053058] (-) TimerEvent: {}
+[57.154104] (-) TimerEvent: {}
+[57.255162] (-) TimerEvent: {}
+[57.356243] (-) TimerEvent: {}
+[57.457345] (-) TimerEvent: {}
+[57.558396] (-) TimerEvent: {}
+[57.659473] (-) TimerEvent: {}
+[57.760537] (-) TimerEvent: {}
+[57.861654] (-) TimerEvent: {}
+[57.962766] (-) TimerEvent: {}
+[58.063884] (-) TimerEvent: {}
+[58.165048] (-) TimerEvent: {}
+[58.266160] (-) TimerEvent: {}
+[58.367368] (-) TimerEvent: {}
+[58.468467] (-) TimerEvent: {}
+[58.569583] (-) TimerEvent: {}
+[58.670635] (-) TimerEvent: {}
+[58.771756] (-) TimerEvent: {}
+[58.872845] (-) TimerEvent: {}
+[58.894384] (rasd_gridmap) StdoutLine: {'line': b'[100%] Built target cloud_to_grid_node\n'}
+[58.928559] (rasd_gridmap) CommandEnded: {'returncode': 0}
+[58.932407] (rasd_gridmap) JobProgress: {'identifier': 'rasd_gridmap', 'progress': 'install'}
+[58.959371] (rasd_gridmap) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rasd/ros2_ws/build/rasd_gridmap'], 'cwd': '/home/rasd/ros2_ws/build/rasd_gridmap', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rasd'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/home/rasd/ros2_ws/install/livox_ros2_driver/lib:/home/rasd/ros2_ws/install/livox_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rasd'), ('OLDPWD', '/home/rasd/ros2_ws/src/rasd_gridmap'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.4.7'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '4610'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rasd/install:/home/rasd/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rasd'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1422725053860'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rasd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/opt/ros/humble/bin:/home/rasd/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rasd-desktop:@/tmp/.ICE-unix/2481,unix/rasd-desktop:/tmp/.ICE-unix/2481'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7f4b0686_913c_4a69_b3dd_1f0e70c1d2d6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_ransac_speedbump:/home/rasd/ros2_ws/install/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_gps:/home/rasd/ros2_ws/install/rasd_fusion:/home/rasd/ros2_ws/install/rasd_camera:/home/rasd/ros2_ws/install/livox_ros2_driver:/home/rasd/ros2_ws/install/livox_sdk_vendor:/home/rasd/ros2_ws/install/livox_interfaces:/home/rasd/ros2_ws/install/grid_map_cmake_helpers:/home/rasd/install/rasd_tf:/home/rasd/install/rasd_roi_filter:/home/rasd/install/rasd_ransac_speedbump:/home/rasd/install/rasd_elev_profile:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/rasd/ros2_ws/build/rasd_gridmap'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/usr/lib/python3.10/dist-packages:/home/rasd/ros2_ws/build/rasd_tf:/home/rasd/ros2_ws/install/rasd_tf/lib/python3.10/site-packages:/home/rasd/ros2_ws/install/rasd_roi_filter/lib/python3.10/site-packages:/home/rasd/ros2_ws/build/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_led_serial/lib/python3.10/site-packages:/home/rasd/ros2_ws/build/rasd_gps:/home/rasd/ros2_ws/install/rasd_gps/lib/python3.10/site-packages:/home/rasd/ros2_ws/build/rasd_fusion:/home/rasd/ros2_ws/install/rasd_fusion/lib/python3.10/site-packages:/home/rasd/ros2_ws/install/rasd_camera/lib/python3.10/site-packages:/home/rasd/ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages:/home/rasd/build/rasd_tf:/home/rasd/install/rasd_tf/lib/python3.10/site-packages:/home/rasd/build/rasd_roi_filter:/home/rasd/install/rasd_roi_filter/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', ''), ('CMAKE_PREFIX_PATH', '/home/rasd/ros2_ws/install/grid_map_cmake_helpers:/home/rasd/ros2_ws/install/rasd_ransac_speedbump:/home/rasd/ros2_ws/install/livox_ros2_driver:/home/rasd/ros2_ws/install/livox_sdk_vendor:/home/rasd/ros2_ws/install/livox_interfaces:/home/rasd/install/rasd_ransac_speedbump:/home/rasd/install/rasd_elev_profile:/home/rasd/ros2_ws/install/rasd_tf:/home/rasd/ros2_ws/install/rasd_roi_filter:/home/rasd/ros2_ws/install/rasd_led_serial:/home/rasd/ros2_ws/install/rasd_gps:/home/rasd/ros2_ws/install/rasd_fusion:/home/rasd/ros2_ws/install/rasd_camera:/home/rasd/install/rasd_tf:/home/rasd/install/rasd_roi_filter:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0005')]), 'shell': False}
+[58.973052] (-) TimerEvent: {}
+[59.015040] (rasd_gridmap) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[59.015805] (rasd_gridmap) StdoutLine: {'line': b'-- Installing: /home/rasd/ros2_ws/install/rasd_gridmap/lib/rasd_gridmap/cloud_to_grid_node\n'}
+[59.026973] (rasd_gridmap) StdoutLine: {'line': b'-- Set runtime path of "/home/rasd/ros2_ws/install/rasd_gridmap/lib/rasd_gridmap/cloud_to_grid_node" to ""\n'}
+[59.027426] (rasd_gridmap) StdoutLine: {'line': b'-- Installing: /home/rasd/ros2_ws/install/rasd_gridmap/share/ament_index/resource_index/package_run_dependencies/rasd_gridmap\n'}
+[59.027840] (rasd_gridmap) StdoutLine: {'line': b'-- Installing: /home/rasd/ros2_ws/install/rasd_gridmap/share/ament_index/resource_index/parent_prefix_path/rasd_gridmap\n'}
+[59.028293] (rasd_gridmap) StdoutLine: {'line': b'-- Installing: /home/rasd/ros2_ws/install/rasd_gridmap/share/rasd_gridmap/environment/ament_prefix_path.sh\n'}
+[59.028583] (rasd_gridmap) StdoutLine: {'line': b'-- Installing: /home/rasd/ros2_ws/install/rasd_gridmap/share/rasd_gridmap/environment/ament_prefix_path.dsv\n'}
+[59.029004] (rasd_gridmap) StdoutLine: {'line': b'-- Installing: /home/rasd/ros2_ws/install/rasd_gridmap/share/rasd_gridmap/environment/path.sh\n'}
+[59.029222] (rasd_gridmap) StdoutLine: {'line': b'-- Installing: /home/rasd/ros2_ws/install/rasd_gridmap/share/rasd_gridmap/environment/path.dsv\n'}
+[59.029474] (rasd_gridmap) StdoutLine: {'line': b'-- Installing: /home/rasd/ros2_ws/install/rasd_gridmap/share/rasd_gridmap/local_setup.bash\n'}
+[59.029803] (rasd_gridmap) StdoutLine: {'line': b'-- Installing: /home/rasd/ros2_ws/install/rasd_gridmap/share/rasd_gridmap/local_setup.sh\n'}
+[59.030063] (rasd_gridmap) StdoutLine: {'line': b'-- Installing: /home/rasd/ros2_ws/install/rasd_gridmap/share/rasd_gridmap/local_setup.zsh\n'}
+[59.030358] (rasd_gridmap) StdoutLine: {'line': b'-- Installing: /home/rasd/ros2_ws/install/rasd_gridmap/share/rasd_gridmap/local_setup.dsv\n'}
+[59.030634] (rasd_gridmap) StdoutLine: {'line': b'-- Installing: /home/rasd/ros2_ws/install/rasd_gridmap/share/rasd_gridmap/package.dsv\n'}
+[59.031010] (rasd_gridmap) StdoutLine: {'line': b'-- Installing: /home/rasd/ros2_ws/install/rasd_gridmap/share/ament_index/resource_index/packages/rasd_gridmap\n'}
+[59.031401] (rasd_gridmap) StdoutLine: {'line': b'-- Installing: /home/rasd/ros2_ws/install/rasd_gridmap/share/rasd_gridmap/cmake/rasd_gridmapConfig.cmake\n'}
+[59.031656] (rasd_gridmap) StdoutLine: {'line': b'-- Installing: /home/rasd/ros2_ws/install/rasd_gridmap/share/rasd_gridmap/cmake/rasd_gridmapConfig-version.cmake\n'}
+[59.031934] (rasd_gridmap) StdoutLine: {'line': b'-- Installing: /home/rasd/ros2_ws/install/rasd_gridmap/share/rasd_gridmap/package.xml\n'}
+[59.038661] (rasd_gridmap) CommandEnded: {'returncode': 0}
+[59.073341] (-) TimerEvent: {}
+[59.123089] (rasd_gridmap) JobEnded: {'identifier': 'rasd_gridmap', 'rc': 0}
+[59.125803] (-) EventReactorShutdown: {}
